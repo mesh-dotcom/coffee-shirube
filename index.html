@@ -1,0 +1,1146 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cg transform='rotate(-90 16 16)'%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23C2364F' stroke-width='7' stroke-dasharray='12.57 50.27' stroke-dashoffset='-0.00'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%238460B9' stroke-width='7' stroke-dasharray='12.57 50.27' stroke-dashoffset='-12.57'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23C78A0A' stroke-width='7' stroke-dasharray='12.57 50.27' stroke-dashoffset='-25.13'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23A9672F' stroke-width='7' stroke-dasharray='12.57 50.27' stroke-dashoffset='-37.70'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%236A4029' stroke-width='7' stroke-dasharray='12.57 50.27' stroke-dashoffset='-50.26'/%3E%3C/g%3E%3C/svg%3E">
+<title>珈琲しるべ｜好きな味のコーヒー豆を、お店をまたいで探せる</title>
+<meta name="description" content="好きな味のスペシャルティコーヒー豆を、お店をまたいで探せるサイト。風味・産地・品種・精製・つくり手から絞り込んで、そのままお店のページへ。">
+<meta property="og:title" content="珈琲しるべ">
+<meta property="og:description" content="好きな味の豆を、お店をまたいで探せる。スペシャルティコーヒーの横断検索サイトです。">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#F1F3EE" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16130F" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:wght@400;500;600&family=Klee+One:wght@600&display=swap" rel="stylesheet" referrerpolicy="no-referrer">
+<style>
+/* Layout: phone-first single column. Flavor-wheel mark and wordmark, the headline, the taste picker as the main control,
+   a quiet refine row, then bean cards that open to two columns on wide screens. */
+:root{
+  --bg:#F1F3EE;
+  --surface:#FFFFFF;
+  --surface-2:#E5E9E0;
+  --ink:#2B211A;
+  --muted:#65635A;
+  --line:#D6DBCF;
+  --dash:#A3A995;
+  --accent:#A52A31;
+  --on-accent:#FFF8F5;
+  --accent-soft:rgba(165,42,49,.08);
+  --scrim:rgba(24,18,14,.45);
+  --t-fruity:#C2364F;
+  --t-floral:#8460B9;
+  --t-citrus:#C78A0A;
+  --t-tea:#A9672F;
+  --t-choco:#6A4029;
+  --hand:"Klee One","Hiragino Maru Gothic ProN","BIZ UDPGothic","Yu Gothic",sans-serif;
+  --ui:"IBM Plex Sans JP","Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","YuGothic","Meiryo",system-ui,sans-serif;
+  color-scheme:light;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#16130F; --surface:#201B16; --surface-2:#2B251F; --ink:#EEE7DA; --muted:#AAA08D; --line:#3A322A; --dash:#62594D;
+    --accent:#E3626A; --on-accent:#1B0F0F; --accent-soft:rgba(227,98,106,.14); --scrim:rgba(0,0,0,.62);
+    --t-fruity:#EF7389; --t-floral:#B89CE8; --t-citrus:#EDBE4A; --t-tea:#D9A06A; --t-choco:#C29878;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#16130F; --surface:#201B16; --surface-2:#2B251F; --ink:#EEE7DA; --muted:#AAA08D; --line:#3A322A; --dash:#62594D;
+  --accent:#E3626A; --on-accent:#1B0F0F; --accent-soft:rgba(227,98,106,.14); --scrim:rgba(0,0,0,.62);
+  --t-fruity:#EF7389; --t-floral:#B89CE8; --t-citrus:#EDBE4A; --t-tea:#D9A06A; --t-choco:#C29878;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%;background:var(--bg)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--ui);font-size:15px;line-height:1.7}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:8px}
+.vh{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+html.sheet-open body{overflow:hidden}
+
+.t-fruity{--tc:var(--t-fruity)}
+.t-floral{--tc:var(--t-floral)}
+.t-citrus{--tc:var(--t-citrus)}
+.t-tea{--tc:var(--t-tea)}
+.t-choco{--tc:var(--t-choco)}
+
+.app{max-width:1040px;margin:0 auto;padding-inline:16px;padding-block:12px 56px}
+@media (min-width:720px){.app{padding-inline:28px;padding-block:20px 72px} body{font-size:15.5px}}
+
+/* ブランド */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:44px}
+.brand{display:inline-flex;align-items:center;gap:9px}
+.logo{width:24px;height:24px;flex:none;border-radius:50%;
+  background:conic-gradient(var(--t-fruity) 0 72deg,var(--t-floral) 0 144deg,var(--t-citrus) 0 216deg,var(--t-tea) 0 288deg,var(--t-choco) 0 360deg);
+  -webkit-mask:radial-gradient(circle,transparent 0 4.5px,#000 5px);mask:radial-gradient(circle,transparent 0 4.5px,#000 5px)}
+.wordmark{font-family:var(--hand);font-weight:600;font-size:23px;letter-spacing:.06em;line-height:1}
+.favbtn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 13px;font-size:13px;cursor:pointer;white-space:nowrap}
+.favbtn .n{font-variant-numeric:tabular-nums;font-weight:600}
+.favbtn[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.favbtn[aria-pressed="true"] svg path{fill:currentColor}
+.favbtn:disabled{opacity:.55;cursor:default}
+
+/* 見出し */
+.hero{padding-block:22px 0}
+.hero h1{font-family:var(--hand);font-weight:600;font-size:clamp(25px,7vw,42px);line-height:1.42;letter-spacing:.02em;margin:0}
+.ph{display:inline-block}
+.sub{margin:8px 0 0;color:var(--muted);font-size:13.5px}
+
+.sh{display:flex;align-items:baseline;justify-content:space-between;gap:4px 12px;flex-wrap:wrap;margin-block:26px 10px}
+.sh h2{margin:0;font-size:15px;font-weight:600}
+.sh .note{font-size:12.5px;color:var(--muted)}
+
+/* 味を選ぶ */
+.tgrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.tgrid .tc:last-child{grid-column:1 / -1}
+@media (min-width:760px){.tgrid{grid-template-columns:repeat(6,minmax(0,1fr))}.tgrid .tc{grid-column:span 2}.tgrid .tc:nth-child(n+4){grid-column:span 3}}
+@media (min-width:1000px){.tgrid{grid-template-columns:repeat(4,minmax(0,1fr)) minmax(0,1.35fr)}.tgrid .tc,.tgrid .tc:nth-child(n+4){grid-column:auto}}
+.tc{display:grid;grid-template-columns:24px minmax(0,1fr) auto;grid-template-rows:auto auto;column-gap:10px;row-gap:1px;align-items:center;text-align:left;
+  padding:11px 12px;min-height:62px;border:1.5px solid var(--line);border-radius:14px;background:var(--surface);cursor:pointer;transition:border-color .15s,background-color .15s}
+.tc:hover{border-color:var(--tc)}
+.tc .sw{grid-row:1 / span 2;width:24px;height:24px;border-radius:50%;background:var(--tc);display:grid;place-items:center;color:var(--surface)}
+.tc .tl{grid-column:2;font-family:var(--hand);font-weight:600;font-size:16.5px;line-height:1.3;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tc .te{grid-column:2 / span 2;grid-row:2;font-size:12px;color:var(--muted);line-height:1.4;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.tc .tn{grid-column:3;grid-row:1;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tc[aria-pressed="true"]{border-color:var(--tc);background:var(--surface);background:color-mix(in srgb,var(--tc) 12%,var(--surface))}
+.tc:disabled{opacity:.42;cursor:default}
+.tc:disabled:hover{border-color:var(--line)}
+.tip{margin:10px 0 0;font-size:12.5px;color:var(--muted)}
+
+/* こだわり */
+.rrow{display:flex;gap:8px;overflow-x:auto;margin-inline:-16px;padding:2px 16px 4px;scrollbar-width:none}
+.rrow::-webkit-scrollbar{display:none}
+@media (min-width:720px){.rrow{flex-wrap:wrap;overflow:visible;margin-inline:0;padding:0}}
+.rc{flex:none;display:inline-flex;align-items:center;gap:6px;max-width:100%;min-height:40px;padding:0 10px 0 14px;border:1px solid var(--line);border-radius:999px;background:var(--surface);font-size:14px;cursor:pointer}
+.rc:hover{border-color:var(--dash)}
+.rc .rl{white-space:nowrap}
+.rc .rv{font-weight:600;max-width:11em;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.rc svg{flex:none;color:var(--muted)}
+.rc.on{border-color:var(--accent);background:var(--accent-soft)}
+.rc.on .rl{color:var(--muted)}
+.search{display:flex;align-items:center;gap:10px;margin-top:10px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding-inline:14px;min-height:46px}
+.search:focus-within{border-color:var(--accent);box-shadow:0 0 0 3px var(--accent-soft)}
+.search svg{flex:none;color:var(--muted)}
+.search input{flex:1;min-width:0;border:0;background:transparent;font-size:16px;color:var(--ink);padding:11px 0;outline:none}
+.search input::placeholder{color:var(--muted);opacity:1}
+
+/* 結果 */
+.results{margin-top:30px}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:10px 12px;margin-bottom:12px}
+.bar .ctrls{grid-column:1 / -1}
+@media (min-width:720px){.bar{display:flex;flex-wrap:wrap;justify-content:space-between}.bar-l{flex:1;min-width:0}.bar .share{order:3}}
+.bar-l{display:flex;align-items:baseline;gap:4px 12px;flex-wrap:wrap}
+.count{margin:0;font-weight:600;font-size:16px}
+.clear{border:0;background:none;color:var(--accent);font-size:13px;padding:4px 2px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.ctrls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.seg{display:inline-flex;background:var(--surface-2);border-radius:999px;padding:3px}
+.seg button{border:0;background:transparent;border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer;color:var(--muted)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);font-weight:600}
+.sort{position:relative;display:inline-flex}
+.sort select{appearance:none;-webkit-appearance:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 30px 6px 12px;font-size:13px;color:var(--ink);cursor:pointer}
+.sort::after{content:"";position:absolute;right:13px;top:50%;width:6px;height:6px;border-right:1.5px solid var(--muted);border-bottom:1.5px solid var(--muted);transform:translateY(-70%) rotate(45deg);pointer-events:none}
+.share{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:13px;cursor:pointer}
+.rnote{margin:-2px 0 14px;font-size:12.5px;line-height:1.6;color:var(--muted)}
+
+.cards{list-style:none;margin:0;padding:0;display:grid;gap:12px;grid-template-columns:minmax(0,1fr)}
+@media (min-width:860px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.card{display:flex;flex-direction:column;min-width:0;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:16px 16px 14px}
+.c-body{flex:1;min-width:0}
+.c-top{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px}
+.tps{display:flex;flex-wrap:wrap;gap:6px}
+.tp{display:inline-flex;align-items:center;gap:6px;border:1px solid transparent;border-radius:999px;padding:1px 10px 1px 8px;font-size:12px;line-height:1.8;cursor:pointer;
+  background:var(--surface-2);background:color-mix(in srgb,var(--tc) 13%,var(--surface))}
+.tp i{width:8px;height:8px;border-radius:50%;background:var(--tc)}
+.tp.on{border-color:var(--tc)}
+.badges{display:flex;align-items:center;gap:8px;margin-left:auto;flex:none}
+.new{font-size:11px;font-weight:600;letter-spacing:.14em;color:var(--accent)}
+.pr{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.06em;line-height:1.7;color:var(--muted);border:1px solid var(--dash);border-radius:5px;padding:0 6px;vertical-align:middle}
+.origin{margin:0;font-size:13px;color:var(--muted);display:flex;gap:8px;flex-wrap:wrap;align-items:baseline}
+.c-title{margin:2px 0 0;font-size:19px;font-weight:600;line-height:1.45;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}
+.kind{font-weight:500;font-size:11.5px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:0 8px;line-height:1.7}
+.pname{margin:2px 0 0;font-size:12px;color:var(--muted);overflow-wrap:anywhere}
+.notes{margin:10px 0 0;font-family:var(--hand);font-weight:600;font-size:16px;line-height:1.6}
+.nt{display:inline-block;max-width:100%}
+.meta{margin:10px 0 0;display:grid;gap:2px;font-size:13.5px}
+.meta div{display:grid;grid-template-columns:3.4em minmax(0,1fr);gap:10px}
+.meta dt{color:var(--muted)}
+.meta dd{margin:0;min-width:0}
+.pnote{color:var(--muted)}
+.thin{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.tok{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-decoration:underline dotted;text-decoration-color:var(--dash);text-decoration-thickness:1.5px;text-underline-offset:4px}
+.tok:hover{color:var(--accent);text-decoration-color:currentColor}
+.tok.on{color:var(--accent);text-decoration-style:solid;text-decoration-color:currentColor}
+.c-foot{margin-top:14px;padding-top:12px;border-top:1px solid var(--line)}
+.c-buy{display:flex;justify-content:space-between;align-items:flex-end;gap:12px;margin-top:2px}
+.buy{min-width:0}
+.shopname{margin:0;font-size:12.5px;font-weight:600;letter-spacing:.02em}
+.price{margin:1px 0 0;font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.price .g{font-weight:400;font-size:13px;color:var(--muted)}
+.per{margin:0;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.asof{margin:2px 0 0;font-size:11.5px;color:var(--muted)}
+.acts{display:flex;gap:8px;align-items:center;flex:none}
+.fav{width:42px;height:42px;border-radius:999px;border:1px solid var(--line);background:transparent;display:grid;place-items:center;cursor:pointer;color:var(--muted)}
+.fav[aria-pressed="true"]{color:var(--accent);border-color:var(--accent);background:var(--accent-soft)}
+.fav[aria-pressed="true"] svg path{fill:currentColor}
+.go{display:inline-flex;align-items:center;gap:6px;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:600;font-size:14px;border-radius:999px;padding:10px 16px;min-height:42px;white-space:nowrap}
+.go:hover{filter:brightness(1.07)}
+
+.shop{margin-bottom:30px}
+.shop-head{background:var(--surface-2);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+.shop-top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.shop-head h3{margin:0;font-size:18px;font-weight:600}
+.shop-n{margin:0;font-size:13px;color:var(--muted)}
+.shop-info{margin:8px 0 0;display:grid;gap:2px;font-size:13.5px}
+.shop-info div{display:grid;grid-template-columns:3.2em minmax(0,1fr);gap:10px}
+.shop-info dt{color:var(--muted)}
+.shop-info dd{margin:0}
+.shop-link{display:inline-flex;align-items:center;gap:6px;margin-top:8px;color:var(--accent);font-size:13.5px;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+
+.more{display:block;width:100%;margin-top:12px;min-height:46px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;font-size:14px;font-weight:600;cursor:pointer}
+.more:hover{border-color:var(--dash)}
+.tofilter{position:fixed;right:16px;bottom:calc(20px + env(safe-area-inset-bottom,0px));z-index:30;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:10px 16px;font-size:13.5px;font-weight:600;box-shadow:0 6px 20px rgba(0,0,0,.14);cursor:pointer}
+.empty{border:1px dashed var(--dash);border-radius:14px;padding:22px 18px}
+.empty-t{margin:0;font-family:var(--hand);font-weight:600;font-size:18px}
+.empty-s{margin:6px 0 0;font-size:13.5px;color:var(--muted)}
+.sgs{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.sg{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:8px 14px;font-size:13.5px;cursor:pointer}
+.sg .n{color:var(--muted);font-variant-numeric:tabular-nums}
+.loading{margin:0;color:var(--muted);font-size:14px}
+
+/* フッター */
+.foot{margin-top:56px;padding-top:24px;border-top:1px solid var(--line);display:grid;gap:26px;font-size:13.5px;color:var(--muted)}
+@media (min-width:860px){.foot{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);column-gap:48px}}
+.foot h2{margin:0 0 10px;font-size:14px;font-weight:600;color:var(--ink)}
+.foot h2.next{margin-top:22px}
+.foot p{margin:0 0 8px;max-width:40em}
+.foot a{color:var(--ink);text-underline-offset:3px}
+.points{list-style:none;margin:0 0 12px;padding:0;display:grid;gap:10px;max-width:40em}
+.points b{display:block;color:var(--ink);font-weight:600}
+.rules{margin:0;padding-left:1.15em;display:grid;gap:7px;max-width:40em}
+.xmit{margin:2px 0 10px;display:grid;gap:4px;max-width:40em}
+.xmit div{display:grid;grid-template-columns:6.6em minmax(0,1fr);gap:10px}
+.xmit dt{color:var(--ink)}
+.xmit dd{margin:0;min-width:0}
+.contact{user-select:all;color:var(--ink);font-weight:600;overflow-wrap:anywhere}
+.foot .shop-link{color:var(--accent);margin-top:2px;overflow-wrap:anywhere}
+
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);z-index:60;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-size:13.5px;max-width:calc(100% - 32px);box-shadow:0 6px 20px rgba(0,0,0,.18)}
+
+/* 候補を選ぶシート */
+.scrim{position:fixed;inset:0;background:var(--scrim);opacity:0;transition:opacity .2s;z-index:40}
+.scrim.on{opacity:1}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:41;background:var(--surface);color:var(--ink);border-radius:20px 20px 0 0;max-height:84vh;max-height:84dvh;display:flex;flex-direction:column;padding:16px 16px calc(14px + env(safe-area-inset-bottom,0px));transform:translateY(100%);transition:transform .24s cubic-bezier(.2,.8,.2,1);box-shadow:0 -10px 40px rgba(0,0,0,.18)}
+.sheet.on{transform:translateY(0)}
+@media (min-width:720px){
+  .sheet{left:50%;top:50%;right:auto;bottom:auto;width:min(560px,92vw);max-height:80vh;border-radius:20px;padding-bottom:16px;transform:translate(-50%,-46%);opacity:0;transition:transform .2s,opacity .2s}
+  .sheet.on{transform:translate(-50%,-50%);opacity:1}
+}
+@media (prefers-reduced-motion:reduce){.sheet,.scrim,.tc{transition:none}}
+.sheet-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sheet-head h2{margin:0;font-family:var(--hand);font-size:20px;font-weight:600}
+.icon-btn{width:40px;height:40px;flex:none;border-radius:999px;border:0;background:var(--surface-2);display:grid;place-items:center;cursor:pointer}
+.sheet-sub{margin:4px 0 10px;font-size:12.5px;color:var(--muted);line-height:1.6}
+.sheet-search input{width:100%;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:10px 12px;font-size:16px;color:var(--ink)}
+.opts{overflow:auto;-webkit-overflow-scrolling:touch;margin:8px -6px 0;padding:0 6px;flex:1;min-height:120px}
+.og{margin:12px 4px 4px;font-size:12px;color:var(--muted);font-weight:600}
+.og:first-child{margin-top:2px}
+.opt{width:100%;display:grid;grid-template-columns:22px minmax(0,1fr) auto;align-items:center;gap:10px;border:1px solid transparent;background:transparent;border-radius:10px;padding:11px 10px;text-align:left;cursor:pointer;font-size:15px;margin:1px 0}
+.opt:hover{background:var(--bg)}
+.opt[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent)}
+.opt:disabled{opacity:.42;cursor:default}
+.ck{width:20px;height:20px;border-radius:6px;border:1.5px solid var(--dash);display:grid;place-items:center;color:var(--on-accent)}
+.opt[aria-pressed="true"] .ck{background:var(--accent);border-color:var(--accent)}
+.ol{display:flex;flex-direction:column;min-width:0}
+.meta-s{font-size:12px;color:var(--muted)}
+.opt .n{font-size:13px;color:var(--muted);font-variant-numeric:tabular-nums}
+.none{margin:16px 4px;font-size:13.5px;color:var(--muted)}
+.sheet-foot{display:flex;gap:10px;margin-top:12px}
+.btn{flex:1;min-height:46px;border-radius:999px;font-weight:600;font-size:15px;cursor:pointer}
+.btn.ghost{background:transparent;border:1px solid var(--line)}
+.btn.ghost:disabled{opacity:.45;cursor:default}
+.btn.primary{background:var(--accent);border:0;color:var(--on-accent)}
+</style>
+</head>
+<body>
+<noscript><p style="margin:24px 16px;font-family:sans-serif">珈琲しるべは、JavaScript を使って豆の情報を表示します。JavaScript を有効にしてご覧ください。</p></noscript>
+<div lang="ja">
+<div class="app">
+  <header class="top">
+    <div class="brand"><span class="logo" aria-hidden="true"></span><span class="wordmark">珈琲しるべ</span></div>
+    <button type="button" class="favbtn" id="favOnly" aria-pressed="false"><svg width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>気になる <span class="n" id="favN">0</span></button>
+  </header>
+
+  <section class="hero">
+    <h1><span class="ph">好きな味の豆を、</span><span class="ph">お店をまたいで探せる。</span></h1>
+    <p class="sub" id="sub">豆の情報を読み込んでいます。</p>
+  </section>
+
+  <section aria-labelledby="tasteTitle">
+    <div class="sh"><h2 id="tasteTitle">どんな風味が好き？</h2><span class="note">いくつでも選べます</span></div>
+    <div class="tgrid" id="tastes"></div>
+    <p class="tip" id="tip">迷ったら、果実（明るい酸味）とチョコ・ナッツ（まろやかなコク）の豆を1つずつ飲みくらべると、好みがつかみやすくなります。</p>
+  </section>
+
+  <section aria-labelledby="refineTitle">
+    <div class="sh"><h2 id="refineTitle">こだわりで絞る</h2></div>
+    <div class="rrow" id="refine"></div>
+    <label class="search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <span class="vh">キーワードで探す</span>
+      <input type="search" id="q" placeholder="ライチ、ゲイシャ、農園名など" autocomplete="off" enterkeyhint="search">
+    </label>
+  </section>
+
+  <section class="results" aria-label="見つかった豆">
+    <div class="bar">
+      <div class="bar-l">
+        <p class="count" id="count" aria-live="polite"></p>
+        <button type="button" class="clear" id="clearAll" hidden>条件をすべて外す</button>
+      </div>
+      <button type="button" class="share" id="share" hidden><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>この条件を共有</button>
+      <div class="ctrls">
+        <div class="seg" role="group" aria-label="表示のしかた">
+          <button type="button" data-view="bean" aria-pressed="true">豆ごと</button>
+          <button type="button" data-view="shop" aria-pressed="false">お店ごと</button>
+        </div>
+        <label class="sort"><span class="vh">並び順</span><select id="sort"></select></label>
+      </div>
+    </div>
+    <p class="rnote" id="rnote" hidden></p>
+    <div id="list"><p class="loading">豆の情報を読み込んでいます。</p></div>
+  </section>
+
+  <footer class="foot">
+    <section>
+      <h2>珈琲しるべについて</h2>
+      <ul class="points">
+        <li><b>お店をまたいで探せる</b>いろいろなロースターの豆を、ひとつの画面でくらべられます。</li>
+        <li><b>好きな味から選べる</b>産地や品種がわからなくても、風味の好みから探せます。</li>
+        <li><b>買うのはお店のサイトで</b>送料はお店ごとにかかります。「お店ごと」の表示で、まとめ買いするお店を選べます。</li>
+      </ul>
+      <p>名前の「しるべ」は、道しるべのことです。好きな味の豆までの道案内になれたら、という意味を込めています。</p>
+    </section>
+    <section>
+      <h2>掲載データについて</h2>
+      <div id="dataNote"></div>
+      <h2 class="next">お問い合わせ・掲載の停止</h2>
+      <p>掲載の停止や情報の修正のご依頼、ご意見はこちらへどうぞ。ロースターの方からの掲載のご相談もお待ちしています。</p>
+      <div id="contact"></div>
+    </section>
+    <section>
+      <h2>掲載のルール</h2>
+      <ul class="rules">
+        <li>載せているのは、産地・品種・精製・つくり手・風味の言葉・価格・容量といった事実と、お店の商品ページへのリンクだけです。商品の説明文や写真は載せていません。</li>
+        <li>情報は1日1回、お店のサイトに間をあけてアクセスして集めています。robots.txt やページの指定で収集を断っているところ、利用規約で自動収集を禁止しているお店、ログインが必要なページからは集めません。</li>
+        <li>店名は文字だけで載せ、ロゴは使っていません。</li>
+        <li>おすすめ順は、風味・品種・精製などの情報がそろっている豆と新しく入った豆を上にして、同じお店が続かないように並べています。掲載料やアフィリエイトの有無で順番は変えません。</li>
+        <li id="adRule">いまは広告・有料掲載・アフィリエイトリンクはありません。入れるときは、その豆やお店に「PR」と表示します。</li>
+        <li>掲載の停止を求められたお店は、確認しだい掲載をやめます。</li>
+      </ul>
+    </section>
+    <section>
+      <h2>外部送信について</h2>
+      <p>文字の表示に Google Fonts を使っています。このページを開くと、お使いのブラウザから Google のサーバーへ、次の情報が送られます。</p>
+      <dl class="xmit">
+        <div><dt>送られる情報</dt><dd>IPアドレス、ブラウザやOSの種類などの情報（ユーザーエージェント）</dd></div>
+        <div><dt>送り先</dt><dd>Google LLC</dd></div>
+        <div><dt>目的</dt><dd>フォント（文字の形のデータ）を受け取って表示するため。Google での扱いは <a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener noreferrer">Google のプライバシーポリシー</a> をご覧ください。</dd></div>
+      </dl>
+      <p>どのページを見ているか（リファラー）は送らない設定にしています。アクセス解析や広告のタグは使っていません。「気になる」に入れた豆は、お使いのブラウザの中にだけ保存され、どこにも送られません。</p>
+    </section>
+  </footer>
+</div>
+
+<button type="button" class="tofilter" id="toFilter" hidden><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg>条件を変える</button>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+<div class="scrim" id="scrim" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle" tabindex="-1" hidden>
+  <div class="sheet-head">
+    <h2 id="sheetTitle"></h2>
+    <button type="button" class="icon-btn" id="sheetClose" aria-label="閉じる"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+  </div>
+  <p class="sheet-sub" id="sheetSub"></p>
+  <div class="sheet-search" id="sheetSearchWrap" hidden><input type="search" id="sheetSearch" placeholder="名前で絞り込む" aria-label="候補を名前で絞り込む" autocomplete="off"></div>
+  <div class="opts" id="opts"></div>
+  <div class="sheet-foot">
+    <button type="button" class="btn ghost" id="sheetClear">この条件を外す</button>
+    <button type="button" class="btn primary" id="sheetDone"></button>
+  </div>
+</div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ===== 設定 ===== */
+  const BRAND = '珈琲しるべ';
+  // お問い合わせ先（メールアドレスかフォームのURL）。空なら data/beans.json の contact（GitHub の変数 CONTACT_URL）、
+  // それも無ければ GitHub Pages のアドレスから、そのリポジトリの Issues を案内する
+  const CONTACT = '';
+  // data/beans.json が読めないときに見本データで表示するか。公開用の index.html では false（古い価格を出さず「準備中」と出す）
+  const USE_SAMPLE = false;
+  const CHECKED = '2026年10月5日';
+  const CHECKED_SHORT = '10月5日';
+  const NEW_DAYS = 14;
+
+  /* ===== 見本データ =====
+     USE_SAMPLE が true で、data/beans.json（収集スクリプトの出力）が読めないときだけ使う。いまは空（公開用では使わない）。
+     入れるときは data/beans.json と同じ形にし、項目が無い = 確認できていない（推測では埋めない）。CHECKED はその見本を集めた日 */
+  const SEED_SHOPS = {};
+  const SEED_BEANS = [];
+
+  let SHOPS = {};
+  let BEANS = [];
+  let GENERATED = null;
+  let GEN_DAY = '';
+  let GEN_TEXT = '';
+  let DATA_CONTACT = '';
+  let UNAVAILABLE = false;
+  let HAS_FIRST_SEEN = false;
+  let SORTS = ['recommend'];
+
+  /* ===== 小道具 ===== */
+  const $ = (id) => document.getElementById(id);
+  const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const toKata = (s) => s.replace(/[ぁ-ゖ]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60));
+  const norm = (s) => toKata(String(s || '').normalize('NFKC').toLowerCase()).replace(/[\s・･\-‐–—_.,、。'"“”‘’()（）/／]/g, '');
+  const yen = (n) => '¥' + Number(n).toLocaleString('ja-JP');
+  const cmpStr = (x, y) => String(x || '').localeCompare(String(y || ''), 'ja');
+  const jstDay = (iso) => { const t = Date.parse(iso); return isNaN(t) ? '' : new Date(t + 9 * 3600e3).toISOString().slice(0, 10); };
+  const mdOf = (day) => { const m = /^\d{4}-(\d{2})-(\d{2})/.exec(day || ''); return m ? Number(m[1]) + '月' + Number(m[2]) + '日' : ''; };
+  // 有料掲載（paid）とアフィリエイト（affiliate）には「PR」を付ける
+  const isAd = (v) => v === 'paid' || v === 'affiliate';
+  const PR_BADGE = '<span class="pr">PR<span class="vh">（広告を含む掲載）</span></span>';
+  let FRAMED = true;
+  try { FRAMED = window.self !== window.top; } catch (e) { FRAMED = true; }
+
+  /* ===== 風味のタイプ（お店の書くフレーバーの言葉から振り分ける） ===== */
+  /* TASTES:START（収集側の風味の辞書と食い違わないよう、tests/unit.mjs がここを読んで確かめる） */
+  const TASTES = [
+    { id: 'fruity', short: '果実', eg: 'ベリー・桃', alias: 'フルーティ フルーツ',
+      words: ['ベリー', 'カシス', 'プラム', 'すもも', 'プルーン', 'チェリー', 'さくらんぼ', 'ライチ', '桃', 'もも', 'ピーチ', 'ネクタリン', 'アプリコット', 'あんず', '杏', 'デラウェア', '巨峰', 'ぶどう',
+        'グレープ', 'マスカット', 'りんご', 'アップル', '梨', 'パイナップル', 'マンゴー', 'グアバ', 'パパイヤ', 'トロピカル', 'パッションフルーツ', 'メロン', 'スイカ', 'ウォーターメロン', 'ココナッツ',
+        'いちご', 'ストロベリー', 'ワイン', 'ワイニー', 'レーズン', 'ドライフルーツ', 'キウイ', 'いちじく', 'ザクロ', 'フルーツ', 'フルーティ'] },
+    { id: 'floral', short: '花', eg: 'ジャスミン・バラ', alias: 'フローラル 華やか',
+      words: ['フローラル', 'ジャスミン', 'キンモクセイ', '金木犀', 'ローズ', 'バラ', 'ラベンダー', 'エルダーフラワー', 'フラワー', 'オレンジブロッサム', 'ブロッサム', 'ハイビスカス', 'すみれ', 'バイオレット', 'カモミール', '桜', '花'] },
+    { id: 'citrus', short: '柑橘', eg: 'オレンジ・レモン', alias: 'シトラス さわやか 爽やか',
+      words: ['オレンジ', 'レモン', 'ライム', 'グレープフルーツ', 'シトラス', '柑橘', 'みかん', 'ゆず', '柚子', 'マンダリン', 'タンジェリン', 'ベルガモット', 'すだち', 'かぼす', '甘夏', '金柑', '文旦'] },
+    { id: 'tea', short: '紅茶', eg: '紅茶・ハーブ', alias: 'ティーライク すっきり お茶',
+      words: ['紅茶', 'ティー', '烏龍', 'ウーロン', '緑茶', '煎茶', 'ほうじ茶', 'ダージリン', 'アッサム', 'ハーブ', 'レモングラス', 'アールグレイ', 'ルイボス', 'ミント'] },
+    { id: 'choco', short: 'チョコ・ナッツ', eg: 'ココア・キャラメル', alias: 'チョコレート 香ばしい 甘い まろやか コク',
+      words: ['チョコ', 'ココア', 'カカオ', 'ナッツ', 'アーモンド', 'ピーナッツ', 'ピスタチオ', 'マカダミア', 'カシュー', 'ヘーゼル', 'くるみ', 'キャラメル', 'カラメル', 'ブラウンシュガー', '黒糖', '黒蜜', 'はちみつ', '蜂蜜',
+        'メープル', 'クッキー', 'トフィー', 'バニラ', 'ヌガー', 'プラリネ', 'ビスケット', 'モラセス'] }
+  ];
+  const NOT_TASTE = ['バランス']; // 風味の言葉に見えるが、そうではないもの（「バラ」と読まない）
+  const TASTE = {};
+  const TASTE_WORDS = [];
+  TASTES.forEach((t) => { TASTE[t.id] = t; t.words.forEach((w) => TASTE_WORDS.push({ id: t.id, w: toKata(w.normalize('NFKC')) })); });
+  NOT_TASTE.forEach((w) => TASTE_WORDS.push({ id: null, w: toKata(w) }));
+  TASTE_WORDS.sort((a, b) => b.w.length - a.w.length);
+  // 長い言葉から当てて、当てた場所は二重に数えない（グレープフルーツは柑橘だけ、ココナッツはナッツにしない）
+  function tastesOf(notes) {
+    const got = {};
+    (notes || []).forEach((n) => {
+      let s = toKata(String(n).normalize('NFKC'));
+      TASTE_WORDS.forEach((x) => {
+        for (let i = s.indexOf(x.w); i !== -1; i = s.indexOf(x.w)) {
+          if (x.id) got[x.id] = true;
+          s = s.slice(0, i) + ' ' + s.slice(i + x.w.length);
+        }
+      });
+    });
+    return TASTES.filter((t) => got[t.id]).map((t) => t.id);
+  }
+  /* TASTES:END */
+
+  /* ===== 並び・表記ゆれ ===== */
+  const REGIONS = [
+    ['アフリカ', ['エチオピア', 'ケニア', 'ルワンダ', 'ブルンジ', 'タンザニア', 'ウガンダ', 'コンゴ民主共和国', 'マラウイ', 'ザンビア']],
+    ['中南米', ['パナマ', 'コスタリカ', 'エルサルバドル', 'グアテマラ', 'ホンジュラス', 'ニカラグア', 'メキシコ', 'ジャマイカ', 'ドミニカ共和国', 'ハイチ', 'キューバ', 'コロンビア', 'エクアドル', 'ペルー', 'ボリビア', 'ブラジル']],
+    ['アジア・オセアニア', ['中国', '台湾', 'インドネシア', '東ティモール', 'パプアニューギニア', 'ベトナム', 'タイ', 'ラオス', 'ミャンマー', 'フィリピン', 'インド', 'ネパール', 'イエメン', 'アメリカ（ハワイ）']]
+  ];
+  const COUNTRY_ORDER = REGIONS.reduce((a, r) => a.concat(r[1]), []);
+  const ci = (c) => { const i = COUNTRY_ORDER.indexOf(c); return i < 0 ? 999 : i; };
+  const PROCESS_ORDER = ['ウォッシュト', 'ナチュラル', 'ハニー', 'アナエロビック', '特殊発酵', 'スマトラ式'];
+  const ALIASES = {
+    'エチオピア': 'ethiopia', 'ケニア': 'kenya', 'ルワンダ': 'rwanda', 'タンザニア': 'tanzania', 'コロンビア': 'colombia', 'パナマ': 'panama',
+    'コスタリカ': 'costarica', 'エルサルバドル': 'elsalvador', 'ブラジル': 'brazil', '中国': 'china 雲南 yunnan', 'グアテマラ': 'guatemala',
+    'ホンジュラス': 'honduras', 'ブルンジ': 'burundi', 'インドネシア': 'indonesia',
+    'カトゥアイ': 'catuai', 'パカマラ': 'pacamara', 'カスティージョ': 'castillo', 'ルイル11': 'ruiru11', 'バティアン': 'batian',
+    'ゲイシャ': 'geisha gesha ゲシャ', 'ブルボン': 'bourbon', 'ピンクブルボン': 'pinkbourbon', 'カトゥーラ': 'caturra', 'ティピカ': 'typica', 'シドラ': 'sidra',
+    'ウォッシュト': 'washed ウォッシュド 水洗式', 'ナチュラル': 'natural 乾燥式', 'ハニー': 'honey', 'アナエロビック': 'anaerobic 嫌気性発酵',
+    '特殊発酵': 'fermentation yeast 酵母 barrel', 'スマトラ式': 'wethulled',
+    'イルガチェフェ': 'yirgacheffe yrgacheffe', 'ニエリ': 'nyeri', 'タラス': 'tarrazu', 'ボケテ': 'boquete', 'カウカ': 'cauca',
+    'リサラルダ': 'risaralda', 'シダマ': 'sidama sidamo', 'グジ': 'guji'
+  };
+
+  const FACETS = {
+    taste: { label: '風味', param: 't', values: (b) => b._tastes, show: (v) => (TASTE[v] ? TASTE[v].short : v) },
+    country: { label: '産地', title: '産地を選ぶ', param: 'c', help: '同じ国でも、地域や標高で味わいは変わります。',
+      values: (b) => (b.country ? [b.country] : []) },
+    variety: { label: '品種', title: '品種を選ぶ', param: 'v', help: 'コーヒーの木の種類です。ゲイシャのように、香りの華やかさで知られる品種もあります。',
+      values: (b) => b.varieties || [] },
+    process: { label: '精製', title: '精製を選ぶ', param: 'p', help: 'コーヒーの実から豆を取り出す方法です。ナチュラルは果実感が出やすく、ウォッシュトはすっきりしやすい傾向があります。',
+      values: (b) => b.processGroups || [] },
+    farm: { label: 'つくり手', title: 'つくり手を選ぶ', param: 'f', help: '豆をつくった農園・精製所・生産者です。気に入ったつくり手を追いかけられます。',
+      values: (b) => (b.maker ? [b.maker] : []) },
+    shop: { label: 'お店', title: 'お店を選ぶ', param: 's', help: '送料はお店ごとにかかります。まとめ買いするお店選びに使えます。',
+      values: (b) => [b.shop], show: (v) => (SHOPS[v] ? SHOPS[v].name : v) }
+  };
+  const KEYS = ['taste', 'country', 'variety', 'process', 'farm', 'shop'];
+  const REFINE = ['country', 'variety', 'process', 'farm', 'shop'];
+  const show = (k, v) => (FACETS[k].show ? FACETS[k].show(v) : v);
+
+  const ICON = {
+    ext: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4l-9 9"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+    heart: '<svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    check: '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
+    chev: '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>'
+  };
+
+  /* ===== 状態 ===== */
+  const state = { sel: {}, q: '', view: 'bean', sort: 'recommend', favOnly: false };
+  KEYS.forEach((k) => { state.sel[k] = new Set(); });
+  const FAV_KEY = 'coffeeshirube.favs.v1';
+  const favs = (function () {
+    try {
+      // 後ろの2つは、サイトの以前の名前のころに保存された「気になる」を引き継ぐためのもの
+      const raw = localStorage.getItem(FAV_KEY) || localStorage.getItem('sanchito.favs.v1') || localStorage.getItem('mamesakuin.favs.v1');
+      const arr = raw ? JSON.parse(raw) : [];
+      return new Set(Array.isArray(arr) ? arr : []);
+    } catch (e) { return new Set(); }
+  })();
+  function saveFavs() {
+    try { localStorage.setItem(FAV_KEY, JSON.stringify(Array.from(favs))); } catch (e) { /* 保存できなくても動作は続ける */ }
+  }
+
+  function prep() {
+    const gen = GENERATED ? Date.parse(GENERATED) : NaN;
+    HAS_FIRST_SEEN = false;
+    BEANS.forEach((b) => {
+      b._tastes = tastesOf(b.notes);
+      b._per = b.price && b.grams ? Math.round(b.price / b.grams * 100) : null;
+      const fs = b.firstSeen ? Date.parse(b.firstSeen) : NaN;
+      if (!isNaN(fs)) HAS_FIRST_SEEN = true;
+      b._new = !isNaN(fs) && !isNaN(gen) && gen - fs <= NEW_DAYS * 864e5;
+      b._ad = isAd(b.ad) || isAd(SHOPS[b.shop].ad);
+      // その日に確かめられず、前回までの情報を出している豆（収集側で7日を過ぎたものは外している）
+      b._asof = b.checkedAt && GEN_DAY && b.checkedAt < GEN_DAY ? b.checkedAt : null;
+      // おすすめ順：情報のそろい具合と新着だけで決める（掲載料やアフィリエイトの有無は使わない）
+      b._score = (b.notes && b.notes.length ? 3 : 0) + (b.varieties && b.varieties.length ? 1 : 0) + (b.processGroups && b.processGroups.length ? 1 : 0) +
+        (b.altitude ? 0.5 : 0) + (b.maker ? 0.5 : 0) + (b._per != null ? 0.5 : 0) + (b._new ? 2 : 0);
+      const parts = [b.name, b.country, b.region, b.maker, b.producer, b.station, b.processNote, b.roast, SHOPS[b.shop].name]
+        .concat(b.varieties || [], b.processGroups || [], b.notes || []);
+      const extra = parts.map((p) => (p && ALIASES[p] ? ALIASES[p] : ''))
+        .concat(b._tastes.map((id) => TASTE[id].short + ' ' + TASTE[id].alias));
+      b._hay = norm(parts.concat(extra).filter(Boolean).join(' '));
+    });
+  }
+
+  function matches(b, except) {
+    for (const k of KEYS) {
+      if (k === except) continue;
+      const s = state.sel[k];
+      if (s.size && !FACETS[k].values(b).some((v) => s.has(v))) return false;
+    }
+    if (state.q) {
+      const toks = state.q.split(/[\s　]+/).map(norm).filter(Boolean);
+      if (!toks.every((t) => b._hay.indexOf(t) !== -1)) return false;
+    }
+    if (state.favOnly && !favs.has(b.id)) return false;
+    return true;
+  }
+
+  // 同じお店が続かないように、上位から1店ずつ順番に並べる
+  function interleave(list) {
+    const groups = new Map();
+    list.forEach((b) => { if (!groups.has(b.shop)) groups.set(b.shop, []); groups.get(b.shop).push(b); });
+    const qs = Array.from(groups.values());
+    const out = [];
+    for (let i = 0; out.length < list.length; i++) qs.forEach((q) => { if (q[i]) out.push(q[i]); });
+    return out;
+  }
+
+  function results() {
+    const big = 1e9;
+    const by = {
+      recommend: (a, b) => b._score - a._score,
+      new: (a, b) => cmpStr(b.firstSeen, a.firstSeen) || b._score - a._score,
+      price: (a, b) => (a._per == null ? big : a._per) - (b._per == null ? big : b._per) || (a.price == null ? big : a.price) - (b.price == null ? big : b.price),
+      origin: (a, b) => ci(a.country) - ci(b.country) || cmpStr(a.region, b.region) || cmpStr(a.shop, b.shop) || cmpStr(a.name, b.name)
+    };
+    const list = BEANS.filter((b) => matches(b)).sort(by[state.sort] || by.recommend);
+    return state.sort === 'recommend' ? interleave(list) : list;
+  }
+
+  function facetCounts(k) {
+    const m = new Map();
+    BEANS.forEach((b) => {
+      if (!matches(b, k)) return;
+      FACETS[k].values(b).forEach((v) => m.set(v, (m.get(v) || 0) + 1));
+    });
+    return m;
+  }
+
+  function facetOptions(k) {
+    const counts = facetCounts(k);
+    const first = new Map();
+    BEANS.forEach((b) => FACETS[k].values(b).forEach((v) => { if (!first.has(v)) first.set(v, b); }));
+    state.sel[k].forEach((v) => { if (!first.has(v)) first.set(v, null); });
+    const opts = Array.from(first.keys()).map((v) => ({ v, n: counts.get(v) || 0, sample: first.get(v) }));
+    if (k === 'country') opts.sort((a, b) => ci(a.v) - ci(b.v));
+    else if (k === 'process') opts.sort((a, b) => PROCESS_ORDER.indexOf(a.v) - PROCESS_ORDER.indexOf(b.v));
+    else opts.sort((a, b) => b.n - a.n || cmpStr(show(k, a.v), show(k, b.v)));
+    return opts;
+  }
+
+  const anyFilter = () => KEYS.some((k) => state.sel[k].size) || !!state.q;
+
+  function toggle(k, v) {
+    const s = state.sel[k];
+    if (s.has(v)) s.delete(v); else s.add(v);
+    update();
+  }
+
+  /* ===== URL（条件を共有できるように） ===== */
+  function readURL() {
+    try {
+      const p = new URLSearchParams(location.search);
+      KEYS.forEach((k) => {
+        const raw = p.get(FACETS[k].param);
+        if (raw) raw.split('|').forEach((v) => { if (v) state.sel[k].add(v); });
+      });
+      state.q = p.get('q') || '';
+      if (p.get('view') === 'shop') state.view = 'shop';
+      if (SORTS.indexOf(p.get('sort')) !== -1) state.sort = p.get('sort');
+    } catch (e) { /* URLが読めなくても初期状態で始める */ }
+  }
+  function writeURL() {
+    try {
+      const p = new URLSearchParams();
+      KEYS.forEach((k) => { if (state.sel[k].size) p.set(FACETS[k].param, Array.from(state.sel[k]).join('|')); });
+      if (state.q) p.set('q', state.q);
+      if (state.view !== 'bean') p.set('view', state.view);
+      if (state.sort !== 'recommend') p.set('sort', state.sort);
+      const qs = p.toString();
+      history.replaceState(null, '', qs ? '?' + qs : location.pathname);
+    } catch (e) { /* 埋め込み表示などで書き換えられない場合は何もしない */ }
+  }
+
+  /* ===== 描画 ===== */
+  const els = {
+    sub: $('sub'), tastes: $('tastes'), tip: $('tip'), refine: $('refine'), q: $('q'), count: $('count'), clearAll: $('clearAll'),
+    list: $('list'), sort: $('sort'), share: $('share'), favOnly: $('favOnly'), favN: $('favN'), dataNote: $('dataNote'), contact: $('contact'),
+    rnote: $('rnote'), adRule: $('adRule'), toFilter: $('toFilter'),
+    toast: $('toast'), scrim: $('scrim'), sheet: $('sheet'), sheetTitle: $('sheetTitle'), sheetSub: $('sheetSub'),
+    sheetSearchWrap: $('sheetSearchWrap'), sheetSearch: $('sheetSearch'), opts: $('opts'),
+    sheetClear: $('sheetClear'), sheetDone: $('sheetDone'), sheetClose: $('sheetClose')
+  };
+
+  function keepFocus(container, attr, fn) {
+    const a = document.activeElement;
+    const key = a && container.contains(a) ? a.getAttribute(attr) : null;
+    fn();
+    if (key != null) {
+      const el = Array.from(container.querySelectorAll('[' + attr + ']')).filter((x) => x.getAttribute(attr) === key)[0];
+      if (el && !el.disabled) el.focus();
+    }
+  }
+
+  function renderTastes() {
+    const counts = facetCounts('taste');
+    keepFocus(els.tastes, 'data-taste', () => {
+      els.tastes.innerHTML = TASTES.map((t) => {
+        const on = state.sel.taste.has(t.id);
+        const n = counts.get(t.id) || 0;
+        return '<button type="button" class="tc t-' + t.id + '" data-taste="' + t.id + '" aria-pressed="' + on + '"' + (!on && !n ? ' disabled' : '') +
+          ' aria-label="' + esc(t.short) + '（' + esc(t.eg) + '）' + n + '件">' +
+          '<span class="sw" aria-hidden="true">' + (on ? ICON.check : '') + '</span>' +
+          '<span class="tl">' + esc(t.short) + '</span>' +
+          '<span class="tn" aria-hidden="true">' + n + '件</span>' +
+          '<span class="te" aria-hidden="true">' + esc(t.eg) + '</span></button>';
+      }).join('');
+    });
+    els.tip.hidden = state.sel.taste.size > 0;
+  }
+
+  function renderRefine() {
+    keepFocus(els.refine, 'data-facet', () => {
+      els.refine.innerHTML = REFINE.map((k) => {
+        const s = Array.from(state.sel[k]);
+        const on = s.length > 0;
+        const val = !on ? '' : s.length === 1 ? show(k, s[0]) : show(k, s[0]) + ' ほか' + (s.length - 1);
+        return '<button type="button" class="rc' + (on ? ' on' : '') + '" data-facet="' + k + '" aria-haspopup="dialog" aria-label="' +
+          esc(FACETS[k].label + 'を選ぶ（いまは' + (on ? s.map((v) => show(k, v)).join('、') : '指定なし') + '）') + '">' +
+          '<span class="rl">' + FACETS[k].label + '</span>' + (on ? '<span class="rv">' + esc(val) + '</span>' : '') + ICON.chev + '</button>';
+      }).join('');
+    });
+  }
+
+  function tok(k, v) {
+    const on = state.sel[k].has(v);
+    return '<button type="button" class="tok' + (on ? ' on' : '') + '" data-k="' + k + '" data-v="' + esc(v) + '" aria-pressed="' + on + '" aria-label="' +
+      esc(FACETS[k].label) + '「' + esc(show(k, v)) + '」で絞り込む">' + esc(show(k, v)) + '</button>';
+  }
+  function tasteTok(id) {
+    const t = TASTE[id];
+    const on = state.sel.taste.has(id);
+    return '<button type="button" class="tp t-' + id + (on ? ' on' : '') + '" data-k="taste" data-v="' + id + '" aria-pressed="' + on + '" aria-label="風味「' +
+      esc(t.short) + '」で絞り込む"><i aria-hidden="true"></i>' + esc(t.short) + '</button>';
+  }
+
+  function cardHTML(b) {
+    const s = SHOPS[b.shop];
+    const fav = favs.has(b.id);
+    const badges = (b._new ? '<span class="new">NEW</span>' : '') + (b._ad ? PR_BADGE : '');
+    const top = b._tastes.length || badges
+      ? '<div class="c-top"><div class="tps">' + b._tastes.map(tasteTok).join('') + '</div>' + (badges ? '<div class="badges">' + badges + '</div>' : '') + '</div>'
+      : '';
+    const title = b.maker ? tok('farm', b.maker) + (b.makerKind ? '<span class="kind">' + esc(b.makerKind) + '</span>' : '') : esc(b.name);
+    const rows = [];
+    if (b.varieties && b.varieties.length) rows.push(['品種', b.varieties.map((v) => tok('variety', v)).join('、')]);
+    if (b.processGroups && b.processGroups.length) rows.push(['精製', b.processGroups.map((v) => tok('process', v)).join('＋') + (b.processNote ? '<span class="pnote">（' + esc(b.processNote) + '）</span>' : '')]);
+    if (b.altitude) rows.push(['標高', esc(b.altitude)]);
+    if (b.roast) rows.push(['焙煎', esc(b.roast)]);
+    if (b.producer) rows.push(['生産者', esc(b.producer)]);
+    if (b.station) rows.push(['精製所', esc(b.station)]);
+    const meta = rows.length
+      ? '<dl class="meta">' + rows.map((r) => '<div><dt>' + r[0] + '</dt><dd>' + r[1] + '</dd></div>').join('') + '</dl>'
+      : '<p class="thin">品種や精製の情報は、お店のページで見られます。</p>';
+    let price;
+    if (b.price == null) price = '<p class="price"><span class="g">価格はお店のページで</span></p>';
+    else if (b.grams) price = '<p class="price">' + yen(b.price) + '<span class="g"> / ' + b.grams + 'g</span></p>' + (b.grams !== 100 ? '<p class="per">100gあたり ' + yen(b._per) + '</p>' : '');
+    else price = '<p class="price">' + yen(b.price) + (b.from ? '<span class="g">〜</span>' : '') + '</p><p class="per">容量はお店のページで</p>';
+    if (b._asof) price += '<p class="asof">' + mdOf(b._asof) + '時点の情報です</p>';
+    return '<li class="card"><div class="c-body">' + top +
+      '<p class="origin">' + (b.country ? tok('country', b.country) : '') + (b.region ? '<span>' + esc(b.region) + '</span>' : '') + '</p>' +
+      '<h3 class="c-title">' + title + '</h3>' +
+      (b.maker ? '<p class="pname" lang="en">' + esc(b.name) + '</p>' : '') +
+      (b.notes && b.notes.length ? '<p class="notes">' + b.notes.map((n, i) => '<span class="nt">' + esc(n) + (i < b.notes.length - 1 ? '、' : '') + '</span>').join('') + '</p>' : '') +
+      meta + '</div>' +
+      '<div class="c-foot"><p class="shopname">' + esc(s.name) + '</p><div class="c-buy"><div class="buy">' + price + '</div>' +
+      '<div class="acts"><button type="button" class="fav" data-fav="' + esc(b.id) + '" aria-pressed="' + fav + '" aria-label="' + (fav ? '気になるから外す' : '気になるに入れる') + '">' + ICON.heart + '</button>' +
+      '<a class="go" href="' + esc(b.url) + '" target="_blank" rel="noopener noreferrer" aria-label="' + esc(s.name) + 'のページで「' + esc(b.name) + '」を見る（新しいタブ）">お店で見る' + ICON.ext + '</a></div></div></div>' +
+      '</li>';
+  }
+
+  function shopInfo(s) {
+    const rows = [['場所', s.area], ['焙煎', s.style], ['送料', s.shipping]].filter((r) => r[1]);
+    return rows.length ? '<dl class="shop-info">' + rows.map((r) => '<div><dt>' + r[0] + '</dt><dd>' + esc(r[1]) + '</dd></div>').join('') + '</dl>' : '';
+  }
+
+  let suggestions = [];
+  // 一度に出すカードの数（多いお店・多い条件でもページが長くなりすぎないように）
+  const PAGE = 24;
+  const SHOP_PAGE = 6;
+  let shown = PAGE;
+  let viewKey = '';
+  const openShops = {};
+  const liveFavs = () => BEANS.filter((b) => favs.has(b.id)).length; // いま載っている豆だけを数える
+  function buildSuggestions() {
+    const out = [];
+    const countNow = () => BEANS.filter((b) => matches(b)).length;
+    KEYS.forEach((k) => {
+      Array.from(state.sel[k]).forEach((v) => {
+        state.sel[k].delete(v);
+        const n = countNow();
+        state.sel[k].add(v);
+        if (n) out.push({ label: '「' + show(k, v) + '」を外す', n, act: () => state.sel[k].delete(v) });
+      });
+    });
+    if (state.q) {
+      const q = state.q;
+      state.q = '';
+      const n = countNow();
+      state.q = q;
+      if (n) out.push({ label: 'キーワード「' + q + '」を外す', n, act: () => { state.q = ''; els.q.value = ''; } });
+    }
+    if (state.favOnly) {
+      state.favOnly = false;
+      const n = countNow();
+      state.favOnly = true;
+      if (n) out.push({ label: '「気になる」だけの表示をやめる', n, act: () => { state.favOnly = false; } });
+    }
+    return out.sort((a, b) => b.n - a.n).slice(0, 3);
+  }
+
+  // 結果のすぐ上に、いつ時点の情報か・PRの意味を出す
+  function renderNote(rs) {
+    let t = GENERATED
+      ? '価格・在庫は' + GEN_TEXT + '時点の情報です。最新の情報は各販売店でご確認ください。'
+      : '見本データ（' + CHECKED_SHORT + '時点）で表示しています。価格・在庫は各販売店でご確認ください。';
+    if (rs.some((b) => b._ad)) t += '「PR」は広告・アフィリエイトを含む掲載です（並び順には影響しません）。';
+    els.rnote.textContent = t;
+    els.rnote.hidden = false;
+  }
+
+  function renderResults() {
+    if (UNAVAILABLE) {
+      els.count.textContent = '';
+      els.favN.textContent = 0;
+      els.favOnly.disabled = true;
+      els.list.innerHTML = '<div class="empty"><p class="empty-t">豆の情報を準備しています</p><p class="empty-s">しばらくしてから、もう一度開いてください。</p></div>';
+      return;
+    }
+    const rs = results();
+    renderNote(rs);
+    els.count.textContent = !rs.length ? '見つかりませんでした' : state.favOnly ? '気になる豆 ' + rs.length + '件' : rs.length + '件の豆';
+    els.clearAll.hidden = !anyFilter();
+    document.querySelectorAll('.seg [data-view]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.view === state.view)));
+    els.sort.value = state.sort;
+    const favCount = liveFavs();
+    els.favN.textContent = favCount;
+    els.favOnly.setAttribute('aria-pressed', String(state.favOnly));
+    els.favOnly.disabled = favCount === 0 && !state.favOnly;
+    // 条件・並び順・表示のしかたが変わったら、出す件数を最初に戻す
+    const key = JSON.stringify([KEYS.map((k) => Array.from(state.sel[k])), state.q, state.view, state.sort, state.favOnly]);
+    if (key !== viewKey) { viewKey = key; shown = PAGE; Object.keys(openShops).forEach((k) => { delete openShops[k]; }); }
+
+    if (!rs.length) {
+      suggestions = buildSuggestions();
+      const sg = suggestions.map((s, i) => '<button type="button" class="sg" data-sg="' + i + '">' + esc(s.label) + '<span class="n">' + s.n + '件</span></button>').join('');
+      els.list.innerHTML = '<div class="empty"><p class="empty-t">この組み合わせの豆は、いまの掲載分にはありません。</p>' +
+        (sg ? '<p class="empty-s">条件を1つ外すと見つかります。</p><div class="sgs">' + sg + '</div>' : '<p class="empty-s">条件を減らすか、キーワードを短くしてみてください。</p>') + '</div>';
+      return;
+    }
+
+    if (state.view === 'shop') {
+      const groups = {};
+      rs.forEach((b) => { (groups[b.shop] = groups[b.shop] || []).push(b); });
+      const order = Object.keys(groups).sort((a, b) => groups[b].length - groups[a].length || cmpStr(SHOPS[a].name, SHOPS[b].name));
+      els.list.innerHTML = order.map((id) => {
+        const s = SHOPS[id];
+        const bs = groups[id];
+        const part = openShops[id] ? bs : bs.slice(0, SHOP_PAGE);
+        return '<section class="shop" data-shop="' + esc(id) + '"><header class="shop-head">' +
+          '<div class="shop-top"><h3>' + esc(s.name) + (isAd(s.ad) ? ' ' + PR_BADGE : '') + '</h3><p class="shop-n">条件に合う豆 ' + bs.length + '件</p></div>' + shopInfo(s) +
+          '<a class="shop-link" href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">お店のサイトを開く' + ICON.ext + '</a>' +
+          '</header><ul class="cards">' + part.map(cardHTML).join('') + '</ul>' +
+          (bs.length > part.length ? '<button type="button" class="more" data-more="' + esc(id) + '">このお店の残り' + (bs.length - part.length) + '件を表示</button>' : '') + '</section>';
+      }).join('');
+    } else {
+      els.list.innerHTML = '<ul class="cards">' + rs.slice(0, shown).map(cardHTML).join('') + '</ul>' +
+        (rs.length > shown ? '<button type="button" class="more" data-more="">さらに表示（残り' + (rs.length - shown) + '件）</button>' : '');
+    }
+  }
+
+  /* ===== 候補シート ===== */
+  let sheetFacet = null;
+  let lastFocus = null;
+
+  function renderSheetList() {
+    const k = sheetFacet;
+    if (!k) return;
+    let opts = facetOptions(k);
+    const qn = norm(els.sheetSearch.value);
+    if (qn) opts = opts.filter((o) => norm(show(k, o.v) + ' ' + o.v + ' ' + (ALIASES[o.v] || '') + ' ' + (o.sample ? o.sample.name : '')).indexOf(qn) !== -1);
+    const optHTML = (o) => {
+      const on = state.sel[k].has(o.v);
+      let meta = '';
+      if (k === 'farm' && o.sample) meta = o.sample.country + 'の' + (o.sample.makerKind || 'つくり手');
+      if (k === 'shop' && SHOPS[o.v] && SHOPS[o.v].area) meta = SHOPS[o.v].area;
+      return '<button type="button" class="opt" data-v="' + esc(o.v) + '" aria-pressed="' + on + '"' + (!on && !o.n ? ' disabled' : '') + '>' +
+        '<span class="ck" aria-hidden="true">' + (on ? ICON.check : '') + '</span>' +
+        '<span class="ol"><span>' + esc(show(k, o.v)) + '</span>' + (meta ? '<span class="meta-s">' + esc(meta) + '</span>' : '') + '</span>' +
+        '<span class="n" aria-label="' + o.n + '件">' + o.n + '</span></button>';
+    };
+    let html = '';
+    if (!opts.length) html = '<p class="none">一致する候補がありません。</p>';
+    else if (k === 'country') {
+      REGIONS.forEach((r) => {
+        const g = opts.filter((o) => r[1].indexOf(o.v) !== -1);
+        if (g.length) html += '<p class="og">' + r[0] + '</p>' + g.map(optHTML).join('');
+      });
+      const rest = opts.filter((o) => COUNTRY_ORDER.indexOf(o.v) === -1);
+      if (rest.length) html += '<p class="og">その他</p>' + rest.map(optHTML).join('');
+    } else html = opts.map(optHTML).join('');
+    els.opts.innerHTML = html;
+    els.sheetDone.textContent = results().length + '件を見る';
+    els.sheetClear.disabled = state.sel[k].size === 0;
+  }
+
+  function openSheet(k) {
+    sheetFacet = k;
+    lastFocus = document.activeElement;
+    const F = FACETS[k];
+    const covered = BEANS.filter((b) => F.values(b).length).length;
+    els.sheetTitle.textContent = F.title;
+    els.sheetSub.textContent = F.help + (covered < BEANS.length ? '（' + F.label + 'がわかっている豆は、' + BEANS.length + '件中' + covered + '件です）' : '');
+    els.sheetSearch.value = '';
+    els.sheetSearchWrap.hidden = facetOptions(k).length <= 8;
+    renderSheetList();
+    els.scrim.hidden = false;
+    els.sheet.hidden = false;
+    document.documentElement.classList.add('sheet-open');
+    const raf = window.requestAnimationFrame || ((f) => setTimeout(f, 16));
+    raf(() => { els.scrim.classList.add('on'); els.sheet.classList.add('on'); });
+    setTimeout(() => {
+      const target = !els.sheetSearchWrap.hidden ? els.sheetSearch : els.opts.querySelector('.opt:not([disabled])');
+      (target || els.sheet).focus();
+    }, 40);
+  }
+
+  function closeSheet() {
+    if (!sheetFacet) return;
+    sheetFacet = null;
+    els.scrim.classList.remove('on');
+    els.sheet.classList.remove('on');
+    document.documentElement.classList.remove('sheet-open');
+    const done = () => { if (sheetFacet) return; els.scrim.hidden = true; els.sheet.hidden = true; };
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) done(); else setTimeout(done, 240);
+    if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
+  }
+
+  let toastTimer = null;
+  function toast(msg) {
+    els.toast.textContent = msg;
+    els.toast.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { els.toast.hidden = true; }, 2600);
+  }
+
+  function update() {
+    renderTastes();
+    renderRefine();
+    renderResults();
+    writeURL();
+    if (sheetFacet) renderSheetList();
+  }
+
+  /* ===== イベント ===== */
+  els.tastes.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-taste]');
+    if (b && !b.disabled) toggle('taste', b.dataset.taste);
+  });
+  els.refine.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-facet]');
+    if (b) openSheet(b.dataset.facet);
+  });
+  let qTimer = null;
+  els.q.addEventListener('input', () => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => { state.q = els.q.value.trim(); update(); }, 120);
+  });
+  els.clearAll.addEventListener('click', () => {
+    KEYS.forEach((k) => state.sel[k].clear());
+    state.q = '';
+    els.q.value = '';
+    update();
+    els.count.setAttribute('tabindex', '-1');
+    try { els.count.focus({ preventScroll: true }); } catch (e) { els.count.focus(); }
+  });
+  document.querySelector('.seg').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-view]');
+    if (!b) return;
+    state.view = b.dataset.view;
+    update();
+  });
+  els.sort.addEventListener('change', () => { state.sort = els.sort.value; update(); });
+  els.favOnly.addEventListener('click', () => { state.favOnly = !state.favOnly; update(); });
+
+  els.share.addEventListener('click', () => {
+    const url = location.href;
+    const fail = () => toast('コピーできませんでした。アドレスバーのURLを共有してください');
+    const copy = () => {
+      try {
+        navigator.clipboard.writeText(url).then(() => toast('この条件のリンクをコピーしました'), fail);
+      } catch (e) { fail(); }
+    };
+    if (navigator.share) {
+      navigator.share({ title: document.title, text: '好きな味の豆を、お店をまたいで探せる｜' + BRAND, url }).catch((e) => { if (!e || e.name !== 'AbortError') copy(); });
+    } else copy();
+  });
+
+  els.list.addEventListener('click', (e) => {
+    const more = e.target.closest('[data-more]');
+    if (more) {
+      const id = more.dataset.more;
+      const at = id ? SHOP_PAGE : shown; // 新しく出るカードの最初の位置
+      if (id) openShops[id] = true; else shown += PAGE;
+      renderResults();
+      const scope = id ? Array.from(els.list.querySelectorAll('.shop')).filter((x) => x.dataset.shop === id)[0] : els.list;
+      const card = scope && scope.querySelectorAll('.card')[at];
+      const link = card && card.querySelector('.go');
+      if (link) { try { link.focus({ preventScroll: true }); } catch (err) { link.focus(); } }
+      return;
+    }
+    const t = e.target.closest('[data-k]');
+    if (t) { toggle(t.dataset.k, t.dataset.v); return; }
+    const f = e.target.closest('[data-fav]');
+    if (f) {
+      const id = f.dataset.fav;
+      if (favs.has(id)) favs.delete(id); else favs.add(id);
+      saveFavs();
+      update();
+      const again = Array.from(els.list.querySelectorAll('[data-fav]')).filter((x) => x.dataset.fav === id)[0];
+      if (again) again.focus();
+      return;
+    }
+    const sg = e.target.closest('[data-sg]');
+    if (sg) {
+      const s = suggestions[Number(sg.dataset.sg)];
+      if (s) { s.act(); update(); }
+    }
+  });
+
+  els.opts.addEventListener('click', (e) => {
+    const b = e.target.closest('.opt');
+    if (!b || b.disabled || !sheetFacet) return;
+    const v = b.dataset.v;
+    toggle(sheetFacet, v);
+    const again = Array.from(els.opts.querySelectorAll('.opt')).filter((o) => o.dataset.v === v)[0];
+    if (again) again.focus();
+  });
+  els.sheetSearch.addEventListener('input', renderSheetList);
+  els.sheetClear.addEventListener('click', () => {
+    if (!sheetFacet) return;
+    state.sel[sheetFacet].clear();
+    update();
+  });
+  els.sheetDone.addEventListener('click', closeSheet);
+  els.sheetClose.addEventListener('click', closeSheet);
+  els.scrim.addEventListener('click', closeSheet);
+  els.sheet.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { e.preventDefault(); closeSheet(); return; }
+    if (e.key !== 'Tab') return;
+    const f = Array.from(els.sheet.querySelectorAll('button:not([disabled]), input')).filter((el) => el.offsetParent !== null);
+    if (!f.length) return;
+    const first = f[0];
+    const last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+  });
+
+  // 結果を読み進めているあいだ、「条件を変える」ボタンを出す
+  let scrollWait = false;
+  function checkScroll() {
+    scrollWait = false;
+    const r = els.refine.closest('section').getBoundingClientRect();
+    els.toFilter.hidden = UNAVAILABLE || !!sheetFacet || r.bottom > -40;
+  }
+  window.addEventListener('scroll', () => {
+    if (scrollWait) return;
+    scrollWait = true;
+    (window.requestAnimationFrame || ((f) => setTimeout(f, 16)))(checkScroll);
+  }, { passive: true });
+  els.toFilter.addEventListener('click', () => {
+    const head = $('tasteTitle');
+    const calm = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    head.closest('section').scrollIntoView({ behavior: calm ? 'auto' : 'smooth', block: 'start' });
+    head.setAttribute('tabindex', '-1');
+    try { head.focus({ preventScroll: true }); } catch (err) { head.focus(); }
+  });
+
+  /* ===== はじめに ===== */
+  // お問い合わせ先：設定 → 収集データ → GitHub Pages のリポジトリの Issues の順に探す
+  function contactOf() {
+    const c = String(CONTACT || DATA_CONTACT || '').trim();
+    if (c) return c;
+    try {
+      const m = /^([a-z0-9-]+)\.github\.io$/i.exec(location.hostname);
+      if (m) {
+        const seg = location.pathname.split('/').filter(Boolean)[0];
+        const repo = seg && !/\.html?$/i.test(seg) ? seg : location.hostname;
+        return 'https://github.com/' + m[1] + '/' + repo + '/issues';
+      }
+    } catch (e) { /* 読めなければ設定待ちの案内を出す */ }
+    return '';
+  }
+  function renderContact() {
+    const c = contactOf();
+    let html;
+    if (/^mailto:/i.test(c) || (/@/.test(c) && !/^https?:/i.test(c))) {
+      const addr = c.replace(/^mailto:/i, '');
+      html = '<p>メール：<a class="contact" href="mailto:' + esc(addr) + '">' + esc(addr) + '</a></p>';
+    } else if (/^https?:\/\//i.test(c)) {
+      const label = /^https:\/\/github\.com\/[^/]+\/[^/]+\/issues/i.test(c) ? 'GitHub の Issues で連絡する' : 'お問い合わせフォームを開く';
+      html = '<p><a class="shop-link" href="' + esc(c) + '" target="_blank" rel="noopener noreferrer">' + label + ICON.ext + '</a></p>';
+    } else {
+      html = '<p>' + (USE_SAMPLE ? '公開版では、ここに連絡先が出ます（いまは見本の表示です）。' : '連絡先を準備しています。') + '</p>';
+    }
+    els.contact.innerHTML = html;
+  }
+
+  function renderStatic() {
+    const shopIds = Array.from(new Set(BEANS.map((b) => b.shop)));
+    const hasAd = BEANS.some((b) => b._ad);
+    els.adRule.textContent = hasAd
+      ? '「PR」の印がある豆やお店は、掲載料をいただいているか、アフィリエイトリンク（そこから買うと、このサイトに紹介料が入るリンク）を使っているものです。'
+      : 'いまは広告・有料掲載・アフィリエイトリンクはありません。入れるときは、その豆やお店に「PR」と表示します。';
+    renderContact();
+    const keep = '<p>価格・容量・在庫は変わることがあります。最新の情報は各販売店でご確認ください。</p>';
+    if (UNAVAILABLE) {
+      els.sub.textContent = '豆の情報を準備しています。';
+      els.dataNote.innerHTML = '<p>まだ豆の情報がありません。お店のオンラインストアから集め終わると、ここに集めた日時が出ます。</p>';
+    } else if (GENERATED) {
+      const md = mdOf(GEN_DAY);
+      const when = new Date(GENERATED).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+      els.sub.textContent = '在庫のある' + BEANS.length + '銘柄を、' + shopIds.length + '店から集めています（' + md + '更新）';
+      els.dataNote.innerHTML = '<p>' + esc(when) + 'に、' + shopIds.length + '店のオンラインストアから自動で集めました。在庫のある豆だけを載せています。風味や品種が空いている豆は、お店のページに書かれていないか、読み取れなかったものです。</p>' +
+        (BEANS.some((b) => b._asof) ? '<p>その日に確かめられなかった豆には、カードに確かめた日を出しています（7日を過ぎたものは載せません）。</p>' : '') + keep;
+    } else {
+      els.sub.textContent = '見本データで表示しています（' + shopIds.length + '店・' + BEANS.length + '銘柄、' + CHECKED_SHORT + '時点）';
+      els.dataNote.innerHTML = '<p>表示を確かめるための見本データです。' + esc(CHECKED) + 'に、' + shopIds.map((id) => esc(SHOPS[id].name)).join(' と ') + ' のオンラインストアから手作業で集めました。風味や品種が空いている豆は、まだ確認できていないものです。</p>' + keep;
+    }
+  }
+
+  function buildSort() {
+    const opts = [['recommend', 'おすすめ順']];
+    if (HAS_FIRST_SEEN) opts.push(['new', '新着順']);
+    opts.push(['price', '100gあたりが安い順'], ['origin', '産地順']);
+    SORTS = opts.map((o) => o[0]);
+    els.sort.innerHTML = opts.map((o) => '<option value="' + o[0] + '">' + o[1] + '</option>').join('');
+  }
+
+  function start(data) {
+    SHOPS = data.shops;
+    BEANS = data.beans.filter((b) => SHOPS[b.shop]);
+    GENERATED = data.generatedAt || null;
+    GEN_DAY = GENERATED ? jstDay(GENERATED) : '';
+    GEN_TEXT = GENERATED ? new Date(GENERATED).toLocaleString('ja-JP', { timeZone: 'Asia/Tokyo', month: 'long', day: 'numeric', hour: 'numeric', minute: '2-digit' }) : '';
+    DATA_CONTACT = typeof data.contact === 'string' ? data.contact : '';
+    prep();
+    buildSort();
+    readURL();
+    els.q.value = state.q;
+    els.share.hidden = FRAMED;
+    if (UNAVAILABLE) {
+      [els.tastes, els.refine].forEach((el) => { el.closest('section').hidden = true; });
+      document.querySelector('.bar').hidden = true;
+    }
+    renderStatic();
+    update();
+  }
+
+  let started = false;
+  const startOnce = (d) => { if (started) return; started = true; start(d); };
+  const sample = () => startOnce({ shops: SEED_SHOPS, beans: SEED_BEANS, generatedAt: null });
+  // 公開用では見本データを出さない（古い価格や在庫を、いまの情報のように見せないため）
+  const unavailable = () => { if (started) return; UNAVAILABLE = true; startOnce({ shops: {}, beans: [], generatedAt: null }); };
+  const fallback = USE_SAMPLE ? sample : unavailable;
+  if (typeof fetch !== 'function') fallback();
+  else {
+    // 見本データがあるときだけ、遅い回線で待たせすぎないように4秒で切り替える
+    const timer = USE_SAMPLE ? setTimeout(sample, 4000) : null;
+    fetch('data/beans.json', { cache: 'no-cache' })
+      .then((r) => { if (!r.ok) throw new Error(String(r.status)); return r.json(); })
+      .then((d) => {
+        if (!d || !d.shops || !Array.isArray(d.beans) || !d.beans.length) throw new Error('empty');
+        clearTimeout(timer);
+        startOnce(d);
+      })
+      .catch(() => { clearTimeout(timer); fallback(); });
+  }
+})();
+</script>
+</body>
+</html>

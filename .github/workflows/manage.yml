@@ -1,0 +1,89 @@
+name: お店の管理
+
+# Actions タブ →「お店の管理」→ Run workflow のフォームから、お店を足す・止める・利用規約の確認を記録する
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'やること'
+        type: choice
+        required: true
+        options:
+          - お店を足す
+          - お店を止める
+          - お店を再開する
+          - 規約を確認した（掲載してよい）
+          - 規約で禁止されていた
+          - 掲載の許諾をもらった
+      target:
+        description: 'お店（足すときはオンラインストアのURL。それ以外は id・URL・店名のどれか）'
+        type: string
+        required: true
+      name:
+        description: '店名（足すときだけ。空ならサイトの題名から付けます）'
+        type: string
+        default: ''
+      commercial:
+        description: '情報の商業利用（規約を確認したとき）'
+        type: choice
+        options:
+          - 変えない
+          - 禁止されていない
+          - 禁止されている
+        default: 変えない
+      note:
+        description: 'メモ（例: 2026-11-20 メールで掲載の許諾）'
+        type: string
+        default: ''
+      list_urls:
+        description: 'Shopify 以外のお店を足すとき: 豆の一覧ページのURL'
+        type: string
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: shirube-data
+  cancel-in-progress: false
+
+env:
+  CONTACT_URL: ${{ vars.CONTACT_URL || format('{0}/{1}/issues', github.server_url, github.repository) }}
+  EXTRACTOR: ${{ vars.EXTRACTOR }}
+  CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+jobs:
+  manage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: お店の一覧を書きかえる
+        id: manage
+        run: node scripts/manage.mjs
+        env:   # フォームの入力は、コマンドに埋めこまず環境変数で渡す
+          ACTION: ${{ inputs.action }}
+          TARGET: ${{ inputs.target }}
+          NAME: ${{ inputs.name }}
+          COMMERCIAL: ${{ inputs.commercial }}
+          NOTE: ${{ inputs.note }}
+          LIST_URLS: ${{ inputs.list_urls }}
+
+      - name: お店の利用規約を確認する
+        run: node scripts/terms.mjs
+
+      - name: そのお店の豆をサイトに反映する
+        run: node scripts/collect.mjs
+        env:
+          ONLY_SHOP: ${{ steps.manage.outputs.shop }}
+
+      - name: 変更を保存する
+        run: bash .github/save-data.sh "お店の管理（${SHOP}）"
+        env:
+          SHOP: ${{ steps.manage.outputs.shop }}

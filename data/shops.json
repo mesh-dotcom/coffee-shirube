@@ -1,0 +1,71 @@
+{
+  "_memo": "収集するお店の一覧。お店を足す・止める・利用規約の確認を記録するのは、GitHub の Actions →「お店の管理」のフォームからできます（このファイルを直接書きかえても同じです）。terms は利用規約の確認結果で、status が ok か permission のお店だけ集めます。commercial は、アフィリエイト・広告・有料掲載で収益化しているときに true にします。ad は有料掲載なら paid、アフィリエイトリンクなら affiliate にすると、サイトに「PR」と表示されます。area・style・shipping は、サイトの「お店ごと」の表示に出ます。",
+  "commercial": false,
+  "shops": [
+    {
+      "id": "lightup",
+      "name": "LIGHT UP COFFEE",
+      "url": "https://lightupcoffee.com/",
+      "area": "東京（吉祥寺・下北沢・三鷹）",
+      "style": "浅煎り専門",
+      "shipping": "豆は全国一律 ¥300",
+      "enabled": true,
+      "terms": {
+        "status": "ok",
+        "commercial": "ng",
+        "reproduction": "prohibited",
+        "url": "https://lightupcoffee.com/policies/terms-of-service",
+        "clauses": [
+          "第5条: サイトのコンテンツの無断複製・転載・二次利用の禁止",
+          "第6条5号: サービスで得た情報を商業的に利用することの禁止"
+        ],
+        "note": "自動収集を禁止する条項はなし。収益化（アフィリエイト・広告・有料掲載）の前に掲載の許諾が必要",
+        "manual": true,
+        "checkedAt": "2026-10-13",
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+      }
+    },
+    {
+      "id": "glitch",
+      "name": "GLITCH COFFEE & ROASTERS",
+      "url": "https://shop.glitchcoffee.com/",
+      "area": "東京（神保町・銀座ほか）、名古屋、大阪",
+      "style": "浅煎り中心",
+      "shipping": "¥500、¥5,000以上で無料（ポスト投函）",
+      "enabled": true,
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "url": "https://shop.glitchcoffee.com/policies/terms-of-service",
+        "clauses": [
+          "第5条: サーバーの妨害や他の会員の個人情報の収集などの禁止（自動収集・転載・商業利用の禁止はなし）"
+        ],
+        "note": "自動収集・転載・情報の商業利用を禁止する条項はなし",
+        "manual": true,
+        "checkedAt": "2026-10-13",
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+      }
+    },
+    {
+      "id": "onibus",
+      "name": "ONIBUS COFFEE",
+      "url": "https://www.onibuscoffee.com/",
+      "area": "東京（中目黒・八雲・自由が丘）、那須",
+      "enabled": true,
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "url": "https://www.onibuscoffee.com/policies/terms-of-service",
+        "clauses": [
+          "規約ページの中身は特定商取引法の表記と返品の決まりで、禁止事項の定めはなし"
+        ],
+        "note": "自動収集・転載・情報の商業利用を禁止する条項はなし",
+        "manual": true,
+        "checkedAt": "2026-10-13",
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+      }
+    }
+  ]
+}

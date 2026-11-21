@@ -1,0 +1,58 @@
+name: 豆データの収集
+
+on:
+  schedule:
+    - cron: '0 18 * * *'   # 毎日 3:00（日本時間）
+  workflow_dispatch:
+    inputs:
+      shop:
+        description: '1店だけ更新するときの id（空なら全店）'
+        type: string
+        default: ''
+      discover:
+        description: '新しいお店も探して追加する（Claude API のキーが必要）'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+# 「お店の管理」と同時に走らないようにする（データの保存がぶつからないように）
+concurrency:
+  group: shirube-data
+  cancel-in-progress: false
+
+env:
+  CONTACT_URL: ${{ vars.CONTACT_URL || format('{0}/{1}/issues', github.server_url, github.repository) }}
+  EXTRACTOR: ${{ vars.EXTRACTOR }}
+  CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+  CLAUDE_DISCOVER_MODEL: ${{ vars.CLAUDE_DISCOVER_MODEL }}
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+
+      - name: 新しいお店を探す
+        if: ${{ inputs.discover }}
+        continue-on-error: true   # お店探しが失敗しても（キーが無いなど）、豆の収集は続ける
+        run: node scripts/discover.mjs --auto-add
+
+      - name: お店の利用規約を確認する
+        run: node scripts/terms.mjs
+
+      - name: 豆の情報を集める
+        run: node scripts/collect.mjs
+        env:
+          ONLY_SHOP: ${{ inputs.shop }}
+          MAX_NEW_EXTRACTIONS: '150'
+
+      - name: 変更を保存する
+        run: bash .github/save-data.sh "豆データを更新"

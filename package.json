@@ -1,0 +1,17 @@
+{
+  "name": "coffee-shirube",
+  "private": true,
+  "type": "module",
+  "description": "好きな味のスペシャルティコーヒー豆を、お店をまたいで探せるサイト「珈琲しるべ」と、その収集スクリプト",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "terms": "node scripts/terms.mjs",
+    "manage": "node scripts/manage.mjs",
+    "discover": "node scripts/discover.mjs",
+    "probe": "node scripts/collect.mjs --probe",
+    "test": "node tests/mock-run.mjs"
+  }
+}
