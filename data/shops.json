@@ -22,7 +22,13 @@
         "note": "自動収集を禁止する条項はなし。収益化（アフィリエイト・広告・有料掲載）の前に掲載の許諾が必要",
         "manual": true,
         "checkedAt": "2026-10-13",
-        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）",
+        "watch": {
+          "automated": "not_mentioned",
+          "commercial": "prohibited",
+          "reproduction": "prohibited",
+          "at": "2026-11-22"
+        }
       }
     },
     {
@@ -44,7 +50,13 @@
         "note": "自動収集・転載・情報の商業利用を禁止する条項はなし",
         "manual": true,
         "checkedAt": "2026-10-13",
-        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）",
+        "watch": {
+          "automated": "not_mentioned",
+          "commercial": "not_mentioned",
+          "reproduction": "not_mentioned",
+          "at": "2026-11-22"
+        }
       }
     },
     {
@@ -64,7 +76,13 @@
         "note": "自動収集・転載・情報の商業利用を禁止する条項はなし",
         "manual": true,
         "checkedAt": "2026-10-13",
-        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）",
+        "watch": {
+          "automated": "not_mentioned",
+          "commercial": "not_mentioned",
+          "reproduction": "not_mentioned",
+          "at": "2026-11-22"
+        }
       }
     }
   ]

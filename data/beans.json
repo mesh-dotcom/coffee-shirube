@@ -1,0 +1,899 @@
+{
+  "generatedAt": "2026-11-21T22:39:56.558Z",
+  "contact": "https://github.com/mesh-dotcom/coffee-shirube/issues",
+  "shops": {
+    "lightup": {
+      "name": "LIGHT UP COFFEE",
+      "url": "https://lightupcoffee.com/",
+      "area": "東京（吉祥寺・下北沢・三鷹）",
+      "style": "浅煎り専門",
+      "shipping": "豆は全国一律 ¥300"
+    },
+    "glitch": {
+      "name": "GLITCH COFFEE & ROASTERS",
+      "url": "https://shop.glitchcoffee.com/",
+      "area": "東京（神保町・銀座ほか）、名古屋、大阪",
+      "style": "浅煎り中心",
+      "shipping": "¥500、¥5,000以上で無料（ポスト投函）"
+    },
+    "onibus": {
+      "name": "ONIBUS COFFEE",
+      "url": "https://www.onibuscoffee.com/",
+      "area": "東京（中目黒・八雲・自由が丘）、那須"
+    }
+  },
+  "beans": [
+    {
+      "id": "lightup:las-colinas-costa-rica-2026",
+      "shop": "lightup",
+      "name": "LAS COLINAS - COSTA RICA",
+      "url": "https://lightupcoffee.com/products/las-colinas-costa-rica-2026",
+      "country": "コスタリカ",
+      "region": "タラス",
+      "maker": "Las Colinas",
+      "makerKind": "農園",
+      "producer": "Ricardo Hernandez,Elsa Sánchez",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "altitude": "1,700–1,800m",
+      "notes": [
+        "赤りんご",
+        "フローラル",
+        "クッキー",
+        "紅茶",
+        "マカダミアナッツ"
+      ],
+      "price": 1900,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "lightup:acacia-hills-sl28-tanzania",
+      "shop": "lightup",
+      "name": "ACACIA HILLS SL28 - TANZANIA",
+      "url": "https://lightupcoffee.com/products/acacia-hills-sl28-tanzania",
+      "country": "タンザニア",
+      "region": "Oldeani",
+      "maker": "Acacia Hills",
+      "makerKind": "農園",
+      "producer": "Leon Christianakis",
+      "varieties": [
+        "SL28"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,750–1,950m",
+      "notes": [
+        "チェリー",
+        "グレープフルーツ",
+        "はちみつ",
+        "紅茶"
+      ],
+      "price": 1900,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "lightup:finca-tamana-lot-2-colombia",
+      "shop": "lightup",
+      "name": "FINCA TAMANA LOT2 - COLOMBIA",
+      "url": "https://lightupcoffee.com/products/finca-tamana-lot-2-colombia",
+      "country": "コロンビア",
+      "region": "El Pital、ウイラ",
+      "maker": "Finca Tamana",
+      "makerKind": "農園",
+      "producer": "Elias Roa & Bellanid Roa",
+      "varieties": [
+        "ピンクブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,650–1,700m",
+      "notes": [
+        "マンダリン",
+        "オレンジ",
+        "シトラス"
+      ],
+      "price": 3100,
+      "grams": 100,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "lightup:el-sitio-colombia",
+      "shop": "lightup",
+      "name": "EL SITIO - COLOMBIA",
+      "url": "https://lightupcoffee.com/products/el-sitio-colombia",
+      "country": "コロンビア",
+      "region": "Chapakuar、Yacuánquer、ナリーニョ",
+      "maker": "El Sitio",
+      "makerKind": "農園",
+      "producer": "Narváez family",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "2,400m",
+      "notes": [
+        "オレンジ",
+        "キャラメル"
+      ],
+      "price": 2000,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "lightup:simbi-rwanda-2026",
+      "shop": "lightup",
+      "name": "SIMBI - RWANDA",
+      "url": "https://lightupcoffee.com/products/simbi-rwanda-2026",
+      "country": "ルワンダ",
+      "region": "フイエ",
+      "maker": "Simbi WS",
+      "makerKind": "精製所",
+      "producer": "smallholders",
+      "varieties": [
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,800m",
+      "notes": [
+        "オレンジ",
+        "キャラメル"
+      ],
+      "price": 1800,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "lightup:sakura-brazil",
+      "shop": "lightup",
+      "name": "SAKURA - BRAZIL",
+      "url": "https://lightupcoffee.com/products/sakura-brazil",
+      "country": "ブラジル",
+      "region": "Piata、バイーア",
+      "maker": "Sakura",
+      "makerKind": "農園",
+      "producer": "Silvio Leite",
+      "varieties": [
+        "Arara"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "processNote": "パルプドナチュラル",
+      "altitude": "1,230m",
+      "notes": [
+        "ヘーゼルナッツ",
+        "ココア",
+        "オレンジ"
+      ],
+      "price": 2000,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:new-panama-lost-orgin-dinu-500g",
+      "shop": "glitch",
+      "name": "Panama Lost Orgin (Digna Nunez)",
+      "url": "https://shop.glitchcoffee.com/products/new-panama-lost-orgin-dinu-500g",
+      "country": "パナマ",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,450m",
+      "notes": [
+        "パイナップル",
+        "アプリコット",
+        "タンジェリン"
+      ],
+      "price": 79,
+      "grams": 50,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:neg",
+      "shop": "glitch",
+      "name": "Colombia Tolima La Negrita (Nano)",
+      "url": "https://shop.glitchcoffee.com/products/neg",
+      "country": "コロンビア",
+      "region": "トリマ",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ナチュラル",
+        "アナエロビック"
+      ],
+      "altitude": "1,900m",
+      "notes": [
+        "バイオレット",
+        "グレープ",
+        "Loquat"
+      ],
+      "price": 73,
+      "grams": 50,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:chevas",
+      "shop": "glitch",
+      "name": "Panama Boquete Chevas (Choclo Lot#0010)",
+      "url": "https://shop.glitchcoffee.com/products/chevas",
+      "country": "パナマ",
+      "region": "ボケテ",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "Washed Dark Room",
+      "altitude": "1,600m",
+      "notes": [
+        "メイヤーレモン",
+        "はちみつ",
+        "カモミールティー"
+      ],
+      "price": 79,
+      "grams": 50,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:uchuva",
+      "shop": "glitch",
+      "name": "Colombia Quindio La Sirena \"Uchuva Honey\"",
+      "url": "https://shop.glitchcoffee.com/products/uchuva",
+      "country": "コロンビア",
+      "region": "キンディオ",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "processNote": "Uchuva Honey",
+      "altitude": "1,386m",
+      "notes": [
+        "Star Fruits",
+        "ライム",
+        "イエローアプリコット",
+        "ハーブ"
+      ],
+      "price": 24,
+      "grams": 100,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:el-salvador",
+      "shop": "glitch",
+      "name": "El Salvador Santa Ana San Andres (COE#1)",
+      "url": "https://shop.glitchcoffee.com/products/el-salvador",
+      "country": "エルサルバドル",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ナチュラル",
+        "アナエロビック"
+      ],
+      "processNote": "アナエロビックナチュラル",
+      "altitude": "1,600m",
+      "notes": [
+        "グアバ",
+        "マンダリン",
+        "赤りんご"
+      ],
+      "price": 47,
+      "grams": 50,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:colombia-quindio-la-sirena-pineapple-honey",
+      "shop": "glitch",
+      "name": "Colombia Quindio La Sirena \"Pineapple Honey\"",
+      "url": "https://shop.glitchcoffee.com/products/colombia-quindio-la-sirena-pineapple-honey",
+      "country": "コロンビア",
+      "region": "キンディオ",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "processNote": "Pineapple Honey",
+      "altitude": "1,386m",
+      "notes": [
+        "パイナップル",
+        "Cane Sugar",
+        "ココナッツ"
+      ],
+      "price": 24,
+      "grams": 100,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:ethiopia-bench-maji-karmach-jasmin-washed",
+      "shop": "glitch",
+      "name": "Ethiopia Bench Maji Karmach \"Jasmin Washed\"",
+      "url": "https://shop.glitchcoffee.com/products/ethiopia-bench-maji-karmach-jasmin-washed",
+      "country": "エチオピア",
+      "region": "ベンチ・マジ",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "Jasmin Washed",
+      "altitude": "1,900–2,100m",
+      "notes": [
+        "Jasmin",
+        "緑茶",
+        "洋梨",
+        "紅茶"
+      ],
+      "price": 31,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:colombia-huila-la-reserva-passion-fruits-semi-washed",
+      "shop": "glitch",
+      "name": "Colombia Huila La Reserva \"Passion Fruits Semi Washed\"",
+      "url": "https://shop.glitchcoffee.com/products/colombia-huila-la-reserva-passion-fruits-semi-washed",
+      "country": "コロンビア",
+      "region": "ウイラ",
+      "varieties": [
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "altitude": "1,650–1,750m",
+      "notes": [
+        "アプリコット",
+        "Mangosteen",
+        "ヘーゼルナッツ"
+      ],
+      "price": 24,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:colombia-risaralda-milan-nitro-wash-コピー",
+      "shop": "glitch",
+      "name": "Colombia Risaralda Milan \"Nitro Washed\"",
+      "url": "https://shop.glitchcoffee.com/products/colombia-risaralda-milan-nitro-wash-コピー",
+      "country": "コロンビア",
+      "region": "リサラルダ",
+      "varieties": [
+        "カトゥーラ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,500–1,600m",
+      "notes": [
+        "メロン",
+        "ゴールデンキウイ"
+      ],
+      "price": 28,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:kenya-nyeri-magta-estate-indigo",
+      "shop": "glitch",
+      "name": "Kenya Nyeri Magta Estate “Indigo”",
+      "url": "https://shop.glitchcoffee.com/products/kenya-nyeri-magta-estate-indigo",
+      "country": "ケニア",
+      "region": "ニエリ",
+      "varieties": [
+        "SL28",
+        "SL34"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "processNote": "Nitrogen Natural",
+      "altitude": "1,650–1,800m",
+      "notes": [
+        "プルーン",
+        "いちじく",
+        "ドライオレンジ"
+      ],
+      "price": 28,
+      "grams": 50,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:ethiopia-nigusse-karamo-glitch-lot",
+      "shop": "glitch",
+      "name": "Ethiopia Sidama Nigusse Gemeda Karamo (Glitch Lot)",
+      "url": "https://shop.glitchcoffee.com/products/ethiopia-nigusse-karamo-glitch-lot",
+      "country": "エチオピア",
+      "region": "シダマ",
+      "varieties": [
+        "74158"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "processNote": "Dark Room Natural",
+      "altitude": "2,200–2,400m",
+      "notes": [
+        "グレープ",
+        "ワイルドベリー",
+        "バイオレット"
+      ],
+      "price": 66,
+      "grams": 50,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:kenya-nyeri-kangocho",
+      "shop": "glitch",
+      "name": "Kenya Nyeri Kangocho",
+      "url": "https://shop.glitchcoffee.com/products/kenya-nyeri-kangocho",
+      "country": "ケニア",
+      "region": "ニエリ",
+      "varieties": [
+        "SL28",
+        "SL34"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,600m",
+      "notes": [
+        "マンダリン",
+        "ブラウンシュガー",
+        "チェリー",
+        "トマト"
+      ],
+      "price": 18,
+      "grams": 150,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:ethiopia-guji-hambela-deri",
+      "shop": "glitch",
+      "name": "Ethiopia Guji Hambela Deri",
+      "url": "https://shop.glitchcoffee.com/products/ethiopia-guji-hambela-deri",
+      "country": "エチオピア",
+      "region": "グジ",
+      "varieties": [
+        "74110"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "2,100–2,150m",
+      "notes": [
+        "ミルクチョコレート",
+        "ドライアプリコット",
+        "アーモンド"
+      ],
+      "price": 15,
+      "grams": 150,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:new-colombia-la-loma-whiskey-barrel-natural-100g",
+      "shop": "glitch",
+      "name": "Colombia La Loma Whiskey Barrel Natural",
+      "url": "https://shop.glitchcoffee.com/products/new-colombia-la-loma-whiskey-barrel-natural-100g",
+      "country": "コロンビア",
+      "varieties": [
+        "カトゥーラ",
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ナチュラル",
+        "特殊発酵"
+      ],
+      "processNote": "Whiskey Barrel Natural",
+      "altitude": "1,650m",
+      "notes": [
+        "Whisky",
+        "ミルクチョコレート",
+        "バニラ"
+      ],
+      "price": 28,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:new-ethiopia-yrgacheffe-kochere-biloya",
+      "shop": "glitch",
+      "name": "Ethiopia Yrgacheffe Kochere Biloya",
+      "url": "https://shop.glitchcoffee.com/products/new-ethiopia-yrgacheffe-kochere-biloya",
+      "country": "エチオピア",
+      "region": "イルガチェフェ",
+      "varieties": [
+        "クルメ",
+        "ディガ",
+        "ウォリショ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,950–2,200m",
+      "notes": [
+        "オレンジ",
+        "アプリコット",
+        "Sugar Cane",
+        "紅茶"
+      ],
+      "price": 15,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:new-original-drip-bag-10pc-china-dehong-yuan-yi-yuan",
+      "shop": "glitch",
+      "name": "Original Drip-Bag 10PC | China Dehong Yuan Yi Yuan",
+      "url": "https://shop.glitchcoffee.com/products/new-original-drip-bag-10pc-china-dehong-yuan-yi-yuan",
+      "country": "中国",
+      "varieties": [
+        "カティモール",
+        "7963"
+      ],
+      "processGroups": [
+        "ハニー",
+        "特殊発酵"
+      ],
+      "processNote": "Yeast Fermentation Honey",
+      "altitude": "1,400–1,580m",
+      "notes": [
+        "烏龍茶",
+        "紅茶",
+        "ライチ",
+        "ピーチ"
+      ],
+      "price": 24,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "glitch:new-colombia-cauca-el-paraiso-red-plum",
+      "shop": "glitch",
+      "name": "Colombia Cauca El Paraiso \"Red Plum\"",
+      "url": "https://shop.glitchcoffee.com/products/new-colombia-cauca-el-paraiso-red-plum",
+      "country": "コロンビア",
+      "region": "カウカ",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ウォッシュト",
+        "アナエロビック"
+      ],
+      "altitude": "1,960m",
+      "notes": [
+        "ハイビスカス",
+        "紅茶",
+        "アプリコット",
+        "Soldum"
+      ],
+      "price": 24,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:rwanda-rulindo-juru-ws",
+      "shop": "onibus",
+      "name": "ルワンダ / ルリンド ジュル ウォッシングステーション",
+      "url": "https://www.onibuscoffee.com/products/rwanda-rulindo-juru-ws",
+      "country": "ルワンダ",
+      "region": "ルリンド",
+      "maker": "ジュル ウォッシングステーション",
+      "makerKind": "精製所",
+      "varieties": [
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "フリーウォッシュト",
+      "altitude": "1,700–2,300m",
+      "notes": [
+        "レモン",
+        "ストーンフルーツ",
+        "紅茶",
+        "フローラルな香り"
+      ],
+      "price": 11,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:el-salvador-familia-diaz-la-mina",
+      "shop": "onibus",
+      "name": "エルサルバドル / ファミリア　ディアス ラ ミナ [セミ ウォッシュト]",
+      "url": "https://www.onibuscoffee.com/products/el-salvador-familia-diaz-la-mina",
+      "country": "エルサルバドル",
+      "region": "チャラテナンゴ",
+      "maker": "ラ ミナ",
+      "makerKind": "農園",
+      "producer": "ファミリア ディアス",
+      "varieties": [
+        "パカス"
+      ],
+      "processGroups": [
+        "ウォッシュト",
+        "ハニー"
+      ],
+      "processNote": "セミ ウォッシュト",
+      "altitude": "1,600m",
+      "notes": [
+        "アプリコット",
+        "柿",
+        "メープル"
+      ],
+      "price": 11,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:honduras-nelsonmoreno-catuai",
+      "shop": "onibus",
+      "name": "ホンジュラス / ネルソン＆ダルウィン・モレノ [カトゥアイ]",
+      "url": "https://www.onibuscoffee.com/products/honduras-nelsonmoreno-catuai",
+      "country": "ホンジュラス",
+      "region": "エル セドラル、ラスベガス、サンタバルバラ",
+      "maker": "ラ ミカ",
+      "makerKind": "農園",
+      "producer": "ネルソン&ダルウィン・モレノ",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,670m",
+      "notes": [
+        "アーモンド",
+        "和梨",
+        "紅茶"
+      ],
+      "price": 10,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:ethiopia-chewa-muradi-honey",
+      "shop": "onibus",
+      "name": "エチオピア / チェワ ムラディ [ハニー]",
+      "url": "https://www.onibuscoffee.com/products/ethiopia-chewa-muradi-honey",
+      "country": "エチオピア",
+      "region": "オロミア、チェワ",
+      "maker": "ムラディ",
+      "makerKind": "生産者",
+      "varieties": [
+        "74110"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "altitude": "2,050m",
+      "notes": [
+        "ライチ",
+        "マスカット",
+        "紅茶",
+        "フローラル"
+      ],
+      "price": 14,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:el-salvador-fito-montiel-2026",
+      "shop": "onibus",
+      "name": "エルサルバドル / フィト・モンティエル、サトス アルヌルフォ・ディアス [ナチュラル]",
+      "url": "https://www.onibuscoffee.com/products/el-salvador-fito-montiel-2026",
+      "country": "エルサルバドル",
+      "region": "チャラテナンゴ",
+      "maker": "La Hondurita",
+      "makerKind": "農園",
+      "producer": "フィト・モンティエル、 サトス アルヌルフォ・ディアス",
+      "varieties": [
+        "パカマラ"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,550–1,700m",
+      "notes": [
+        "グレープ",
+        "トロピカルフルーツ",
+        "白桃",
+        "クリーンカップ"
+      ],
+      "price": 13,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:peru-buena-vista-geisha",
+      "shop": "onibus",
+      "name": "ペルー / ブエナ・ビスタ［ゲイシャ］",
+      "url": "https://www.onibuscoffee.com/products/peru-buena-vista-geisha",
+      "country": "ペルー",
+      "region": "イウアマカ市、サン・イグナシオ、カハマルカ",
+      "maker": "ブエナ・ビスタ",
+      "makerKind": "農園",
+      "producer": "クレバー・ネイラ、ヴァネッサ・ネイラ",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "フリー・ウォッシュト",
+      "altitude": "1,755m",
+      "notes": [
+        "洋梨",
+        "ジャスミン",
+        "クリーンカップ"
+      ],
+      "price": 21,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:colombia-jorge-armando-salazar",
+      "shop": "onibus",
+      "name": "コロンビア / ホルへ・アルマンド・サラザール",
+      "url": "https://www.onibuscoffee.com/products/colombia-jorge-armando-salazar",
+      "country": "コロンビア",
+      "region": "ヤクアンケール、ナリーニョ",
+      "maker": "パロ セコ",
+      "makerKind": "農園",
+      "producer": "ホルへ・アルマンド・サラザール",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,800m",
+      "notes": [
+        "マーマレード",
+        "金柑",
+        "スパイス",
+        "きび砂糖",
+        "クリーンカップ"
+      ],
+      "price": 12,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:ethiopia-workasakaro-ripecherry-2026",
+      "shop": "onibus",
+      "name": "エチオピア / ウォルカ サカロ 完熟チェリー",
+      "url": "https://www.onibuscoffee.com/products/ethiopia-workasakaro-ripecherry-2026",
+      "country": "エチオピア",
+      "region": "ゲデブ、ゲデオゾーン最南東部、イルガチェフ地域東側",
+      "maker": "ウォルカ・サカロ",
+      "makerKind": "農園",
+      "producer": "25軒の小規模農家",
+      "varieties": [
+        "エチオピア原"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "2,050m",
+      "notes": [
+        "ストロベリージャム",
+        "白ぶどう",
+        "フローラルな香り",
+        "クリーンカップ"
+      ],
+      "price": 11,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:coldbrewpack4",
+      "shop": "onibus",
+      "name": "コールドブリューパック 4個入り",
+      "url": "https://www.onibuscoffee.com/products/coldbrewpack4",
+      "price": 12,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    },
+    {
+      "id": "onibus:decaf-ethiopia-sidamo-g2-mountain-water",
+      "shop": "onibus",
+      "name": "【デカフェ】エチオピア / シダモ G2 マウンテン ウォーター",
+      "url": "https://www.onibuscoffee.com/products/decaf-ethiopia-sidamo-g2-mountain-water",
+      "country": "エチオピア",
+      "region": "シダモ",
+      "varieties": [
+        "Arabica",
+        "アラビカ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "マウンテン ウォーター",
+      "notes": [
+        "フローラル",
+        "ストーンフルーツ"
+      ],
+      "price": 11,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-22",
+      "checkedAt": "2026-11-22"
+    }
+  ],
+  "errors": [],
+  "skipped": []
+}
