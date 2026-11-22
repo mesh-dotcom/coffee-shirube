@@ -1578,5 +1578,40 @@
     },
     "page": "2026-11-22",
     "used": "2026-11-22"
+  },
+  "lightup:la-folie-guatemala": {
+    "sig": "698904836afb123b6efb6035",
+    "spec": "f3c58d63525609696ee88c9b",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": "Jocotenango、アンティグア",
+      "maker": "Penny Sisters",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ティピカ",
+        "ブルボン",
+        "カトゥアイ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,618m",
+      "roast": null,
+      "notes": [
+        "りんご",
+        "レーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-23",
+    "used": "2026-11-23"
   }
 }
