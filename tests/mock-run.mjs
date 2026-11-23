@@ -159,6 +159,16 @@ conf.commercial = false;
 writeFileSync(shopsFile, JSON.stringify(conf));
 run(dir, 'scripts/collect.mjs');
 
+// 日本・円の指定をしても円で返さないお店（Shopify の Markets でドルになる）は、間違った価格を出さないよう載せない
+run(dir, 'scripts/collect.mjs', [], { MOCK_USD_ALWAYS: '1' });
+again = readJ(beansFile);
+assert.ok(again.errors.some((e) => e.shop === 'a' && /USD/.test(e.message)), '円以外の通貨なら、そのお店は取得しない');
+assert.equal(again.beans.filter((x) => x.shop === 'a').length, 0, '前回までの価格も、通貨が違うかもしれないので残さない');
+run(dir, 'scripts/collect.mjs');
+again = readJ(beansFile);
+assert.equal(again.beans.filter((x) => x.shop === 'a').length, 5, '円で返るようになれば、また載る');
+assert.equal(byId(again)['a:eth-gesha'].price, 3000, '円の価格で載る');
+
 console.log(run(dir, 'scripts/collect.mjs', ['--probe', 'https://shop-a.test/']));
 
 /* ---------- お店の管理（フォームから） ---------- */

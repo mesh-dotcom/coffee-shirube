@@ -489,7 +489,8 @@ async function main() {
       beans.push(...mine);
     } catch (e) {
       // 途中で止まったら、この回に確かめられた分に、前回までの情報（7日以内）を足す
-      const carry = (prev.beans || []).filter((b) => b.shop === shop.id && fresh0(b) && !seen.has(b.id));
+      // 価格の通貨が円でなかったときは、前回までの価格も正しいとは言えないので残さない
+      const carry = e.currency ? [] : (prev.beans || []).filter((b) => b.shop === shop.id && fresh0(b) && !seen.has(b.id));
       log(`  ! 取得できませんでした: ${e.message}（この回に確かめた ${mine.length}件に、${STALE_DAYS}日以内に確かめた ${carry.length}件を足して載せます）`);
       errors.push({ shop: shop.id, message: e.message });
       beans.push(...mine, ...carry);

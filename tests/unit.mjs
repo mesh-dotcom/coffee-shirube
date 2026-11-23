@@ -1,6 +1,6 @@
 // robots.txt・noindex・ログイン・アクセス間隔・利用規約の判定を、部品ごとに確かめる
 import assert from 'node:assert/strict';
-import { parseRobots, isAllowed, robotsMetaBlocks, termsGate, politeFetch, toolInput, htmlToText, mainText, slug } from '../scripts/lib.mjs';
+import { parseRobots, isAllowed, robotsMetaBlocks, termsGate, politeFetch, toolInput, htmlToText, mainText, slug, storeCurrency } from '../scripts/lib.mjs';
 import { readFileSync } from 'node:fs';
 import { extractByRules, judgeTermsByRules, pickLinksByRules, specBlock, FLAVOR_GROUPS } from '../scripts/rules.mjs';
 import { cleanName } from '../scripts/collect.mjs';
@@ -39,6 +39,11 @@ await politeFetch('https://delay.test/a');
 await politeFetch('https://delay.test/b');
 assert.ok(Date.now() - t0 >= 950, 'Crawl-delay: 1 なら1秒あける');
 await assert.rejects(politeFetch('https://slow.test/a'), (e) => e.robots === true && /Crawl-delay/.test(e.message), '守りきれない長い Crawl-delay のお店は取得しない');
+
+// お店のページに書かれている通貨（Shopify.currency）
+assert.equal(storeCurrency('<script>Shopify.currency = {"active":"USD","rate":"0.0066"};</script>'), 'USD');
+assert.equal(storeCurrency('<script>Shopify.currency={"active":"JPY","rate":"1.0"};</script>'), 'JPY');
+assert.equal(storeCurrency('<p>トップ</p>'), null, '書かれていなければ判断しない');
 
 // 利用規約の判定
 assert.equal(termsGate({}, false).ok, false, '未確認は集めない');

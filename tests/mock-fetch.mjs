@@ -105,17 +105,20 @@ globalThis.fetch = async (input, init = {}) => {
   }
 
   if (shopifyHost.has(u.hostname)) {
+    // Shopify の Markets：日本・円の指定（cookie）が無ければドルで返す。MOCK_USD_ALWAYS なら指定があってもドル
+    const jp = /localization=JP/.test(String((init.headers || {}).cookie || '')) && !process.env.MOCK_USD_ALWAYS;
     if (u.pathname === '/') {
       if (u.hostname === 'noindex.test') return html('<html><head><meta content="noindex, nofollow" name="robots"></head><body>準備中</body></html>');
       if (u.hostname === 'pw.test') return redirected(html('<form>パスワード</form>'), 'https://pw.test/password');
       if (u.hostname === 't-ok.test' || u.hostname === 't-watch.test') return html('<a href="/policies/terms-of-service">利用規約</a>');
-      return html('<html><head><title>D COFFEE ROASTERS | 公式オンラインストア</title></head><body>トップ</body></html>');
+      return html(`<html><head><title>D COFFEE ROASTERS | 公式オンラインストア</title><script>Shopify.currency = {"active":"${jp ? 'JPY' : 'USD'}","rate":"${jp ? '1.0' : '0.0066'}"};</script></head><body>トップ</body></html>`);
     }
     if (u.pathname === '/products.json') {
       if (u.searchParams.get('limit') === '1') return json({ products: [SHOP_A[0]] });
-      const list = process.env.MOCK_PRICE_UP // 値上げ：最初の商品の価格だけが変わる
+      let list = process.env.MOCK_PRICE_UP // 値上げ：最初の商品の価格だけが変わる
         ? SHOP_A.map((p, i) => (i ? p : { ...p, variants: p.variants.map((v) => ({ ...v, price: String(Number(v.price) + 300) })) }))
         : SHOP_A;
+      if (!jp) list = list.map((p) => ({ ...p, variants: p.variants.map((v) => ({ ...v, price: (Number(v.price) / 150).toFixed(2) })) })); // ドルの価格
       return json({ products: u.searchParams.get('page') === '1' ? list : [] });
     }
     if (u.pathname.startsWith('/products/')) {

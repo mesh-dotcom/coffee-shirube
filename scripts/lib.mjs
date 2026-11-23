@@ -121,7 +121,7 @@ export async function isAllowed(url) {
 
 const LOGIN_PATH = /\/(password|account\/login|login|signin|sign_in|members?\/login)(\/|$)/i;
 
-export async function politeFetch(url, { as = 'text', timeout = 20000, full = false } = {}) {
+export async function politeFetch(url, { as = 'text', timeout = 20000, full = false, headers: extra = {} } = {}) {
   if (!(await isAllowed(url))) {
     const e = new Error(`robots.txt で許可されていないため取得しません: ${url}`);
     e.robots = true;
@@ -140,7 +140,7 @@ export async function politeFetch(url, { as = 'text', timeout = 20000, full = fa
   if (wait > 0) await sleep(wait);
   lastHit.set(origin, Date.now());
   const res = await fetch(url, {
-    headers: { 'user-agent': UA, accept: as === 'json' ? 'application/json' : 'text/html,*/*' },
+    headers: { 'user-agent': UA, accept: as === 'json' ? 'application/json' : 'text/html,*/*', ...extra },
     redirect: 'follow',
     signal: AbortSignal.timeout(timeout),
   });
@@ -182,8 +182,8 @@ export function robotsMetaBlocks(html, headers) {
 }
 
 // ページを取得し、収集を断られていないか確かめる（断られていれば null）
-export async function fetchCollectablePage(url) {
-  const { body, headers, url: finalUrl } = await politeFetch(url, { full: true });
+export async function fetchCollectablePage(url, { headers: extra } = {}) {
+  const { body, headers, url: finalUrl } = await politeFetch(url, { full: true, headers: extra });
   if (robotsMetaBlocks(body, headers)) return null;
   return { html: body, url: finalUrl };
 }
@@ -232,13 +232,30 @@ export async function isShopify(origin) {
   }
 }
 
-// トップページで、お店全体が収集を断っていないか（noindex・パスワード保護）を確かめる
+/* Shopify の「Markets」（見る人の国に合わせて通貨を切りかえる機能）を使うお店は、
+   収集を動かす GitHub のサーバー（アメリカ）から見るとドルの価格を返す。
+   日本・円で見ていることを伝えて、円の価格で受け取る */
+export const JP_HEADERS = { cookie: 'localization=JP; cart_currency=JPY', 'accept-language': 'ja-JP,ja;q=0.9' };
+
+// お店のページに書かれている、いま表示している通貨（Shopify.currency の active）。書かれていなければ null
+export function storeCurrency(html) {
+  const m = /Shopify\.currency\s*=\s*\{[^}]*?"active"\s*:\s*"([A-Za-z]{3})"/.exec(String(html || ''));
+  return m ? m[1].toUpperCase() : null;
+}
+
+// トップページで、お店全体が収集を断っていないか（noindex・パスワード保護）と、価格が円で返ってくるかを確かめる
 export async function checkStorefront(shop) {
   const origin = new URL(shop.url).origin;
-  const page = await fetchCollectablePage(origin + '/');
+  const page = await fetchCollectablePage(origin + '/', { headers: JP_HEADERS });
   if (!page) {
     const e = new Error('トップページで検索エンジン向けの収集を断っている（noindex）ため取得しません');
     e.noindex = true;
+    throw e;
+  }
+  const currency = storeCurrency(page.html);
+  if (currency && currency !== 'JPY') {
+    const e = new Error(`価格が円ではなく ${currency} で返ってくるため、間違った価格を出さないよう、このお店の豆は載せません`);
+    e.currency = currency;
     throw e;
   }
 }
@@ -248,7 +265,7 @@ export async function listShopify(shop) {
   const origin = new URL(shop.url).origin;
   const out = [];
   for (let page = 1; page <= 20; page++) {
-    const data = await politeFetch(`${origin}/products.json?limit=250&page=${page}`, { as: 'json' });
+    const data = await politeFetch(`${origin}/products.json?limit=250&page=${page}`, { as: 'json', headers: JP_HEADERS });
     const products = Array.isArray(data?.products) ? data.products : [];
     for (const p of products) {
       if (looksLikeGoods(p.title || '', p.product_type || '')) continue;
