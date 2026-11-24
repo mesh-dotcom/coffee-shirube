@@ -168,6 +168,18 @@ run(dir, 'scripts/collect.mjs');
 again = readJ(beansFile);
 assert.equal(again.beans.filter((x) => x.shop === 'a').length, 5, '円で返るようになれば、また載る');
 assert.equal(byId(again)['a:eth-gesha'].price, 3000, '円の価格で載る');
+// 登録した URL が別のドメインへ転送されても、転送先に円の指定を送る（送らないとドルで返る）
+conf = readJ(shopsFile);
+conf.shops.find((s) => s.id === 'a').url = 'https://www.shop-a.test/';
+writeFileSync(shopsFile, JSON.stringify(conf));
+run(dir, 'scripts/collect.mjs', [], { ONLY_SHOP: 'a' });
+again = readJ(beansFile);
+assert.ok(!again.errors.some((e) => e.shop === 'a'), '転送されても円で受け取れる');
+assert.equal(again.beans.filter((x) => x.shop === 'a').length, 5, '転送されても豆が載る');
+assert.ok(again.beans.filter((x) => x.shop === 'a').every((x) => x.price >= 1000), '転送先でも円の価格で載る');
+conf.shops.find((s) => s.id === 'a').url = 'https://shop-a.test/';
+writeFileSync(shopsFile, JSON.stringify(conf));
+run(dir, 'scripts/collect.mjs');
 
 console.log(run(dir, 'scripts/collect.mjs', ['--probe', 'https://shop-a.test/']));
 
@@ -323,6 +335,35 @@ if (hasGit) {
   assert.equal(read(path.join(me, 'README.md')), 'v2\n', '手で編集した内容は消さない');
   assert.match(read(path.join(me, 'data', 'shops.json')), /a-edited-by-hand/, '同じ行がぶつかったら、手で編集した内容を優先する');
   assert.match(execFileSync('bash', ['.github/save-data.sh'], { cwd: bot, encoding: 'utf8', env: { ...process.env, GITHUB_REF_NAME: 'main' } }), /変更はありませんでした/);
+}
+
+/* ---------- 毎日の点検 ---------- */
+{
+  const h = tmp('health'); dirs.push(h);
+  const shops = path.join(h, 'shops.json');
+  const now = path.join(h, 'beans.json');
+  const prev = path.join(h, 'prev.json');
+  writeFileSync(shops, JSON.stringify({ shops: [{ id: 'x', name: 'X店', enabled: true }, { id: 'y', name: 'Y店', enabled: true }] }));
+  const bean = (shop, i, price = 2000) => ({ id: `${shop}:${i}`, shop, name: `豆${i}`, price });
+  const many = (shop, n, price) => Array.from({ length: n }, (_, i) => bean(shop, i, price));
+  const health = (data, before) => {
+    writeFileSync(now, JSON.stringify({ generatedAt: new Date().toISOString(), errors: [], skipped: [], ...data }));
+    if (before) writeFileSync(prev, JSON.stringify({ beans: before }));
+    try {
+      return { ok: true, out: execFileSync('node', ['scripts/health.mjs', ...(before ? [prev] : [])], { env: { ...baseEnv, BEANS_FILE: now, SHOPS_FILE: shops, HEALTH_OUT: '' }, encoding: 'utf8' }) };
+    } catch (e) { return { ok: false, out: String(e.stdout) }; }
+  };
+  assert.ok(health({ beans: [...many('x', 5), ...many('y', 5)] }, [...many('x', 5), ...many('y', 6)]).ok, 'ふだんどおりなら問題なし');
+  let r = health({ beans: [...many('x', 5), ...many('y', 5, 13)] });
+  assert.ok(!r.ok && /円として不自然/.test(r.out), 'ドルのような安すぎる価格を見つける');
+  r = health({ beans: [...many('x', 5), ...many('y', 2)] }, [...many('x', 5), ...many('y', 10)]);
+  assert.ok(!r.ok && /10 → 2/.test(r.out), '豆が急に減ったら知らせる');
+  r = health({ beans: many('x', 5) });
+  assert.ok(!r.ok && /Y店.*1つも/.test(r.out), '豆が無いお店を見つける');
+  r = health({ beans: many('x', 5), errors: [{ shop: 'y', message: 'HTTP 500' }] });
+  assert.ok(!r.ok && /HTTP 500/.test(r.out) && !/1つも/.test(r.out), '取得の失敗を、そのまま知らせる');
+  r = health({ beans: [...many('x', 5), ...many('y', 5)], generatedAt: '2026-01-01T00:00:00Z' });
+  assert.ok(!r.ok && /更新されていません/.test(r.out), '収集が止まっていたら知らせる');
 }
 
 for (const p of dirs) if (existsSync(p)) rmSync(p, { recursive: true, force: true });

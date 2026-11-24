@@ -104,6 +104,9 @@ globalThis.fetch = async (input, init = {}) => {
     return html('User-agent: *\nDisallow: /cart\nDisallow: /collections/*sort_by*\n\nUser-agent: OtherBot\nDisallow: /\n');
   }
 
+  // www 付きから www 無しへ転送するお店（転送先へも円の指定を送れているかを確かめる）
+  if (u.hostname === 'www.shop-a.test') return new Response(null, { status: 301, headers: { location: 'https://shop-a.test' + u.pathname + u.search } });
+
   if (shopifyHost.has(u.hostname)) {
     // Shopify の Markets：日本・円の指定（cookie）が無ければドルで返す。MOCK_USD_ALWAYS なら指定があってもドル
     const jp = /localization=JP/.test(String((init.headers || {}).cookie || '')) && !process.env.MOCK_USD_ALWAYS;

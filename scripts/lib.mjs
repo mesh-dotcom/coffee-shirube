@@ -121,7 +121,19 @@ export async function isAllowed(url) {
 
 const LOGIN_PATH = /\/(password|account\/login|login|signin|sign_in|members?\/login)(\/|$)/i;
 
-export async function politeFetch(url, { as = 'text', timeout = 20000, full = false, headers: extra = {} } = {}) {
+/* 転送（301 など）は自分でたどる。fetch に任せると、別のドメインへ転送されたときに
+   cookie（円で見ていることを伝える JP_HEADERS）が落ち、ドルの価格が返ってくるため。
+   転送先でも robots.txt と間隔を守る */
+export async function politeFetch(url, opts = {}) {
+  for (let hop = 0; hop <= 5; hop++) {
+    const res = await politeFetchOnce(url, opts);
+    if (!res.next) return res.value;
+    url = res.next;
+  }
+  throw new Error(`転送が多すぎるため取得しません: ${url}`);
+}
+
+async function politeFetchOnce(url, { as = 'text', timeout = 20000, full = false, headers: extra = {} } = {}) {
   if (!(await isAllowed(url))) {
     const e = new Error(`robots.txt で許可されていないため取得しません: ${url}`);
     e.robots = true;
@@ -141,9 +153,14 @@ export async function politeFetch(url, { as = 'text', timeout = 20000, full = fa
   lastHit.set(origin, Date.now());
   const res = await fetch(url, {
     headers: { 'user-agent': UA, accept: as === 'json' ? 'application/json' : 'text/html,*/*', ...extra },
-    redirect: 'follow',
+    redirect: 'manual',
     signal: AbortSignal.timeout(timeout),
   });
+  const loc = res.status >= 300 && res.status < 400 && res.headers.get('location');
+  if (loc) {
+    await res.body?.cancel?.();
+    return { next: new URL(loc, url).href };
+  }
   const finalUrl = res.url || url;
   if (LOGIN_PATH.test(new URL(finalUrl).pathname)) {
     const e = new Error(`ログインが必要なページのため取得しません: ${url}`);
@@ -156,7 +173,7 @@ export async function politeFetch(url, { as = 'text', timeout = 20000, full = fa
     throw e;
   }
   const body = as === 'json' ? await res.json() : await res.text();
-  return full ? { body, headers: res.headers, url: finalUrl } : body;
+  return { value: full ? { body, headers: res.headers, url: finalUrl } : body };
 }
 
 // お店から「少し間をおいて」と言われたら、そのお店の取得はその回で打ち切る

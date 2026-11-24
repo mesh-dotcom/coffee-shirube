@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # 点検で問題が見つかったら Issue で知らせる
 
 # 「お店の管理」と同時に走らないようにする（データの保存がぶつからないように）
 concurrency:
@@ -40,19 +41,43 @@ jobs:
         with:
           node-version: 22
 
+      - name: 前回のデータを控える（点検で比べるため）
+        run: cp data/beans.json "$RUNNER_TEMP/prev-beans.json"
+
       - name: 新しいお店を探す
         if: ${{ inputs.discover }}
         continue-on-error: true   # お店探しが失敗しても（キーが無いなど）、豆の収集は続ける
         run: node scripts/discover.mjs --auto-add
 
       - name: お店の利用規約を確認する
+        id: terms
         run: node scripts/terms.mjs
 
       - name: 豆の情報を集める
+        id: collect
         run: node scripts/collect.mjs
         env:
           ONLY_SHOP: ${{ inputs.shop }}
           MAX_NEW_EXTRACTIONS: '150'
 
       - name: 変更を保存する
+        id: save
         run: bash .github/save-data.sh "豆データを更新"
+
+      # 毎日の点検。結果がおかしければこの実行を失敗にし（GitHub からメールが届く）、Issue で知らせる
+      - name: 結果を点検する
+        id: health
+        if: ${{ always() && !inputs.shop }}
+        run: node scripts/health.mjs "$RUNNER_TEMP/prev-beans.json"
+        env:
+          HEALTH_OUT: ${{ runner.temp }}/health.md
+
+      - name: 点検の結果を Issue で知らせる
+        if: ${{ always() && !inputs.shop }}
+        run: bash .github/report-health.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+          HEALTH_OUT: ${{ runner.temp }}/health.md
+          HEALTH_OK: ${{ steps.health.outcome == 'success' }}
+          COLLECT_OK: ${{ steps.terms.outcome == 'success' && steps.collect.outcome == 'success' && steps.save.outcome == 'success' }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
