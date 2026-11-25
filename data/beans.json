@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T03:39:58.249Z",
+  "generatedAt": "2026-11-25T01:46:35.396Z",
   "contact": "https://github.com/mesh-dotcom/coffee-shirube/issues",
   "shops": {
     "lightup": {
@@ -49,7 +49,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-23",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "lightup:las-colinas-costa-rica-2026",
@@ -79,7 +79,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "lightup:acacia-hills-sl28-tanzania",
@@ -108,7 +108,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "lightup:finca-tamana-lot-2-colombia",
@@ -135,7 +135,7 @@
       "price": 3100,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "lightup:el-sitio-colombia",
@@ -162,7 +162,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "lightup:simbi-rwanda-2026",
@@ -189,7 +189,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "lightup:sakura-brazil",
@@ -218,7 +218,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:springs",
@@ -243,7 +243,7 @@
       "price": 5200,
       "grams": 50,
       "firstSeen": "2026-11-24",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:biloya",
@@ -269,7 +269,7 @@
       "price": 3000,
       "grams": 150,
       "firstSeen": "2026-11-24",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:new-colombia-cauca-el-paraiso-red-plum",
@@ -295,7 +295,7 @@
       "price": 3700,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:ethiopia-nigusse-karamo-glitch-lot",
@@ -320,7 +320,7 @@
       "price": 10200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:new-panama-lost-orgin-dinu-500g",
@@ -343,7 +343,7 @@
       "price": 12200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:neg",
@@ -368,7 +368,7 @@
       "price": 11200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:chevas",
@@ -393,7 +393,7 @@
       "price": 12200,
       "grams": 50,
       "firstSeen": "2026-11-24",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:uchuva",
@@ -419,7 +419,7 @@
       "price": 3700,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:el-salvador",
@@ -444,7 +444,7 @@
       "price": 7200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:colombia-quindio-la-sirena-pineapple-honey",
@@ -469,7 +469,7 @@
       "price": 3700,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:ethiopia-bench-maji-karmach-jasmin-washed",
@@ -496,7 +496,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:colombia-huila-la-reserva-passion-fruits-semi-washed",
@@ -521,7 +521,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:colombia-risaralda-milan-nitro-wash-コピー",
@@ -545,7 +545,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:kenya-nyeri-kangocho",
@@ -571,7 +571,7 @@
       "price": 2700,
       "grams": 150,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:ethiopia-guji-hambela-deri",
@@ -595,7 +595,7 @@
       "price": 2200,
       "grams": 150,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:new-colombia-la-loma-whiskey-barrel-natural-100g",
@@ -622,7 +622,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:new-ethiopia-yrgacheffe-kochere-biloya",
@@ -650,7 +650,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
+      "checkedAt": "2026-11-25"
     },
     {
       "id": "glitch:new-original-drip-bag-10pc-china-dehong-yuan-yi-yuan",
@@ -676,14 +676,276 @@
       ],
       "price": 3600,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-24"
-    }
-  ],
-  "errors": [
+      "checkedAt": "2026-11-25"
+    },
     {
+      "id": "onibus:rwanda-rulindo-juru-ws",
       "shop": "onibus",
-      "message": "価格が円ではなく USD で返ってくるため、間違った価格を出さないよう、このお店の豆は載せません"
+      "name": "ルワンダ / ルリンド ジュル ウォッシングステーション",
+      "url": "https://www.onibuscoffee.com/products/rwanda-rulindo-juru-ws",
+      "country": "ルワンダ",
+      "region": "ルリンド",
+      "maker": "ジュル ウォッシングステーション",
+      "makerKind": "精製所",
+      "varieties": [
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "フリーウォッシュト",
+      "altitude": "1,700–2,300m",
+      "notes": [
+        "レモン",
+        "ストーンフルーツ",
+        "紅茶",
+        "フローラルな香り"
+      ],
+      "price": 1620,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:el-salvador-familia-diaz-la-mina",
+      "shop": "onibus",
+      "name": "エルサルバドル / ファミリア　ディアス ラ ミナ [セミ ウォッシュト]",
+      "url": "https://www.onibuscoffee.com/products/el-salvador-familia-diaz-la-mina",
+      "country": "エルサルバドル",
+      "region": "チャラテナンゴ",
+      "maker": "ラ ミナ",
+      "makerKind": "農園",
+      "producer": "ファミリア ディアス",
+      "varieties": [
+        "パカス"
+      ],
+      "processGroups": [
+        "ウォッシュト",
+        "ハニー"
+      ],
+      "processNote": "セミ ウォッシュト",
+      "altitude": "1,600m",
+      "notes": [
+        "アプリコット",
+        "柿",
+        "メープル"
+      ],
+      "price": 1674,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:honduras-nelsonmoreno-catuai",
+      "shop": "onibus",
+      "name": "ホンジュラス / ネルソン＆ダルウィン・モレノ [カトゥアイ]",
+      "url": "https://www.onibuscoffee.com/products/honduras-nelsonmoreno-catuai",
+      "country": "ホンジュラス",
+      "region": "エル セドラル、ラスベガス、サンタバルバラ",
+      "maker": "ラ ミカ",
+      "makerKind": "農園",
+      "producer": "ネルソン&ダルウィン・モレノ",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,670m",
+      "notes": [
+        "アーモンド",
+        "和梨",
+        "紅茶"
+      ],
+      "price": 1458,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:ethiopia-chewa-muradi-honey",
+      "shop": "onibus",
+      "name": "エチオピア / チェワ ムラディ [ハニー]",
+      "url": "https://www.onibuscoffee.com/products/ethiopia-chewa-muradi-honey",
+      "country": "エチオピア",
+      "region": "オロミア、チェワ",
+      "maker": "ムラディ",
+      "makerKind": "生産者",
+      "varieties": [
+        "74110"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "altitude": "2,050m",
+      "notes": [
+        "ライチ",
+        "マスカット",
+        "紅茶",
+        "フローラル"
+      ],
+      "price": 2106,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:el-salvador-fito-montiel-2026",
+      "shop": "onibus",
+      "name": "エルサルバドル / フィト・モンティエル、サトス アルヌルフォ・ディアス [ナチュラル]",
+      "url": "https://www.onibuscoffee.com/products/el-salvador-fito-montiel-2026",
+      "country": "エルサルバドル",
+      "region": "チャラテナンゴ",
+      "maker": "La Hondurita",
+      "makerKind": "農園",
+      "producer": "フィト・モンティエル、 サトス アルヌルフォ・ディアス",
+      "varieties": [
+        "パカマラ"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,550–1,700m",
+      "notes": [
+        "グレープ",
+        "トロピカルフルーツ",
+        "白桃",
+        "クリーンカップ"
+      ],
+      "price": 1879,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:peru-buena-vista-geisha",
+      "shop": "onibus",
+      "name": "ペルー / ブエナ・ビスタ［ゲイシャ］",
+      "url": "https://www.onibuscoffee.com/products/peru-buena-vista-geisha",
+      "country": "ペルー",
+      "region": "イウアマカ市、サン・イグナシオ、カハマルカ",
+      "maker": "ブエナ・ビスタ",
+      "makerKind": "農園",
+      "producer": "クレバー・ネイラ、ヴァネッサ・ネイラ",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "フリー・ウォッシュト",
+      "altitude": "1,755m",
+      "notes": [
+        "洋梨",
+        "ジャスミン",
+        "クリーンカップ"
+      ],
+      "price": 3132,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:colombia-jorge-armando-salazar",
+      "shop": "onibus",
+      "name": "コロンビア / ホルへ・アルマンド・サラザール",
+      "url": "https://www.onibuscoffee.com/products/colombia-jorge-armando-salazar",
+      "country": "コロンビア",
+      "region": "ヤクアンケール、ナリーニョ",
+      "maker": "パロ セコ",
+      "makerKind": "農園",
+      "producer": "ホルへ・アルマンド・サラザール",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,800m",
+      "notes": [
+        "マーマレード",
+        "金柑",
+        "スパイス",
+        "きび砂糖",
+        "クリーンカップ"
+      ],
+      "price": 1836,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:ethiopia-workasakaro-ripecherry-2026",
+      "shop": "onibus",
+      "name": "エチオピア / ウォルカ サカロ 完熟チェリー",
+      "url": "https://www.onibuscoffee.com/products/ethiopia-workasakaro-ripecherry-2026",
+      "country": "エチオピア",
+      "region": "ゲデブ、ゲデオゾーン最南東部、イルガチェフ地域東側",
+      "maker": "ウォルカ・サカロ",
+      "makerKind": "農園",
+      "producer": "25軒の小規模農家",
+      "varieties": [
+        "エチオピア原"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "2,050m",
+      "notes": [
+        "ストロベリージャム",
+        "白ぶどう",
+        "フローラルな香り",
+        "クリーンカップ"
+      ],
+      "price": 1701,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:coldbrewpack4",
+      "shop": "onibus",
+      "name": "コールドブリューパック 4個入り",
+      "url": "https://www.onibuscoffee.com/products/coldbrewpack4",
+      "price": 1830,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
+    },
+    {
+      "id": "onibus:decaf-ethiopia-sidamo-g2-mountain-water",
+      "shop": "onibus",
+      "name": "【デカフェ】エチオピア / シダモ G2 マウンテン ウォーター",
+      "url": "https://www.onibuscoffee.com/products/decaf-ethiopia-sidamo-g2-mountain-water",
+      "country": "エチオピア",
+      "region": "シダモ",
+      "varieties": [
+        "Arabica",
+        "アラビカ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "マウンテン ウォーター",
+      "notes": [
+        "フローラル",
+        "ストーンフルーツ"
+      ],
+      "price": 1566,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-25"
     }
   ],
+  "errors": [],
   "skipped": []
 }

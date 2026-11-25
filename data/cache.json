@@ -1133,7 +1133,7 @@
     "used": "2026-11-22"
   },
   "onibus:peru-buena-vista-geisha": {
-    "sig": "82c4afec7e80f8025c875595",
+    "sig": "7b12a5030992c632b0174174",
     "spec": "76c7925f24268252c6d9e1a8",
     "data": {
       "is_coffee_beans": true,
@@ -1163,8 +1163,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-25",
+    "used": "2026-11-25"
   },
   "onibus:colombia-jorge-armando-salazar": {
     "sig": "c8b050eca6f793096f3ea2d5",
@@ -1264,7 +1264,7 @@
     "used": "2026-11-22"
   },
   "onibus:onibus-ギフトボックス-ブレンド-シングルオリジン": {
-    "sig": "5d0fa9c8cd440baa8fce4875",
+    "sig": "ec6f4ffe7ee78cbd9dbe57b8",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1278,7 +1278,9 @@
       "producer": null,
       "station": null,
       "varieties": [],
-      "process_groups": [],
+      "process_groups": [
+        "ウォッシュト"
+      ],
       "process_note": null,
       "altitude": null,
       "roast": null,
@@ -1289,8 +1291,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-25",
+    "used": "2026-11-25"
   },
   "onibus:onibus-giftbox-blend-cupset": {
     "sig": "53d8692d9d5b503f14aaab84",
@@ -1322,7 +1324,7 @@
     "used": "2026-11-22"
   },
   "onibus:onibus-tastingset": {
-    "sig": "d47d4df2954e3776c5f3e86e",
+    "sig": "afed6b5539c7fe7d6f8b67e1",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1336,7 +1338,9 @@
       "producer": null,
       "station": null,
       "varieties": [],
-      "process_groups": [],
+      "process_groups": [
+        "ウォッシュト"
+      ],
       "process_note": null,
       "altitude": null,
       "roast": null,
@@ -1344,8 +1348,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-25",
+    "used": "2026-11-25"
   },
   "onibus:banana-bread-1": {
     "sig": "3ef873697de1550c4cac6895",
