@@ -1686,5 +1686,69 @@
     },
     "page": "2026-11-24",
     "used": "2026-11-24"
+  },
+  "lightup:karamo-ethiopia": {
+    "sig": "390520a91d82ad5755eebd57",
+    "spec": "97ba7f65a2cc121b1b98b319",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "Karamo、Bura、シダマ",
+      "maker": "Karamo WS",
+      "maker_kind": "精製所",
+      "producer": "Nigussie Gemeda Muge",
+      "station": null,
+      "varieties": [
+        "74158"
+      ],
+      "process_groups": [
+        "ハニー",
+        "アナエロビック",
+        "特殊発酵"
+      ],
+      "process_note": null,
+      "altitude": "2,320–2,400m",
+      "roast": null,
+      "notes": [
+        "ブラッドオレンジ",
+        "グレープ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-26",
+    "used": "2026-11-26"
+  },
+  "onibus:onibus-giftbox-blend3packs": {
+    "sig": "bd69637527950cc24946bde2",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "チョコレート",
+        "ワイン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-26",
+    "used": "2026-11-26"
   }
 }

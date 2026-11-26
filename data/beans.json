@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T03:21:15.409Z",
+  "generatedAt": "2026-11-26T01:21:51.274Z",
   "contact": "https://github.com/mesh-dotcom/coffee-shirube/issues",
   "shops": {
     "lightup": {
@@ -23,6 +23,34 @@
     }
   },
   "beans": [
+    {
+      "id": "lightup:karamo-ethiopia",
+      "shop": "lightup",
+      "name": "KARAMO - ETHIOPIA",
+      "url": "https://lightupcoffee.com/products/karamo-ethiopia",
+      "country": "エチオピア",
+      "region": "Karamo、Bura、シダマ",
+      "maker": "Karamo WS",
+      "makerKind": "精製所",
+      "producer": "Nigussie Gemeda Muge",
+      "varieties": [
+        "74158"
+      ],
+      "processGroups": [
+        "ハニー",
+        "アナエロビック",
+        "特殊発酵"
+      ],
+      "altitude": "2,320–2,400m",
+      "notes": [
+        "ブラッドオレンジ",
+        "グレープ"
+      ],
+      "price": 5500,
+      "grams": 100,
+      "firstSeen": "2026-11-26",
+      "checkedAt": "2026-11-26"
+    },
     {
       "id": "lightup:la-folie-guatemala",
       "shop": "lightup",
@@ -49,7 +77,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-23",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "lightup:las-colinas-costa-rica-2026",
@@ -79,7 +107,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "lightup:acacia-hills-sl28-tanzania",
@@ -108,7 +136,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "lightup:finca-tamana-lot-2-colombia",
@@ -135,7 +163,7 @@
       "price": 3100,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "lightup:el-sitio-colombia",
@@ -162,7 +190,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "lightup:simbi-rwanda-2026",
@@ -189,7 +217,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "lightup:sakura-brazil",
@@ -218,7 +246,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:springs",
@@ -243,7 +271,7 @@
       "price": 5200,
       "grams": 50,
       "firstSeen": "2026-11-24",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:biloya",
@@ -269,7 +297,7 @@
       "price": 3000,
       "grams": 150,
       "firstSeen": "2026-11-24",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:new-colombia-cauca-el-paraiso-red-plum",
@@ -295,7 +323,7 @@
       "price": 3700,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:ethiopia-nigusse-karamo-glitch-lot",
@@ -320,7 +348,7 @@
       "price": 10200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:new-panama-lost-orgin-dinu-500g",
@@ -343,7 +371,7 @@
       "price": 12200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:neg",
@@ -368,7 +396,7 @@
       "price": 11200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:chevas",
@@ -393,7 +421,7 @@
       "price": 12200,
       "grams": 50,
       "firstSeen": "2026-11-24",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:uchuva",
@@ -419,7 +447,7 @@
       "price": 3700,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:el-salvador",
@@ -444,7 +472,7 @@
       "price": 7200,
       "grams": 50,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:colombia-quindio-la-sirena-pineapple-honey",
@@ -469,7 +497,7 @@
       "price": 3700,
       "grams": 100,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:ethiopia-bench-maji-karmach-jasmin-washed",
@@ -496,7 +524,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:colombia-huila-la-reserva-passion-fruits-semi-washed",
@@ -521,7 +549,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:colombia-risaralda-milan-nitro-wash-コピー",
@@ -545,7 +573,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:kenya-nyeri-kangocho",
@@ -571,7 +599,7 @@
       "price": 2700,
       "grams": 150,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:ethiopia-guji-hambela-deri",
@@ -595,7 +623,7 @@
       "price": 2200,
       "grams": 150,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:new-colombia-la-loma-whiskey-barrel-natural-100g",
@@ -622,7 +650,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:new-ethiopia-yrgacheffe-kochere-biloya",
@@ -650,7 +678,7 @@
       "grams": 150,
       "from": true,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "glitch:new-original-drip-bag-10pc-china-dehong-yuan-yi-yuan",
@@ -676,7 +704,7 @@
       ],
       "price": 3600,
       "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:rwanda-rulindo-juru-ws",
@@ -705,7 +733,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:el-salvador-familia-diaz-la-mina",
@@ -735,7 +763,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:honduras-nelsonmoreno-catuai",
@@ -763,7 +791,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:ethiopia-chewa-muradi-honey",
@@ -791,7 +819,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:el-salvador-fito-montiel-2026",
@@ -820,7 +848,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:peru-buena-vista-geisha",
@@ -849,7 +877,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:colombia-jorge-armando-salazar",
@@ -879,7 +907,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:ethiopia-workasakaro-ripecherry-2026",
@@ -908,7 +936,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:coldbrewpack4",
@@ -918,7 +946,7 @@
       "price": 1830,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     },
     {
       "id": "onibus:decaf-ethiopia-sidamo-g2-mountain-water",
@@ -943,7 +971,7 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
-      "checkedAt": "2026-11-25"
+      "checkedAt": "2026-11-26"
     }
   ],
   "errors": [],
