@@ -1750,5 +1750,145 @@
     },
     "page": "2026-11-26",
     "used": "2026-11-26"
+  },
+  "lightup:coffee-textbook": {
+    "sig": "6223aea038ac6183d15c9031",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-27",
+    "used": "2026-11-27"
+  },
+  "lightup:black-friday2026-coffee-bag": {
+    "sig": "200197d65187ba0a3309eb51",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-27",
+    "used": "2026-11-27"
+  },
+  "lightup:black-friday2026": {
+    "sig": "87ecf7b7494cba6fffd0f425",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "タンザニア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "SL28"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-27",
+    "used": "2026-11-27"
+  },
+  "lightup:店頭受取のご予約-コーヒー福袋2027": {
+    "sig": "ba623231c36922602c83a3ae",
+    "spec": "436947104874b1d3b30a0fdb",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": "チャラテナンゴ",
+      "maker": "Santa Rosa",
+      "maker_kind": "農園",
+      "producer": "Jorge Raul Rivera Jr",
+      "station": "Eco Bike Coffee",
+      "varieties": [
+        "パカマラ"
+      ],
+      "process_groups": [
+        "ハニー"
+      ],
+      "process_note": null,
+      "altitude": "1,450–1,600m",
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-27",
+    "used": "2026-11-27"
+  },
+  "lightup:luckybag2027": {
+    "sig": "f72022f8767ac503ad24152e",
+    "spec": "436947104874b1d3b30a0fdb",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": "チャラテナンゴ",
+      "maker": "Santa Rosa",
+      "maker_kind": "農園",
+      "producer": "Jorge Raul Rivera Jr",
+      "station": "Eco Bike Coffee",
+      "varieties": [
+        "パカマラ"
+      ],
+      "process_groups": [
+        "ハニー"
+      ],
+      "process_note": null,
+      "altitude": "1,450–1,600m",
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-27",
+    "used": "2026-11-27"
   }
 }
