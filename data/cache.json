@@ -1,7 +1,7 @@
 {
   "_v": 2,
   "lightup:las-colinas-costa-rica-2026": {
-    "sig": "321b6c24cd50abff8de05e62",
+    "sig": "8ece2a9ffeab8f9f366338bb",
     "spec": "9218dd20c558df437c073a60",
     "data": {
       "is_coffee_beans": true,
@@ -33,11 +33,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:acacia-hills-sl28-tanzania": {
-    "sig": "8516aa890993c08f8ff6d7db",
+    "sig": "2b3a69fdef5f9326010c8687",
     "spec": "12e79e8d67cb264b6a73566c",
     "data": {
       "is_coffee_beans": true,
@@ -68,11 +68,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:finca-tamana-lot-2-colombia": {
-    "sig": "756d4f7c2bb4b3ef80288dde",
+    "sig": "2f9a20621755d31e14a7747d",
     "spec": "62234ca4136b8669749b9909",
     "data": {
       "is_coffee_beans": true,
@@ -102,11 +102,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:el-sitio-colombia": {
-    "sig": "42f3c716e38b2a7d7225008f",
+    "sig": "4b88989a12805447fd9da4f7",
     "spec": "6a1935f4499499cf8fa44f4c",
     "data": {
       "is_coffee_beans": true,
@@ -135,8 +135,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:simbi-rwanda-2026": {
     "sig": "ef57888cb6846b0ed40da8f6",
@@ -172,7 +172,7 @@
     "used": "2026-11-22"
   },
   "lightup:sakura-brazil": {
-    "sig": "ceee60763668a59834202888",
+    "sig": "56b8dbcc0a2bc25f32471259",
     "spec": "f8e9815e7a2edd13c2244eee",
     "data": {
       "is_coffee_beans": true,
@@ -202,11 +202,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:aillio-bullet-r2-pro": {
-    "sig": "a8bb543846cde50e59bda2f2",
+    "sig": "558e0b50b61136cae3fe4f13",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -228,11 +228,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:single-origin-tasting-set": {
-    "sig": "f00b12b967049d7867b30655",
+    "sig": "658cee206ce2f2bda0d30076",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -257,11 +257,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:ネコポスから通常発送への変更": {
-    "sig": "7432d88c6472969d14502222",
+    "sig": "0e8cae12a78e8d24141e1da7",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -283,11 +283,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:cold-brew": {
-    "sig": "e188ec01329a6e966ca38aa6",
+    "sig": "ab36da906bf7f11480cc104e",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -309,11 +309,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:coffee-gift": {
-    "sig": "4a9359ee71010b6f51302b7a",
+    "sig": "2c9de43aeec740d55e0b0234",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -335,8 +335,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:plain-canele": {
     "sig": "f12ced02977305849e554bfa",
@@ -365,7 +365,7 @@
     "used": "2026-11-22"
   },
   "glitch:new-panama-lost-orgin-dinu-500g": {
-    "sig": "99bfec5c275a2ce8f0260e38",
+    "sig": "f1bc9a63ab13debfa1ced989",
     "spec": "445972d24f54c3e6ec54ea69",
     "data": {
       "is_coffee_beans": true,
@@ -395,11 +395,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:neg": {
-    "sig": "2a748cb3526654dee87d7423",
+    "sig": "295a820618b15db02ad6b8eb",
     "spec": "d92a17924ed45c1502d306c4",
     "data": {
       "is_coffee_beans": true,
@@ -430,11 +430,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:chevas": {
-    "sig": "b74ebb3bf74d271bf9824d28",
+    "sig": "9f8d8091fa287103a60eb1f7",
     "spec": "e6b36ee606a3641acf7376cb",
     "data": {
       "is_coffee_beans": true,
@@ -464,11 +464,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:uchuva": {
-    "sig": "ab617287eb8d4de9bb1a3187",
+    "sig": "f58e8867be9b3cf539972aea",
     "spec": "40a77cdbb39353e630bc1f67",
     "data": {
       "is_coffee_beans": true,
@@ -499,11 +499,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:el-salvador": {
-    "sig": "a5698d7ef2884ff3bf22e368",
+    "sig": "72a0893647fa019af0b7641e",
     "spec": "9fed012469fb6a10df22061a",
     "data": {
       "is_coffee_beans": true,
@@ -534,11 +534,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-24",
-    "used": "2026-11-24"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:colombia-quindio-la-sirena-pineapple-honey": {
-    "sig": "6781637c2212c2060fb30805",
+    "sig": "6c95f87bd5ed63b202939b0d",
     "spec": "eeed0b1152a30cbf984553aa",
     "data": {
       "is_coffee_beans": true,
@@ -568,11 +568,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-24",
-    "used": "2026-11-24"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:ethiopia-bench-maji-karmach-jasmin-washed": {
-    "sig": "f4bf56cdbae3ae2c5a09cd2e",
+    "sig": "b9640150f804d5a7d5008dc7",
     "spec": "b97a472f72b557e900a04453",
     "data": {
       "is_coffee_beans": true,
@@ -603,11 +603,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:colombia-huila-la-reserva-passion-fruits-semi-washed": {
-    "sig": "baa821f16d965adf66f3427b",
+    "sig": "ddf5206322271362c9655d71",
     "spec": "46ce1fa4ef1d32c7cb90d13d",
     "data": {
       "is_coffee_beans": true,
@@ -637,11 +637,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:colombia-risaralda-milan-nitro-wash-コピー": {
-    "sig": "fe9126fafbfec4e6ae1c7019",
+    "sig": "866c2e9885c6de06b4e406de",
     "spec": "b6793dcf32e6cd47228c88fa",
     "data": {
       "is_coffee_beans": true,
@@ -670,8 +670,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:kenya-nyeri-magta-estate-indigo": {
     "sig": "9fdb5d90d3744782c74900b6",
@@ -743,7 +743,7 @@
     "used": "2026-11-22"
   },
   "glitch:kenya-nyeri-kangocho": {
-    "sig": "39ee31295214c86d79131a12",
+    "sig": "6b44ffcc9a23212d4965e736",
     "spec": "d0d4e75ea355650fc17b287e",
     "data": {
       "is_coffee_beans": true,
@@ -775,11 +775,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:ethiopia-guji-hambela-deri": {
-    "sig": "05a93a3b88ea977e02899986",
+    "sig": "c35c543a0ffc7063c0632583",
     "spec": "0b720f60597f12d9714186c6",
     "data": {
       "is_coffee_beans": true,
@@ -809,11 +809,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:new-colombia-la-loma-whiskey-barrel-natural-100g": {
-    "sig": "85946febe5dfa6cda3227845",
+    "sig": "84d4ad37ae7c8c82aaa49431",
     "spec": "400e9ddf79c804fb326b4747",
     "data": {
       "is_coffee_beans": true,
@@ -845,11 +845,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:new-ethiopia-yrgacheffe-kochere-biloya": {
-    "sig": "b9fd1e7ed56f7f3bedafacad",
+    "sig": "f643622a1e1db8a1d45cbf12",
     "spec": "93b58043bd8d8eb963c8e710",
     "data": {
       "is_coffee_beans": true,
@@ -882,8 +882,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:new-original-drip-bag-10pc-china-dehong-yuan-yi-yuan": {
     "sig": "1a32ecae204adeae6efb200b",
@@ -923,7 +923,7 @@
     "used": "2026-11-22"
   },
   "glitch:new-colombia-cauca-el-paraiso-red-plum": {
-    "sig": "bfdc47a0c74f77f813efc9b7",
+    "sig": "e44f332a5602486e8f0b2f89",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -955,11 +955,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:rwanda-rulindo-juru-ws": {
-    "sig": "fb3646335a426712186d12b2",
+    "sig": "c87cd09d45f4f6256cbc6720",
     "spec": "82c750a2b48e5bc7eb36653e",
     "data": {
       "is_coffee_beans": true,
@@ -990,11 +990,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:el-salvador-familia-diaz-la-mina": {
-    "sig": "04faf16c95795375351e5e3f",
+    "sig": "78921d64f5bb2dde5cfd7929",
     "spec": "47eb6c9f0e56b6933e9de63b",
     "data": {
       "is_coffee_beans": true,
@@ -1025,11 +1025,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:honduras-nelsonmoreno-catuai": {
-    "sig": "9a124d940598e40373fa840b",
+    "sig": "88b86df91e668b701e5bb986",
     "spec": "437faf1cce433a3b971ec2ab",
     "data": {
       "is_coffee_beans": true,
@@ -1059,11 +1059,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:ethiopia-chewa-muradi-honey": {
-    "sig": "367dab297536acdb44ed9cc8",
+    "sig": "3af42445790bd75a418387c5",
     "spec": "68cffd470487105284125526",
     "data": {
       "is_coffee_beans": true,
@@ -1094,11 +1094,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:el-salvador-fito-montiel-2026": {
-    "sig": "c7d9e8121a5eb33f9ec9f38c",
+    "sig": "8f8aa78fd27d4a218b2555c6",
     "spec": "265b90a7647d3d1b6cd6dd1f",
     "data": {
       "is_coffee_beans": true,
@@ -1129,11 +1129,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:peru-buena-vista-geisha": {
-    "sig": "82c4afec7e80f8025c875595",
+    "sig": "14856e8704e3d15eca2a1e6d",
     "spec": "76c7925f24268252c6d9e1a8",
     "data": {
       "is_coffee_beans": true,
@@ -1167,7 +1167,7 @@
     "used": "2026-11-28"
   },
   "onibus:colombia-jorge-armando-salazar": {
-    "sig": "c8b050eca6f793096f3ea2d5",
+    "sig": "5e61c200cea6cc1121bee4f5",
     "spec": "96e3e435108d1cace57d7a01",
     "data": {
       "is_coffee_beans": true,
@@ -1199,8 +1199,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:ethiopia-workasakaro-ripecherry-2026": {
     "sig": "61bfd4a80d3e8050933eddb0",
@@ -1238,7 +1238,7 @@
     "used": "2026-11-22"
   },
   "onibus:coldbrewpack4": {
-    "sig": "1ce53c557925b21ee4bb1a36",
+    "sig": "acc98cd2966ca8ffaa49a37d",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -1260,11 +1260,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:onibus-ギフトボックス-ブレンド-シングルオリジン": {
-    "sig": "ded814edec585de3699483c9",
+    "sig": "a7b0010781606f8a5c238717",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1324,7 +1324,7 @@
     "used": "2026-11-22"
   },
   "onibus:onibus-tastingset": {
-    "sig": "afed6b5539c7fe7d6f8b67e1",
+    "sig": "dc6d54d30350e34e0857a393",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1348,11 +1348,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-25",
-    "used": "2026-11-25"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:banana-bread-1": {
-    "sig": "3ef873697de1550c4cac6895",
+    "sig": "8583edb238d65d43ac6902e4",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1374,11 +1374,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:bananbread-pieces": {
-    "sig": "0bf6443e4ea32a5ff581c694",
+    "sig": "b453359f327a432cfa6b596b",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1400,11 +1400,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:バナナブレッド3pcks-5pcks": {
-    "sig": "c2e4622ba6d68bdae3874ead",
+    "sig": "d68a3776fd5f622a92bcb98b",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1426,11 +1426,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:minor-figures-oatmilk": {
-    "sig": "b51bfa29462a0aae7344076c",
+    "sig": "4400f0f0849db7b8d5ed42ba",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1452,11 +1452,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:decaf-ethiopia-sidamo-g2-mountain-water": {
-    "sig": "30913c4362255d8d3f3f730d",
+    "sig": "71f033909701b60742d7aa44",
     "spec": "625e51fff861f0b52a0c4f3f",
     "data": {
       "is_coffee_beans": true,
@@ -1486,11 +1486,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:onibus-blend-onibus-original-blend": {
-    "sig": "2328f2b3f343e7ea1138ee03",
+    "sig": "a3ec0882c8457e4f64e889b8",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -1517,11 +1517,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:step-blend-onibus-original": {
-    "sig": "e81b9dc69457f5f69ece1291",
+    "sig": "eb7baa8102edfde7140045f5",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -1549,11 +1549,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:city-roast-original-blend": {
-    "sig": "b6e68cba5511e1a627632328",
+    "sig": "902f03cb51f7d7beb8227864",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -1580,11 +1580,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-22",
-    "used": "2026-11-22"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:la-folie-guatemala": {
-    "sig": "0f79b44f3b983b74ea67975f",
+    "sig": "06cd807f0e2ad7026510aeaf",
     "spec": "f3c58d63525609696ee88c9b",
     "data": {
       "is_coffee_beans": true,
@@ -1615,11 +1615,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-24",
-    "used": "2026-11-24"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:springs": {
-    "sig": "7b0a61bfa0f440abcba8fc5f",
+    "sig": "a24ab95944dadfcd335de7f8",
     "spec": "c285d14751f71fd822185a75",
     "data": {
       "is_coffee_beans": true,
@@ -1649,11 +1649,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-24",
-    "used": "2026-11-24"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:biloya": {
-    "sig": "b1de1eeddaea50ccaf7ccf19",
+    "sig": "a258d3adf0470e6d0ca1b4ed",
     "spec": "b7757542b2d2f5231767445a",
     "data": {
       "is_coffee_beans": true,
@@ -1684,11 +1684,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-24",
-    "used": "2026-11-24"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:karamo-ethiopia": {
-    "sig": "390520a91d82ad5755eebd57",
+    "sig": "8db7ce3e4b58faa75a0d4f7c",
     "spec": "97ba7f65a2cc121b1b98b319",
     "data": {
       "is_coffee_beans": true,
@@ -1719,11 +1719,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-26",
-    "used": "2026-11-26"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:onibus-giftbox-blend3packs": {
-    "sig": "bd69637527950cc24946bde2",
+    "sig": "bc5c84403fbfe93aa4f2b6a0",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1748,11 +1748,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-26",
-    "used": "2026-11-26"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:coffee-textbook": {
-    "sig": "6223aea038ac6183d15c9031",
+    "sig": "7ba7dec32ae3f2c27f8e49ad",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -1774,11 +1774,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-27",
-    "used": "2026-11-27"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:black-friday2026-coffee-bag": {
-    "sig": "200197d65187ba0a3309eb51",
+    "sig": "34d344f60dee4dc82a924f8b",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1800,11 +1800,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-27",
-    "used": "2026-11-27"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:black-friday2026": {
-    "sig": "87ecf7b7494cba6fffd0f425",
+    "sig": "ac7b236e05c0cd8834494fbb",
     "spec": "",
     "data": {
       "is_coffee_beans": true,
@@ -1828,11 +1828,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-27",
-    "used": "2026-11-27"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:店頭受取のご予約-コーヒー福袋2027": {
-    "sig": "ba623231c36922602c83a3ae",
+    "sig": "b4481318d54f6f2afb242271",
     "spec": "436947104874b1d3b30a0fdb",
     "data": {
       "is_coffee_beans": false,
@@ -1858,11 +1858,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-27",
-    "used": "2026-11-27"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "lightup:luckybag2027": {
-    "sig": "f72022f8767ac503ad24152e",
+    "sig": "5636ae18c47f8f2640c5d337",
     "spec": "436947104874b1d3b30a0fdb",
     "data": {
       "is_coffee_beans": false,
@@ -1888,11 +1888,11 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-27",
-    "used": "2026-11-27"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "glitch:colombia-el-paraiso-lychee": {
-    "sig": "43a773472a4643fbab9d9d79",
+    "sig": "21fd5783a9b6cb0b2aaa4e61",
     "spec": "de465149128f7ce6a178cde0",
     "data": {
       "is_coffee_beans": true,
@@ -1927,7 +1927,7 @@
     "used": "2026-11-28"
   },
   "onibus:ethiopia-guji-dimtu": {
-    "sig": "01d6635fa6ca667ca143c292",
+    "sig": "dd9c64450326dea0de75705c",
     "spec": "8b822371976f008132449b12",
     "data": {
       "is_coffee_beans": true,
@@ -1954,6 +1954,6278 @@
         "ぶどう",
         "アールグレイティー"
       ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:holiday-holiday-special-coffee-marysabel-caballero-moises-herrera": {
+    "sig": "ba4f6d6e357552fd0d5a4bef",
+    "spec": "264f6f38af69ca46ece02986",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ホンジュラス",
+      "region": "マルカラ",
+      "maker": "El Puente",
+      "maker_kind": "農園",
+      "producer": "Marysabel Caballero & Moises Herrera",
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,600m",
+      "roast": null,
+      "notes": [
+        "タンジェリン",
+        "アプリコット",
+        "はちみつ",
+        "ローズ",
+        "紅茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:augusto-borges-espresso-brazil-1": {
+    "sig": "8be10f09e1efa8b48be6caa1",
+    "spec": "c14ca19c605f78f2c0d13094",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": null,
+      "maker": "カッパドーシア",
+      "maker_kind": "農園",
+      "producer": "アウグスト・ボルジス・フェレイラ",
+      "station": null,
+      "varieties": [
+        "Arara",
+        "アララ"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "1,100m",
+      "roast": null,
+      "notes": [
+        "タンジェリン",
+        "Walnut",
+        "ダークチョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:ab-kaguyu-kenya-1": {
+    "sig": "cb3d907f62157ef4b6374d2b",
+    "spec": "50cf7b78dba9caee7b94e43d",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": "Kirinyaga > Kerugoya",
+      "maker": "カグユコーヒーファクトリー",
+      "maker_kind": "精製所",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "SL28",
+        "SL34",
+        "バティアン",
+        "ルイル11"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,650–1,800m",
+      "roast": null,
+      "notes": [
+        "カシス",
+        "レモン",
+        "Jammy",
+        "紅茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:los-yuc-guatemala": {
+    "sig": "b0c0e7986464c69e923b2ae1",
+    "spec": "589a0a536dcd42422cdd51f5",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": "アンティグア・",
+      "maker": "ウナプ",
+      "maker_kind": "農園",
+      "producer": "ユックファミリー",
+      "station": null,
+      "varieties": [
+        "ブルボン",
+        "カトゥーラ",
+        "カトゥアイ",
+        "カティモール"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": "フリーウォッシュド",
+      "altitude": "1,500–1,980m",
+      "roast": null,
+      "notes": [
+        "りんご",
+        "レモン",
+        "パパイヤ",
+        "アーモンド"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:arbegona-espresso-ethiopia": {
+    "sig": "0408b161156df194c90023ee",
+    "spec": "fc2660dcb68c28098125cf89",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": "アルベゴナウォッシングステーション",
+      "maker_kind": "精製所",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種",
+        "74110",
+        "74112"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "2,250–2,300m",
+      "roast": null,
+      "notes": [
+        "ネクタリン",
+        "グレープ",
+        "オレンジ",
+        "フローラル"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:marysabel-caballero-moises-herrera-honduras": {
+    "sig": "b5e53cca87215b79c43c3dc1",
+    "spec": "10b44b2c1f40957b9d9fc1db",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ホンジュラス",
+      "region": "マルカラ",
+      "maker": "フィンカ エル プエンテ",
+      "maker_kind": "農園",
+      "producer": "マリザベル・キャバレロ,モイセス・エレラ",
+      "station": null,
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,600m",
+      "roast": null,
+      "notes": [
+        "ドライフルーツ",
+        "緑茶",
+        "ミルクチョコレート",
+        "Walnut"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:arbegona-ethiopia": {
+    "sig": "7f658caa1488650846ac1e1a",
+    "spec": "fc2660dcb68c28098125cf89",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": "アルベゴナウォッシングステーション",
+      "maker_kind": "精製所",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種",
+        "74110",
+        "74112"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "2,250–2,300m",
+      "roast": null,
+      "notes": [
+        "ピーチ",
+        "パッションフルーツ",
+        "アールグレイ",
+        "チョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:astrid-medina-colombia-3": {
+    "sig": "214d27e62d79c48e5056612d",
+    "spec": "4736fcc877f9d7443adb7984",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "Tolima > Planadas",
+      "maker": "ブエナ ビスタ",
+      "maker_kind": "農園",
+      "producer": "アストリッド・メディナ",
+      "station": null,
+      "varieties": [
+        "ピンクブルボン"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,900m",
+      "roast": null,
+      "notes": [
+        "アプリコット",
+        "グレープ",
+        "ハイビスカス",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:banko-gotiti-ethiopia": {
+    "sig": "4e5f58cde2e348989b6a824c",
+    "spec": "d50ac7b75793dfc2d78b9e55",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "SNNPR > Gedeo > Gedeb",
+      "maker": "アスゴリ・ウォッシング・ステーション",
+      "maker_kind": "精製所",
+      "producer": "562 small farmers(562",
+      "station": null,
+      "varieties": [
+        "ウォリショ",
+        "ディガ",
+        "デガ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "2,000–2,280m",
+      "roast": null,
+      "notes": [
+        "ピーチ",
+        "ココナッツ",
+        "シトラス",
+        "緑茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:international-fuglen-coffee-club": {
+    "sig": "d40a094d492c4d547708bdcb",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:fuglen-coffee-club": {
+    "sig": "f32a88b0f336e5b9488c7f19",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:gift-box": {
+    "sig": "b5bf717ae220bca1b10f268c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:kunywajasholangu": {
+    "sig": "8635a912f868352446f78394",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:bebermisudor": {
+    "sig": "931e10fca1c25da6d21d7c50",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "fuglen:coffeewithtimwendelboe": {
+    "sig": "eb46a5d66b7dac4f7249bc67",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:products-black-friday-set03": {
+    "sig": "0da381009bed8c3f1f60b43e",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:products-black-friday-set02": {
+    "sig": "e30ae7918d0cb4e01f39c117",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ブルボン"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:xmasblend": {
+    "sig": "b01572ed2de35653144ae725",
+    "spec": "3e715b1f1ed5aaf5766d1ccc",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": "JIN SHAN/Dula Mazoria",
+      "maker_kind": "精製所",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "カティモール",
+        "エチオピア原種",
+        "7963"
+      ],
+      "process_groups": [
+        "ナチュラル",
+        "アナエロビック"
+      ],
+      "process_note": "アナエロビックナチュラル",
+      "altitude": "2,020–2,100m",
+      "roast": "中深煎り",
+      "notes": [
+        "ベリー",
+        "スパイス",
+        "ワイン",
+        "チョコレート",
+        "シナモン",
+        "ブラックベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:xmas-giftset08": {
+    "sig": "fa434cfd1fdc22aa612b952a",
+    "spec": "8ddeef3d1769a6d0d41a7897",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "カティモール",
+        "エチオピア原種",
+        "7963"
+      ],
+      "process_groups": [
+        "ナチュラル",
+        "アナエロビック"
+      ],
+      "process_note": "アナエロビックナチュラル",
+      "altitude": "2,020–2,100m",
+      "roast": "中深煎り",
+      "notes": [
+        "ベリー",
+        "ワイン",
+        "チョコレート",
+        "シナモン",
+        "スパイス",
+        "ブラックベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:vegan-stollen": {
+    "sig": "8c88cfe47b61709c7930d6b3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ワイン",
+        "ドライフルーツ",
+        "ゆず",
+        "ナッツ",
+        "ライチ",
+        "シトラス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:el-colorido_fh": {
+    "sig": "d0a0c79f03a41d90de6d46e5",
+    "spec": "5a36f2e7f3ea96b7adf2d3e4",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": "ハラパ",
+      "maker": "グッドコーヒーファームズ×ウッドベリーコーヒー",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "パチェ",
+        "パカス",
+        "カトゥアイ",
+        "カティシック"
+      ],
+      "process_groups": [
+        "ハニー"
+      ],
+      "process_note": "ファーメンテッドハニー",
+      "altitude": "1,535–1,640m",
+      "roast": "中煎り",
+      "notes": [
+        "シトラス",
+        "チェリー",
+        "アーモンド",
+        "チョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:mug01": {
+    "sig": "75a04dcd101ea504df81c478",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:tambaya_pb_w": {
+    "sig": "983472ab1d789a0319a30200",
+    "spec": "2376aae68cea5db5fc02dfc3",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": "ニエリ",
+      "maker": "ルムキア・ファーマーズ・コーペラティブ・ソサエティ",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "SL28",
+        "SL34"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,800m",
+      "roast": null,
+      "notes": [
+        "オレンジ",
+        "プラム",
+        "カシス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:muhororo_d": {
+    "sig": "78c6ddaa85eb21650f7bc393",
+    "spec": "95212b68fa78fece867cd542",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ルワンダ",
+      "region": "ニャマシェケ",
+      "maker": "セレスティン・ルメネランガボ",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "レッドブルボン"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "1,450–1,600m",
+      "roast": "中煎り",
+      "notes": [
+        "りんご",
+        "レモン",
+        "プラム",
+        "レーズン",
+        "チェリー",
+        "ブラウンシュガー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:la-zarza_p_fn": {
+    "sig": "6d45f8a04c44eeb03309ddde",
+    "spec": "08d73be0bae6897c4834b510",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "ウイラ",
+      "maker": "サルサ農園",
+      "maker_kind": "農園",
+      "producer": "ジョナサン・ガスカ・セルナ",
+      "station": null,
+      "varieties": [
+        "パパジョ"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "1,550–1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "パパイヤ",
+        "チェリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:gargari-gutity_h_w": {
+    "sig": "e5e7c306da39966f43050e9a",
+    "spec": "8173b9fede13ee0bfa9974b2",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "イルガチェフェ",
+      "maker": "小規模農家",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,900m",
+      "roast": "浅煎り",
+      "notes": [
+        "フローラル",
+        "ピーチ",
+        "アプリコット",
+        "レモン",
+        "オレンジ",
+        "ジャスミン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:flying-puma_g_w-g": {
+    "sig": "6448b2ad820760cb00c84a89",
+    "spec": "f1f752afccb5b712cdf2f57d",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "パナマ",
+      "region": "ロス・ポソス、ボルカン地区、チリキ県",
+      "maker": "フライングピューマ農園",
+      "maker_kind": "農園",
+      "producer": "フェリペ・サルディ(ラ・パルマ&エル・トゥカン)/ホエル・ビジャルタ",
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,750–1,850m",
+      "roast": null,
+      "notes": [
+        "ベルガモット",
+        "ジャスミン",
+        "ピーチ",
+        "はちみつ",
+        "オレンジブロッサム",
+        "紅茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:autumn-blend": {
+    "sig": "02f0a58d6a3f83f2679a3ba9",
+    "spec": "bc96b9dd7724b7f2622d1a92",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中深煎り",
+      "notes": [
+        "ベリー",
+        "チェリー",
+        "ドライフルーツ",
+        "アーモンド",
+        "チョコレート",
+        "ナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:fincas-del-putushio_tm_w": {
+    "sig": "81f4111cdfc87799eb2ffd41",
+    "spec": "25132ac0e89319786d9669fd",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エクアドル",
+      "region": "ロハ",
+      "maker": "プトゥシオ農園",
+      "maker_kind": "農園",
+      "producer": "ペペ・ヒホン",
+      "station": null,
+      "varieties": [
+        "ティピカ",
+        "メホラード"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "2,222m",
+      "roast": "浅煎り",
+      "notes": [
+        "フローラル",
+        "レモン",
+        "グレープ",
+        "はちみつ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:las-ventanas_p_sw-g": {
+    "sig": "a583a979662464b6dfdb7adb",
+    "spec": "6c7d0025b5d7380ac828d355",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": "アロテペック・メタパン",
+      "maker": "ラス・ヴェンタナス農園",
+      "maker_kind": "農園",
+      "producer": "エリサ・アギラール",
+      "station": null,
+      "varieties": [
+        "パカマラ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": "セミ ウォッシュド",
+      "altitude": "1,600–1,750m",
+      "roast": null,
+      "notes": [
+        "パイナップル",
+        "マンゴー",
+        "りんご",
+        "トロピカルフルーツ",
+        "フローラル",
+        "レモン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:sttoke-homecup": {
+    "sig": "e682219d2e9485ec79314595",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:las-ventanas_p_sw": {
+    "sig": "ddc395fff102d2beb9af8e29",
+    "spec": "74b6bb1eea3c673069e16b6b",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": "アロテペック・メタパン",
+      "maker": "ラス・ヴェンタナス農園",
+      "maker_kind": "農園",
+      "producer": "エリサ・アギラール",
+      "station": null,
+      "varieties": [
+        "パカマラ"
+      ],
+      "process_groups": [
+        "ハニー"
+      ],
+      "process_note": "セミウォッシュド",
+      "altitude": "1,600–1,750m",
+      "roast": null,
+      "notes": [
+        "フローラル",
+        "レモン",
+        "りんご"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:acaciahills_k_w": {
+    "sig": "9c8d0825b6bb74c84ffd95be",
+    "spec": "e93058e00cb015bc2e548282",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "タンザニア",
+      "region": "カラツ",
+      "maker": "アカシアヒルズ農園",
+      "maker_kind": "農園",
+      "producer": "レオン&アイディーン・クリスティアナキス",
+      "station": null,
+      "varieties": [
+        "ケント"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,750–1,950m",
+      "roast": "深煎り",
+      "notes": [
+        "りんご",
+        "シトラス",
+        "プルーン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:la-cupula_b_w": {
+    "sig": "1515d9fe3e3082352b4868c5",
+    "spec": "98609f18589a7a526251db1f",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": "アンティグア",
+      "maker": "ラ・クプラ農園(フィラデルフィア農園内)",
+      "maker_kind": "農園",
+      "producer": "ロベルト・ダルトン",
+      "station": null,
+      "varieties": [
+        "ブルボン"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,650–2,100m",
+      "roast": "深煎り",
+      "notes": [
+        "りんご",
+        "オレンジ",
+        "アーモンド",
+        "チョコレート",
+        "キャラメル"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:coldbrew01": {
+    "sig": "9edf072b23f74770c7a63dc8",
+    "spec": "f06a44ca963d17cd915ebf3c",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "イルガチェフェ",
+      "maker": "イディド",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "2,150–2,300m",
+      "roast": "中浅煎り",
+      "notes": [
+        "フローラル",
+        "レモングラス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:coldbrew02": {
+    "sig": "b679acdebd791217312ef764",
+    "spec": "a80687defb2c32b88fef3f1b",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": "セラード・ミネイロ",
+      "maker": "Fazenda Tres Rios",
+      "maker_kind": "農園",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "アララ"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "1,100m",
+      "roast": "深煎り",
+      "notes": [
+        "レモン",
+        "アーモンド",
+        "チョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:liquid-coffee_original-geisha_gb": {
+    "sig": "18a3874a307b7c1fdc591fa5",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "赤ワイン",
+        "グレープ",
+        "フローラル",
+        "ハーブ",
+        "マスカット",
+        "ワイン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:liquid-coffee_geisha-blend_gb": {
+    "sig": "145e2856670cf5088edff1e8",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "フローラル",
+        "ハーブ",
+        "マスカット",
+        "ワイン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:liquid-coffee_original-blend_gb": {
+    "sig": "1500a97f7d07fa670feab3d3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "赤ワイン",
+        "グレープ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:liquid-coffee_original-blend": {
+    "sig": "4536e985a1b6858916e6a3b0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "赤ワイン",
+        "グレープ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:liquid-coffee_geisha-blend": {
+    "sig": "f374878121bd030e8e51fbf9",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "フローラル",
+        "ハーブ",
+        "マスカット",
+        "ワイン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:thageini_w": {
+    "sig": "b2e01a32ecfe746b38545170",
+    "spec": "a3ba388d1e1ee0480cb4d76f",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": "ニエリ",
+      "maker": "サゲイニ ウェットミル",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "SL28",
+        "SL34",
+        "ケニアの王道"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": "― ソーキングを行わないウォッシュド",
+      "altitude": "1,650–1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "オレンジ",
+        "グレープ",
+        "プラム",
+        "はちみつ",
+        "ブラウンシュガー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:netflix-boyfriend2_coasterset": {
+    "sig": "c5d60f0da11f1cc89124420f",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:compare-set": {
+    "sig": "eb385290590714fe2bf6990d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "チェリー",
+        "キャラメル",
+        "チョコレート",
+        "カカオ",
+        "シトラス",
+        "アーモンド"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:dark-note-blend": {
+    "sig": "e2f95bdde359d02a1e4fc890",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ブルボン"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "深煎り",
+      "notes": [
+        "シトラス",
+        "アーモンド",
+        "ダークチョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:giftbox-singlex2": {
+    "sig": "1e5ee8ba17d38b323bdfb458",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "浅煎り",
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:giftbox-singlex3": {
+    "sig": "a50f60091664fc89672544d0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "浅煎り",
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:giftbox-blendx3": {
+    "sig": "4636b86047f7a6fb533bc583",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "浅煎り",
+      "notes": [
+        "チェリー",
+        "キャラメル",
+        "チョコレート",
+        "ナッツ",
+        "カカオ",
+        "ベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:hario-coffeepress02": {
+    "sig": "2657fc4f0dcb6c304afa3c5d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "紅茶",
+        "緑茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:hario-cpc30": {
+    "sig": "73dab7f72963c896ad8345d0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:kwf155": {
+    "sig": "073e4bda94048d3d01a42ae3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:cafec-abaca-04-100": {
+    "sig": "4e9526d6f93c4c7320e3368c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:organic-granola-mix-300g": {
+    "sig": "243bf16f0b9049e83168724d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ドライフルーツ",
+        "ナッツ",
+        "メープル",
+        "レーズン",
+        "クランベリー",
+        "アーモンド"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:starter-set": {
+    "sig": "7cf3aba4ace02b55b6792e5c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:cafec-abaca-01-100": {
+    "sig": "bbb4d8ef47ca33d78b3d1182",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:simplify-the-brewer": {
+    "sig": "2164890f0696ad7eda813e1a",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:organic-pancake-mix-400-g": {
+    "sig": "7591bfffd1c24805e32e3dc0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:espresso-blend": {
+    "sig": "e3270259e87212cad01e23ff",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エルサルバドル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ウォッシュト",
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中煎り",
+      "notes": [
+        "チョコレート",
+        "ナッツ",
+        "ベリー",
+        "ブルーベリー",
+        "クローブ",
+        "シナモン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:filter-blend": {
+    "sig": "b25a6d76b26f05a9a1269a1f",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": "浅煎り",
+      "notes": [
+        "キャラメル",
+        "シトラス",
+        "チェリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:classic-blend": {
+    "sig": "bcbaf9c40475b0704d0cc045",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "インド",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "深煎り",
+      "notes": [
+        "カカオ",
+        "アーモンド",
+        "ハーブ",
+        "チェリー",
+        "チョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "woodberry:ethiopia-tade-gg-decaf": {
+    "sig": "79faa7aa807c77d22fd9334a",
+    "spec": "656d43bc0df0d3b944e27027",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "シダモ地方グジ地区シャキッソ村",
+      "maker": "タスファイ・デガガ",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種",
+        "クルミ"
+      ],
+      "process_groups": [],
+      "process_note": "マウンテンウォータープロセス",
+      "altitude": "1,800–2,000m",
+      "roast": "中煎り",
+      "notes": [
+        "キャラメル",
+        "ミルクチョコレート",
+        "ブラックベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:panama-lost-origin-landau-381-50g": {
+    "sig": "14477e5d8153f1e19ccaa94c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "パナマ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:mexico-la-joya-1": {
+    "sig": "892f1ad25aece7b31c8a439d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "メキシコ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:template-100-500g-コピー": {
+    "sig": "971f476f9441a65e1e5528d8",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:template-50-500g-コピー": {
+    "sig": "e7df8c76140ebbe5a5eeaada",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エクアドル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:ethiopia-shantawane": {
+    "sig": "f72a04fc4dbc0a2060919f50",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:panama-elida-falda-1": {
+    "sig": "9ba62d3cf8bc29f77c0e966d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "パナマ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:bolivia-los-rodriguez": {
+    "sig": "7e398e2c2a955e6c5bcdaec6",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ボリビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:ethiopia-guji-rasta": {
+    "sig": "8c956d3b58590859818b0b25",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "グジ",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:kenya-gathaithi-aa-1": {
+    "sig": "b416edba41b2ad97cc05d671",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:the-african-trio": {
+    "sig": "664b7a8e05638e87043ba1d4",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種",
+        "ルイル11",
+        "SL28",
+        "バティアン"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "leaves:the-collection": {
+    "sig": "83d698ed77780402fb647799",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:中深煎り-birhanu-dido-ビルハヌ-ディド-ethiopia-コピー": {
+    "sig": "f1527b60df32c114f5c1a09b",
+    "spec": "9768f5f0107b09ee41d6b6db",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ホンジュラス",
+      "region": "Los Andes、サンタバルバラ",
+      "maker": "El Pinabete",
+      "maker_kind": "農園",
+      "producer": "Norman Castellanos",
+      "station": null,
+      "varieties": [
+        "パカス"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "洋梨",
+        "アプリコット",
+        "バニラ",
+        "ナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:中深煎り-birhanu-dido-ビルハヌ-ディド-ethiopia-コピー-1": {
+    "sig": "bad9c194f0db85fb541de183",
+    "spec": "8392603454609b683e02d94b",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "グジ",
+      "maker": "Worka Sakaro",
+      "maker_kind": "農園",
+      "producer": "Banchayehu Geremul",
+      "station": null,
+      "varieties": [
+        "74110",
+        "74165"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "ベルガモット",
+        "アプリコット",
+        "Cardamon",
+        "紅茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:中深煎り-aricha-heirloom-natural-アリーチャethiopia-コピー": {
+    "sig": "570fd5688f431897db8b095e",
+    "spec": "e71a07e8e602484f17b53ed5",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "Halo Hartume、Gedeb、ゲデオ",
+      "maker": "Halo",
+      "maker_kind": "農園",
+      "producer": "Birhanu Dido",
+      "station": null,
+      "varieties": [
+        "74112"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "2,000–2,150m",
+      "roast": "中深煎り",
+      "notes": [
+        "ブルーベリー",
+        "キャラメル",
+        "ダークチョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:la-brazilia-ラ-ブラジリア-コロンビア150g浅煎り-コピー-1": {
+    "sig": "d5f521e80f9a38d96ca2483d",
+    "spec": "b834dd2501528652ff26d7b5",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "Gaitania、トリマ",
+      "maker": "La Brasilia",
+      "maker_kind": "農園",
+      "producer": "Didimo Guzman",
+      "station": null,
+      "varieties": [
+        "Colombia"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,760–1,950m",
+      "roast": "中深煎り",
+      "notes": [
+        "ココア",
+        "カシューナッツ",
+        "オレンジ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:中深煎り-carlos-andres-soto-castilloカルロス-アンドレス-ソトcolombia-コピー": {
+    "sig": "9fd81f633902d8d15b4852ab",
+    "spec": "ff6cd5d91f6cec8731ea9961",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ホンジュラス",
+      "region": "Chinacla、ラパス",
+      "maker": "Los Cipreses",
+      "maker_kind": "農園",
+      "producer": "Marysabel Caballero y Moises Herrera",
+      "station": null,
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,580m",
+      "roast": "中深煎り",
+      "notes": [
+        "ベイクドりんご",
+        "アプリコット",
+        "キャラメル",
+        "Sencha"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:浅煎り-hermides-meneses-pink-bourbon-エルミデス-メネセスcolombia-コピー-2": {
+    "sig": "7cdd9cac9d5c31b767a32ce7",
+    "spec": "105c5287b735f5df8ae97d22",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "San Francisco、San Antonio、トリマ",
+      "maker": "El Placer",
+      "maker_kind": "農園",
+      "producer": "Jesús Antonio Saavedra",
+      "station": null,
+      "varieties": [
+        "カスティージョ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "2,100–2,150m",
+      "roast": "浅煎り",
+      "notes": [
+        "プラム",
+        "ブラッドオレンジ",
+        "ブルーベリー",
+        "ブラウンシュガー",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:浅煎り-hermides-meneses-pink-bourbon-エルミデス-メネセスcolombia": {
+    "sig": "67e24ca73e2f4574fbb07c1a",
+    "spec": "e491a6af6f27c406aa916b1a",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "Tarqui、ウイラ",
+      "maker": "La Esperanza",
+      "maker_kind": "農園",
+      "producer": "Hermides Meneses",
+      "station": null,
+      "varieties": [
+        "ピンクブルボン"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,950m",
+      "roast": "浅煎り",
+      "notes": [
+        "パイナップル",
+        "ブラウンシュガー",
+        "Froral",
+        "White pepper"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:エンダルカチュウ-150g深煎り": {
+    "sig": "80377469e690af9a7ede605d",
+    "spec": "70f374cc667378d08efe65c7",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "グジ、Shakisso",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "2,000m",
+      "roast": "深煎り",
+      "notes": [
+        "キャラメル",
+        "グレープ",
+        "紅茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "akito:ドリップコーヒーバッグdrip-coffee-bag-10-bagのコピー-1": {
+    "sig": "765edd4e42fb911d4448412a",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:happybag-coffee2027": {
+    "sig": "213c4fca2da2b9055e19add8",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "レッドカトゥアイ"
+      ],
+      "process_groups": [
+        "ウォッシュト",
+        "アナエロビック"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:mikuji2027": {
+    "sig": "52042098fe7aa91aaf9d23f9",
+    "spec": "d80611bcb4bb764e9f429479",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": "ラマスタスファミリー",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": "1,575–1,800m",
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:premium2027": {
+    "sig": "020f4c9bc63cff720191188b",
+    "spec": "fc3b81309e1430855ed1424c",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": "アレハンドロ・モラレス",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,988m",
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:recommended-coffee-3-gift-holiday": {
+    "sig": "b7f559ed003cea8c622b4cc7",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:recommended-coffee-2-gift-holiday": {
+    "sig": "0de8ebabacb4dc477a42bc1c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:ffty-5-brumas-typica-natural-costarica": {
+    "sig": "a2134d02d1ebd112f7b3a54e",
+    "spec": "b5fdf222d464f0def120b127",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コスタリカ",
+      "region": "コスタリカ、セントラルバレー",
+      "maker": "エル・セントロ",
+      "maker_kind": "農園",
+      "producer": "ファン・ラモン・アルヴァラド・ロドリゲス",
+      "station": null,
+      "varieties": [
+        "ティピカ"
+      ],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": "1,450m",
+      "roast": "中煎り",
+      "notes": [
+        "りんご",
+        "マンダリン",
+        "はちみつ",
+        "チョコレート",
+        "シナモン",
+        "スパイス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:holiday-blend": {
+    "sig": "2276182931248de26014f40d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中煎り",
+      "notes": [
+        "シトラス",
+        "ブルーベリー",
+        "はちみつ",
+        "ベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:los-palomos-del-sur-w-colombia": {
+    "sig": "c5dd9f50619f49c1e1d53fb8",
+    "spec": "b14dab56c521ee262105df94",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "カウカ県、インサ市、アグアブランカ",
+      "maker": "ロス・パロモス・デルスール",
+      "maker_kind": "農園",
+      "producer": "ロビンソン・ピジームエ",
+      "station": null,
+      "varieties": [
+        "カトゥーラ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": "フリィウォッシュト",
+      "altitude": "1,900m",
+      "roast": "深煎り",
+      "notes": [
+        "ダークチョコレート",
+        "ココア"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:ardent-dembi-1-redhoney-ethiopia": {
+    "sig": "725e65b3b7427bc172cf8380",
+    "spec": "1ed158417d351d0d1209b7c7",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "シダマ、 ベンサ、 デンビ",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "在来種"
+      ],
+      "process_groups": [
+        "ハニー"
+      ],
+      "process_note": "レッドハニー",
+      "altitude": "2,100–2,300m",
+      "roast": "中煎り",
+      "notes": [
+        "紅茶",
+        "フローラル",
+        "はちみつ",
+        "ライム",
+        "シトラス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:ardent-idido-w-ethiopia": {
+    "sig": "19b854fb327b50b5eb65f725",
+    "spec": "7f493a974c3b1b4b8ef20819",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "イディド、 ゲデオ",
+      "maker": "ARDENT COFFEE / アシェナフィ・アーガウ",
+      "maker_kind": "生産者",
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "在来種"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,850–2,200m",
+      "roast": "中煎り",
+      "notes": [
+        "ピーチ",
+        "紅茶"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:rec-coffee-enjoy-set-coffeebag": {
+    "sig": "d13afb10e08765b6f06b07f7",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "紅茶",
+        "マカダミアナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:blend-2-set": {
+    "sig": "e70cca0b787a4364a5f634ea",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:pastry-assort2023": {
+    "sig": "eabb09c696021cf3bc6b428f",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "紅茶",
+        "マカダミアナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:pastry-petit-gift": {
+    "sig": "7fa746219db3b22436c2cc63",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "紅茶",
+        "マカダミアナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:trial-set": {
+    "sig": "8d79aadd866de3dbb5320463",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:decaf-ethiopia": {
+    "sig": "44c10f9186985680fa71970a",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "在来種"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中深煎り",
+      "notes": [
+        "ベリー",
+        "チョコレート",
+        "キャラメル"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:almond-sable": {
+    "sig": "fb610b6048731a4ab5541ee7",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:tea-nuts-pound": {
+    "sig": "da34046f76bbe6f38469c1ad",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "アールグレイ",
+        "マカダミアナッツ",
+        "アーモンド"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:chestnut-pound": {
+    "sig": "ceadf81ae0610fc9b5ab6cd6",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:lemon-pound": {
+    "sig": "880359d7f55817063c38f36e",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:fruits-caramel-pound": {
+    "sig": "12f667bd130855abbeed3ff0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:financier": {
+    "sig": "36887a6a11f078c8a9c6999f",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:cafeaulaitbase-pastry-gift-2023": {
+    "sig": "5ea768c358dcd9271437ecb3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "紅茶",
+        "マカダミアナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:3-cafe-au-lait-base-gift": {
+    "sig": "245fc0f811825901fc402a75",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:cafe-au-lait-base": {
+    "sig": "f9c3daf3e217edc4b91ad944",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:lattemonaka": {
+    "sig": "f47153008930ba9eec8db74a",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:shopper": {
+    "sig": "67110e28c96d02efd13563b0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:gift-blend-3types-set": {
+    "sig": "59315b626bd20f1551e9446d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:lucy-blend": {
+    "sig": "ed724db2339a7c7440905ff5",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中深煎り",
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:geisha-blend": {
+    "sig": "5df18180f8c18d6a61603690",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ホンジュラス",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中煎り",
+      "notes": [
+        "マンダリン",
+        "オレンジ",
+        "フローラル"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:hakata-blend": {
+    "sig": "fb1ce218752d1c503e0c4e76",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "中煎り",
+      "notes": [
+        "キャラメル",
+        "シトラス",
+        "ナッツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "rec:kissa-blend": {
+    "sig": "bd4e3b56bee249eca91d6779",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": "深煎り",
+      "notes": [
+        "チョコレート",
+        "キャラメル"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:kenya-kiangai-wet-mill-150g-5-3oz": {
+    "sig": "3d5183c9f456ab1e0d083aca",
+    "spec": "cae1913bc159af7134930fb3",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ケニア",
+      "region": "キリニャガ、Nyeri county",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "SL28",
+        "SL34"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,100–1,450m",
+      "roast": null,
+      "notes": [
+        "ベリー",
+        "ブラッドオレンジ",
+        "黒糖"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:costa-rica-ivan-gutierrez-150g-5-3oz": {
+    "sig": "886ceeea4036f8c276450e27",
+    "spec": "af854ab80479b7b90da74962",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コスタリカ",
+      "region": "Copey de Dota、Los Santos",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "process_groups": [
+        "ハニー"
+      ],
+      "process_note": null,
+      "altitude": "1,960m",
+      "roast": null,
+      "notes": [
+        "ストロベリー",
+        "フローラル",
+        "はちみつ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:himekuri-calendar-2027-2": {
+    "sig": "57366b6966c6e85561364412",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:ethiopia-worka-sakaro-ripe-cherry-150g-5-3oz": {
+    "sig": "e183c4a178e6ab8bad564432",
+    "spec": "ed593e6bce4bdafdb944a479",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "Gedeb、イルガチェフェ",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "エチオピア原種"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,900–2,100m",
+      "roast": null,
+      "notes": [
+        "グレープ",
+        "ピーチ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:big-p-t-shirt-kids-saxe-blue-1": {
+    "sig": "907e400de3ac1b6dddfcf147",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:big-p-t-shirt-kids": {
+    "sig": "1bc8847a8cd1fad2c783d988",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:lou-glass": {
+    "sig": "625a4d93fc4dcc4d58b1c830",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:brown-duck-blend-150g-5-3oz": {
+    "sig": "aaf2be20d365196878e0568f",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "オレンジ",
+        "ドライフルーツ",
+        "ミルクチョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:colombia-santuario-bourbon-150g-5-3oz": {
+    "sig": "4db92c0ff980407485543c2b",
+    "spec": "48b70e95e4cdd9ca5f0499b4",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": "Popayen、カウカ",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ブルボン"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,850–2,100m",
+      "roast": null,
+      "notes": [
+        "オレンジ",
+        "プラム",
+        "チョコレート"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:lou-drip-box": {
+    "sig": "9b44060157f87b97b936f7ac",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "paddlers:big-p-tyvek-picnic-mat": {
+    "sig": "11acac32a2e2bcb9a31542e8",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s353": {
+    "sig": "3033660e76e7ff64379cbbcd",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s215824": {
+    "sig": "554cf253cc54ec21e857c163",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "マンダリン",
+        "ドライフルーツ",
+        "レーズン",
+        "オレンジ",
+        "いちじく",
+        "プラリネ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s231529": {
+    "sig": "715fd6136964fb1fcd399a8b",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリージャム",
+        "ハニー",
+        "ラベンダー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s231526": {
+    "sig": "b2adf6edc91a6c79bd6e38cb",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "ブラックベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c231296": {
+    "sig": "e4529350122892a7bc526618",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "ハンベラ",
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [
+        "ナチュラル"
+      ],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリージャム",
+        "ハニー",
+        "ラベンダー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c231302": {
+    "sig": "e68aa42243d39c3d307081e6",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "ドライラズベリー",
+        "塩トフィー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c231290": {
+    "sig": "c5fdf94c271855be0e930c32",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "ブラックベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s230655": {
+    "sig": "a0472b778a2708b10d1aa652",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s230653": {
+    "sig": "3b1db92c85db94def1c3ddec",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "マンダリン",
+        "ドライフルーツ",
+        "いちじく",
+        "シナモン",
+        "アプリコット",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s230654": {
+    "sig": "9f38c8be5c2e1de3c0e10da2",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s230647": {
+    "sig": "6e8680a80ec054503471574f",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "マンダリン",
+        "ドライフルーツ",
+        "いちじく",
+        "シナモン",
+        "アプリコット",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s230642": {
+    "sig": "4e89d8691304122e49a551de",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "マンダリン",
+        "ドライフルーツ",
+        "いちじく",
+        "シナモン",
+        "アプリコット",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g230463": {
+    "sig": "9b45f70186693f857783dc78",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c231051": {
+    "sig": "e33c40b31ffdcfcae44ed5df",
+    "spec": "6db7601d28b9f4c8e106e9ef",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ブラジル",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "process_groups": [
+        "ナチュラル",
+        "アナエロビック"
+      ],
+      "process_note": "アナエロビックナチュラル",
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "バニラ",
+        "ドライいちじく",
+        "ストロベリー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s246": {
+    "sig": "f8663b3c0077e46bc46fa7f1",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s358": {
+    "sig": "103555ff0d4960c4cb59abc2",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g208527": {
+    "sig": "b280655ed37aa0dbb0b38df5",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c230313": {
+    "sig": "e1e587e7704f7ab8351cb22d",
+    "spec": "47fe275aea01c7b7f62246bc",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ティピカ",
+        "ティモール",
+        "ハイブリッド"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,750m",
+      "roast": null,
+      "notes": [
+        "ブラウンシュガー",
+        "プラム",
+        "グレープフルーツ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s229902": {
+    "sig": "da7d09f460057784e872e678",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ココア",
+        "トーストされたマシュマロ",
+        "グラハムクラッカー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s229899": {
+    "sig": "b27f757d7ee37cc0ab5bea21",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ココア",
+        "トーストされたマシュマロ",
+        "グラハムクラッカー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s229896": {
+    "sig": "36e98c9e2642939346f74dc3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ココア",
+        "トーストされたマシュマロ",
+        "グラハムクラッカー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s229919": {
+    "sig": "1a70252e1f4dd4ef054be3e0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ココア",
+        "トーストされたマシュマロ",
+        "グラハムクラッカー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s228998": {
+    "sig": "73f83c9c17ccc3fdcacb1804",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s228988": {
+    "sig": "ebfa0b3e13788a0f50d1e517",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c225205": {
+    "sig": "e2b81d5cd6c2bcfcf0b3351b",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ほろ苦いココア",
+        "トーストされたマシュマロ",
+        "バニラ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g313": {
+    "sig": "0748686f400d88de3bb42345",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s405": {
+    "sig": "5a1f3f4b81793d0c12cdfbd2",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s404": {
+    "sig": "23e84bfa4935fa8c7e25ad02",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "いちじく",
+        "シナモン",
+        "アプリコット",
+        "チョコレート",
+        "アーモンド"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s402": {
+    "sig": "649175024579a8df7a4f432b",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s348": {
+    "sig": "af6aac66e36ddea3ffd08161",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s261": {
+    "sig": "4a1e416b16a935719dcad9c9",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g226": {
+    "sig": "7df0ec7edea94b1c121e6cb1",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g068-a": {
+    "sig": "f2d158c8dfcfcb1286292f81",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g247": {
+    "sig": "624e0dd65221bbce2be159fb",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g246": {
+    "sig": "72808bd20169b54a3d51fadc",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s238": {
+    "sig": "512298ec8b4b1c27f5450652",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "マンダリン",
+        "ドライフルーツ",
+        "いちじく",
+        "シナモン",
+        "アプリコット",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s334": {
+    "sig": "dfd43465c895f9077b25d3f0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "マンダリン",
+        "ドライフルーツ",
+        "いちじく",
+        "シナモン",
+        "アプリコット",
+        "カカオ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g330": {
+    "sig": "ff04f2c803ce05696e3fa666",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s350": {
+    "sig": "4fbacbdeaf687d2cfee4cce7",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s352": {
+    "sig": "a5eb084d1eded254a4dc0b93",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s251": {
+    "sig": "4cab03cace990a2f3131ec3e",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s347": {
+    "sig": "d522711784704a80bcdc7946",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g223": {
+    "sig": "c8cc47ce634c1ae484d93cfe",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s345": {
+    "sig": "02d96d857135343453bf9daf",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c241": {
+    "sig": "fa31058f36b37fce153ce2cc",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "メキシコ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g201": {
+    "sig": "84f9d1a0eb41379eb14448bd",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s320": {
+    "sig": "78d17730f8ed4c243c658dde",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s295": {
+    "sig": "1835b6de8c5e7ab66b2c86ea",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s293": {
+    "sig": "43bfa5353fe0827a4a3c9990",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c001": {
+    "sig": "039f6ca0964e56f1a7419b7d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "ジャバ"
+      ],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c002": {
+    "sig": "1b4a0536c50f8aee75d5da8c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "メキシコ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ココア",
+        "トーストされたマシュマロ",
+        "グラハムクラッカー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c004": {
+    "sig": "e18bac283f527583dbd05761",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "グアテマラ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ベーキングチョコレート",
+        "オレンジゼスト",
+        "ブラウンシュガー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c003": {
+    "sig": "5c249934d4332821dfea2c09",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ゴールデンレーズン",
+        "ワイニーブルーベリー",
+        "レモンゼスト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c076": {
+    "sig": "e64100a40098a3b486b412cb",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "メキシコ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "クリームブリュレ",
+        "バニラ",
+        "キーライム"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s289": {
+    "sig": "b41afa8437f6fe72e5b059c4",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c154": {
+    "sig": "06b9625abcf18585af8ff654",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ミルクチョコレート",
+        "ピーチコンポート",
+        "トーストされたマシュマロ"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s048": {
+    "sig": "873e0e0a422a8a696451fa54",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s006": {
+    "sig": "55e62d13f893d0769237aba7",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s074": {
+    "sig": "aee6e606e771c8d25568a2fc",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s242": {
+    "sig": "dde6d3e0b16f715dfcc1fc7a",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ラズベリー",
+        "チョコレート",
+        "モラセス"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s374": {
+    "sig": "01a518aaaa27c2ffd94f7c9e",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s372": {
+    "sig": "02e3ea8f17588b9b1fe60560",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "ベトナム",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s371": {
+    "sig": "1c3e0cd93d003e7ee0f47ea0",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g327": {
+    "sig": "da3ed84fd592d686a0875caa",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s361": {
+    "sig": "cff55e76f2d4b1b9099ed7a4",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s360": {
+    "sig": "b9c288fb344c8f5c7f42794d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s359": {
+    "sig": "911829e5dd141979147a8ea2",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s346": {
+    "sig": "76d38867eeb0b944e1dc6af1",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "メキシコ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s342": {
+    "sig": "0324db286b11fabe73dd844b",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s343": {
+    "sig": "631beb40a44a0e8de7f720af",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s341": {
+    "sig": "06ee06550def5e51d312d5a7",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s344": {
+    "sig": "97056912f54da5a5ed4cd181",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c255": {
+    "sig": "edaf1ad135217a4788e7cb2a",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ダークチョコレート",
+        "モラセス",
+        "トーストされたモルト"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s336": {
+    "sig": "4d9ec9b0653387798fdd92ee",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g316": {
+    "sig": "9704cee7d06fbea3081ddf88",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g004": {
+    "sig": "e56426f7e0ad5fa130d401aa",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:s323": {
+    "sig": "858cc5011ce1baf24f41a7d3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "メキシコ",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [
+        "ブルーベリー",
+        "レモンゼスト",
+        "ゴールデンレーズン"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:c225": {
+    "sig": "39e109c6dce34265b6f3dbb1",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": false,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g231": {
+    "sig": "54419c51d94028f52545d59c",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g039-a": {
+    "sig": "4834b612a4a8e83adf8e67f3",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g193-set": {
+    "sig": "026f92861be3583ba1988a29",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g193-single": {
+    "sig": "69a52c2df14fc66f5545dadd",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g143": {
+    "sig": "1598204de4a261a6376c503d",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g083": {
+    "sig": "dcb70501bde7bcf675ddb364",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": false,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": null,
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "bluebottle:g038": {
+    "sig": "86be0be1f1d78e728e4d6a04",
+    "spec": "",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "中国",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [],
+      "process_groups": [],
+      "process_note": null,
+      "altitude": null,
+      "roast": null,
+      "notes": [],
       "price_yen": null,
       "grams": null
     },

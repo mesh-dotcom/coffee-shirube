@@ -18,7 +18,7 @@
 
 ## はじめかた
 
-1. 先に [`docs/legal-checklist.md`](docs/legal-checklist.md) の「👤 運営者の作業」を読みます（文化庁の資料を読む、3店の利用規約を目で確かめる、連絡先を用意する）。
+1. 先に [`docs/legal-checklist.md`](docs/legal-checklist.md) の「👤 運営者の作業」を読みます（文化庁の資料を読む、各店の利用規約を目で確かめる、連絡先を用意する）。
 2. GitHub で **Public** のリポジトリを作り、このフォルダの中身をすべて置きます。`.github` フォルダと `.nojekyll` も忘れずに（Mac の Finder では ⌘ + Shift + . で表示されます）。
 3. **Settings → Secrets and variables → Actions → Variables** で、`CONTACT_URL` にお問い合わせ先（専用のメールアドレスかフォームのURL）を登録します。サイトの「お問い合わせ・掲載の停止」と、収集ボットの名乗りに使います。登録しなければ、リポジトリの Issues を案内します。
 4. **Settings → Pages** で「Deploy from a branch」→ `main` / `(root)` を選びます。

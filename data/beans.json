@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-28T00:53:12.255Z",
+  "generatedAt": "2026-11-28T06:24:41.145Z",
   "contact": "https://github.com/mesh-dotcom/coffee-shirube/issues",
   "shops": {
     "lightup": {
@@ -20,6 +20,39 @@
       "name": "ONIBUS COFFEE",
       "url": "https://www.onibuscoffee.com/",
       "area": "東京（中目黒・八雲・自由が丘）、那須"
+    },
+    "fuglen": {
+      "name": "FUGLEN COFFEE ROASTERS TOKYO",
+      "url": "https://fuglencoffee.jp/",
+      "area": "東京"
+    },
+    "woodberry": {
+      "name": "WOODBERRY COFFEE",
+      "url": "https://woodberrycoffee.com/"
+    },
+    "leaves": {
+      "name": "Leaves Coffee Roasters",
+      "url": "https://shop.leavescoffee.jp/",
+      "area": "東京"
+    },
+    "akito": {
+      "name": "AKITO COFFEE",
+      "url": "https://www.akitocoffee.com/",
+      "area": "山梨（甲府）"
+    },
+    "rec": {
+      "name": "REC COFFEE",
+      "url": "https://rec-coffee.com/",
+      "area": "福岡"
+    },
+    "paddlers": {
+      "name": "PADDLERS COFFEE",
+      "url": "https://shop.paddlerscoffee.com/",
+      "area": "東京"
+    },
+    "bluebottle": {
+      "name": "BLUE BOTTLE COFFEE",
+      "url": "https://store.bluebottlecoffee.jp/"
     }
   },
   "beans": [
@@ -214,32 +247,6 @@
       "price": 2000,
       "grams": 150,
       "from": true,
-      "firstSeen": "2026-11-22",
-      "checkedAt": "2026-11-28"
-    },
-    {
-      "id": "lightup:simbi-rwanda-2026",
-      "shop": "lightup",
-      "name": "SIMBI - RWANDA",
-      "url": "https://lightupcoffee.com/products/simbi-rwanda-2026",
-      "country": "ルワンダ",
-      "region": "フイエ",
-      "maker": "Simbi WS",
-      "makerKind": "精製所",
-      "producer": "smallholders",
-      "varieties": [
-        "ブルボン"
-      ],
-      "processGroups": [
-        "ウォッシュト"
-      ],
-      "altitude": "1,800m",
-      "notes": [
-        "オレンジ",
-        "キャラメル"
-      ],
-      "price": 1800,
-      "grams": 150,
       "firstSeen": "2026-11-22",
       "checkedAt": "2026-11-28"
     },
@@ -967,6 +974,1257 @@
       "grams": 100,
       "from": true,
       "firstSeen": "2026-11-25",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:holiday-holiday-special-coffee-marysabel-caballero-moises-herrera",
+      "shop": "fuglen",
+      "name": "Holiday Special Coffee：Marysabel Caballero & Moises Herrera",
+      "url": "https://fuglencoffee.jp/products/holiday-holiday-special-coffee-marysabel-caballero-moises-herrera",
+      "country": "ホンジュラス",
+      "region": "マルカラ",
+      "maker": "El Puente",
+      "makerKind": "農園",
+      "producer": "Marysabel Caballero & Moises Herrera",
+      "varieties": [
+        "ゲイシャ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,600m",
+      "notes": [
+        "タンジェリン",
+        "アプリコット",
+        "はちみつ",
+        "ローズ",
+        "紅茶"
+      ],
+      "price": 5940,
+      "grams": 200,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:augusto-borges-espresso-brazil-1",
+      "shop": "fuglen",
+      "name": "AUGUSTO BORGES ESPRESSO / BRAZIL",
+      "url": "https://fuglencoffee.jp/products/augusto-borges-espresso-brazil-1",
+      "country": "ブラジル",
+      "maker": "カッパドーシア",
+      "makerKind": "農園",
+      "producer": "アウグスト・ボルジス・フェレイラ",
+      "varieties": [
+        "Arara",
+        "アララ"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,100m",
+      "notes": [
+        "タンジェリン",
+        "Walnut",
+        "ダークチョコレート"
+      ],
+      "price": 2900,
+      "grams": 200,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:ab-kaguyu-kenya-1",
+      "shop": "fuglen",
+      "name": "AB KAGUYU/ KENYA",
+      "url": "https://fuglencoffee.jp/products/ab-kaguyu-kenya-1",
+      "country": "ケニア",
+      "region": "Kirinyaga > Kerugoya",
+      "maker": "カグユコーヒーファクトリー",
+      "makerKind": "精製所",
+      "varieties": [
+        "SL28",
+        "SL34",
+        "バティアン",
+        "ルイル11"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,650–1,800m",
+      "notes": [
+        "カシス",
+        "レモン",
+        "Jammy",
+        "紅茶"
+      ],
+      "price": 1370,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:los-yuc-guatemala",
+      "shop": "fuglen",
+      "name": "LOS YUC / GUATEMALA",
+      "url": "https://fuglencoffee.jp/products/los-yuc-guatemala",
+      "country": "グアテマラ",
+      "region": "アンティグア・",
+      "maker": "ウナプ",
+      "makerKind": "農園",
+      "producer": "ユックファミリー",
+      "varieties": [
+        "ブルボン",
+        "カトゥーラ",
+        "カトゥアイ",
+        "カティモール"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "フリーウォッシュド",
+      "altitude": "1,500–1,980m",
+      "notes": [
+        "りんご",
+        "レモン",
+        "パパイヤ",
+        "アーモンド"
+      ],
+      "price": 1380,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:arbegona-espresso-ethiopia",
+      "shop": "fuglen",
+      "name": "ARBEGONA ESPRESSO / ETHIOPIA",
+      "url": "https://fuglencoffee.jp/products/arbegona-espresso-ethiopia",
+      "country": "エチオピア",
+      "maker": "アルベゴナウォッシングステーション",
+      "makerKind": "精製所",
+      "varieties": [
+        "エチオピア原",
+        "74110",
+        "74112"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "2,250–2,300m",
+      "notes": [
+        "ネクタリン",
+        "グレープ",
+        "オレンジ",
+        "フローラル"
+      ],
+      "price": 2910,
+      "grams": 200,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:marysabel-caballero-moises-herrera-honduras",
+      "shop": "fuglen",
+      "name": "MARYSABEL CABALLERO & MOISES HERRERA /  HONDURAS",
+      "url": "https://fuglencoffee.jp/products/marysabel-caballero-moises-herrera-honduras",
+      "country": "ホンジュラス",
+      "region": "マルカラ",
+      "maker": "フィンカ エル プエンテ",
+      "makerKind": "農園",
+      "producer": "マリザベル・キャバレロ,モイセス・エレラ",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,600m",
+      "notes": [
+        "ドライフルーツ",
+        "緑茶",
+        "ミルクチョコレート",
+        "Walnut"
+      ],
+      "price": 1340,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:arbegona-ethiopia",
+      "shop": "fuglen",
+      "name": "ARBEGONA / ETHIOPIA",
+      "url": "https://fuglencoffee.jp/products/arbegona-ethiopia",
+      "country": "エチオピア",
+      "maker": "アルベゴナウォッシングステーション",
+      "makerKind": "精製所",
+      "varieties": [
+        "エチオピア原",
+        "74110",
+        "74112"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "2,250–2,300m",
+      "notes": [
+        "ピーチ",
+        "パッションフルーツ",
+        "アールグレイ",
+        "チョコレート"
+      ],
+      "price": 1560,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:astrid-medina-colombia-3",
+      "shop": "fuglen",
+      "name": "ASTRID MEDINA / COLOMBIA",
+      "url": "https://fuglencoffee.jp/products/astrid-medina-colombia-3",
+      "country": "コロンビア",
+      "region": "Tolima > Planadas",
+      "maker": "ブエナ・ビスタ",
+      "makerKind": "農園",
+      "producer": "アストリッド・メディナ",
+      "varieties": [
+        "ピンクブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,900m",
+      "notes": [
+        "アプリコット",
+        "グレープ",
+        "ハイビスカス",
+        "カカオ"
+      ],
+      "price": 1460,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "fuglen:banko-gotiti-ethiopia",
+      "shop": "fuglen",
+      "name": "BANKO GOTITI / ETHIOPIA",
+      "url": "https://fuglencoffee.jp/products/banko-gotiti-ethiopia",
+      "country": "エチオピア",
+      "region": "SNNPR > Gedeo > Gedeb",
+      "maker": "アスゴリ・ウォッシング・ステーション",
+      "makerKind": "精製所",
+      "producer": "562 small farmers(562",
+      "varieties": [
+        "ウォリショ",
+        "ディガ",
+        "デガ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "2,000–2,280m",
+      "notes": [
+        "ピーチ",
+        "ココナッツ",
+        "シトラス",
+        "緑茶"
+      ],
+      "price": 1580,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:el-colorido_fh",
+      "shop": "woodberry",
+      "name": "グアテマラ エル・コロリド ファーメンテッド ハニー",
+      "url": "https://woodberrycoffee.com/products/el-colorido_fh",
+      "country": "グアテマラ",
+      "region": "ハラパ",
+      "maker": "グッドコーヒーファームズ×ウッドベリーコーヒー",
+      "makerKind": "生産者",
+      "varieties": [
+        "パチェ",
+        "パカス",
+        "カトゥアイ",
+        "カティシック"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "processNote": "ファーメンテッドハニー",
+      "altitude": "1,535–1,640m",
+      "roast": "中煎り",
+      "notes": [
+        "シトラス",
+        "チェリー",
+        "アーモンド",
+        "チョコレート"
+      ],
+      "price": 1512,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:tambaya_pb_w",
+      "shop": "woodberry",
+      "name": "ケニア タンバヤ ピーベリー ウォッシュド",
+      "url": "https://woodberrycoffee.com/products/tambaya_pb_w",
+      "country": "ケニア",
+      "region": "ニエリ",
+      "maker": "ルムキア・ファーマーズ・コーペラティブ・ソサエティ",
+      "makerKind": "生産者",
+      "varieties": [
+        "SL28",
+        "SL34"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,800m",
+      "notes": [
+        "オレンジ",
+        "プラム",
+        "カシス"
+      ],
+      "price": 1512,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:muhororo_d",
+      "shop": "woodberry",
+      "name": "ルワンダ ムホロロ レッドブルボン デカフェ",
+      "url": "https://woodberrycoffee.com/products/muhororo_d",
+      "country": "ルワンダ",
+      "region": "ニャマシェケ",
+      "maker": "セレスティン・ルメネランガボ",
+      "makerKind": "生産者",
+      "varieties": [
+        "レッドブルボン"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,450–1,600m",
+      "roast": "中煎り",
+      "notes": [
+        "りんご",
+        "レモン",
+        "プラム",
+        "レーズン",
+        "チェリー",
+        "ブラウンシュガー"
+      ],
+      "price": 1728,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:la-zarza_p_fn",
+      "shop": "woodberry",
+      "name": "コロンビア サルサ農園 パパジョ トロピカルフルーツフォワードラッシュ",
+      "url": "https://woodberrycoffee.com/products/la-zarza_p_fn",
+      "country": "コロンビア",
+      "region": "ウイラ",
+      "maker": "サルサ",
+      "makerKind": "農園",
+      "producer": "ジョナサン・ガスカ・セルナ",
+      "varieties": [
+        "パパジョ"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,550–1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "パパイヤ",
+        "チェリー"
+      ],
+      "price": 6480,
+      "grams": 50,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:gargari-gutity_h_w",
+      "shop": "woodberry",
+      "name": "エチオピア ガルガリ・グティティ",
+      "url": "https://woodberrycoffee.com/products/gargari-gutity_h_w",
+      "country": "エチオピア",
+      "region": "イルガチェフェ",
+      "maker": "小規模農家",
+      "makerKind": "生産者",
+      "varieties": [
+        "エチオピア原"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,900m",
+      "roast": "浅煎り",
+      "notes": [
+        "フローラル",
+        "ピーチ",
+        "アプリコット",
+        "レモン",
+        "オレンジ",
+        "ジャスミン"
+      ],
+      "price": 1512,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:fincas-del-putushio_tm_w",
+      "shop": "woodberry",
+      "name": "エクアドル プトゥシオ農園 ティピカ・メホラード ウォッシュド",
+      "url": "https://woodberrycoffee.com/products/fincas-del-putushio_tm_w",
+      "country": "エクアドル",
+      "region": "ロハ",
+      "maker": "プトゥシオ",
+      "makerKind": "農園",
+      "producer": "ペペ・ヒホン",
+      "varieties": [
+        "ティピカ",
+        "メホラード"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "2,222m",
+      "roast": "浅煎り",
+      "notes": [
+        "フローラル",
+        "レモン",
+        "グレープ",
+        "はちみつ"
+      ],
+      "price": 3240,
+      "grams": 50,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:las-ventanas_p_sw",
+      "shop": "woodberry",
+      "name": "エルサルバドル ラス・ヴェンタナス農園 パカマラ セミウォッシュド",
+      "url": "https://woodberrycoffee.com/products/las-ventanas_p_sw",
+      "country": "エルサルバドル",
+      "region": "アロテペック・メタパン",
+      "maker": "ラス・ヴェンタナス",
+      "makerKind": "農園",
+      "producer": "エリサ・アギラール",
+      "varieties": [
+        "パカマラ"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "processNote": "セミウォッシュド",
+      "altitude": "1,600–1,750m",
+      "notes": [
+        "フローラル",
+        "レモン",
+        "りんご"
+      ],
+      "price": 1836,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:acaciahills_k_w",
+      "shop": "woodberry",
+      "name": "タンザニア アカシアヒルズ農園  ケント ウォッシュド",
+      "url": "https://woodberrycoffee.com/products/acaciahills_k_w",
+      "country": "タンザニア",
+      "region": "カラツ",
+      "maker": "アカシアヒルズ",
+      "makerKind": "農園",
+      "producer": "レオン&アイディーン・クリスティアナキス",
+      "varieties": [
+        "ケント"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,750–1,950m",
+      "roast": "深煎り",
+      "notes": [
+        "りんご",
+        "シトラス",
+        "プルーン"
+      ],
+      "price": 1944,
+      "grams": 200,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:la-cupula_b_w",
+      "shop": "woodberry",
+      "name": "グアテマラ ラ・クプラ農園 ブルボン ウォッシュド",
+      "url": "https://woodberrycoffee.com/products/la-cupula_b_w",
+      "country": "グアテマラ",
+      "region": "アンティグア・",
+      "maker": "ラ・クプラ農園(フィラデルフィア農園内)",
+      "makerKind": "農園",
+      "producer": "ロベルト・ダルトン",
+      "varieties": [
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,650–2,100m",
+      "roast": "深煎り",
+      "notes": [
+        "りんご",
+        "オレンジ",
+        "アーモンド",
+        "チョコレート",
+        "キャラメル"
+      ],
+      "price": 1944,
+      "grams": 200,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:thageini_w",
+      "shop": "woodberry",
+      "name": "ケニア サゲイニ",
+      "url": "https://woodberrycoffee.com/products/thageini_w",
+      "country": "ケニア",
+      "region": "ニエリ",
+      "maker": "サゲイニ ウェットミル",
+      "makerKind": "生産者",
+      "varieties": [
+        "SL28",
+        "SL34",
+        "ケニアの王道"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "― ソーキングを行わないウォッシュド",
+      "altitude": "1,650–1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "オレンジ",
+        "グレープ",
+        "プラム",
+        "はちみつ",
+        "ブラウンシュガー"
+      ],
+      "price": 12960,
+      "grams": 1000,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "woodberry:ethiopia-tade-gg-decaf",
+      "shop": "woodberry",
+      "name": "エチオピア タデ農園 デカフェ",
+      "url": "https://woodberrycoffee.com/products/ethiopia-tade-gg-decaf",
+      "country": "エチオピア",
+      "region": "シダモ地方グジ地区シャキッソ村",
+      "maker": "タスファイ・デガガ",
+      "makerKind": "生産者",
+      "varieties": [
+        "エチオピア原",
+        "クルミ"
+      ],
+      "processNote": "マウンテンウォータープロセス",
+      "altitude": "1,800–2,000m",
+      "roast": "中煎り",
+      "notes": [
+        "キャラメル",
+        "ミルクチョコレート",
+        "ブラックベリー"
+      ],
+      "price": 2052,
+      "grams": 200,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:panama-lost-origin-landau-381-50g",
+      "shop": "leaves",
+      "name": "Panama Lost Origin Gales #369",
+      "url": "https://shop.leavescoffee.jp/products/panama-lost-origin-landau-381-50g",
+      "country": "パナマ",
+      "price": 12200,
+      "grams": 50,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:mexico-la-joya-1",
+      "shop": "leaves",
+      "name": "Mexico La Joya #23",
+      "url": "https://shop.leavescoffee.jp/products/mexico-la-joya-1",
+      "country": "メキシコ",
+      "price": 8400,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:template-100-500g-コピー",
+      "shop": "leaves",
+      "name": "Ethiopia Wene Age Mariwo",
+      "url": "https://shop.leavescoffee.jp/products/template-100-500g-コピー",
+      "country": "エチオピア",
+      "price": 3700,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:template-50-500g-コピー",
+      "shop": "leaves",
+      "name": "Ecuador Fincas Del Putushio",
+      "url": "https://shop.leavescoffee.jp/products/template-50-500g-コピー",
+      "country": "エクアドル",
+      "price": 7400,
+      "grams": 50,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:ethiopia-shantawane",
+      "shop": "leaves",
+      "name": "Ethiopia Shantawane",
+      "url": "https://shop.leavescoffee.jp/products/ethiopia-shantawane",
+      "country": "エチオピア",
+      "price": 1800,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:panama-elida-falda-1",
+      "shop": "leaves",
+      "name": "Panama Elida Falda",
+      "url": "https://shop.leavescoffee.jp/products/panama-elida-falda-1",
+      "country": "パナマ",
+      "price": 9200,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:bolivia-los-rodriguez",
+      "shop": "leaves",
+      "name": "Bolivia Los Rodriguez",
+      "url": "https://shop.leavescoffee.jp/products/bolivia-los-rodriguez",
+      "country": "ボリビア",
+      "price": 4000,
+      "grams": 100,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:ethiopia-guji-rasta",
+      "shop": "leaves",
+      "name": "Ethiopia Guji Rasta",
+      "url": "https://shop.leavescoffee.jp/products/ethiopia-guji-rasta",
+      "country": "エチオピア",
+      "region": "グジ",
+      "price": 1800,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "leaves:kenya-gathaithi-aa-1",
+      "shop": "leaves",
+      "name": "Kenya Gathaithi AA",
+      "url": "https://shop.leavescoffee.jp/products/kenya-gathaithi-aa-1",
+      "country": "ケニア",
+      "price": 2000,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:中深煎り-birhanu-dido-ビルハヌ-ディド-ethiopia-コピー",
+      "shop": "akito",
+      "name": "Norman Castellanos  ノルマン・カステジャノス (Honduras)",
+      "url": "https://www.akitocoffee.com/products/中深煎り-birhanu-dido-ビルハヌ-ディド-ethiopia-コピー",
+      "country": "ホンジュラス",
+      "region": "Los Andes、サンタバルバラ",
+      "maker": "El Pinabete",
+      "makerKind": "農園",
+      "producer": "Norman Castellanos",
+      "varieties": [
+        "パカス"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "洋梨",
+        "アプリコット",
+        "バニラ",
+        "ナッツ"
+      ],
+      "price": 2600,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:中深煎り-birhanu-dido-ビルハヌ-ディド-ethiopia-コピー-1",
+      "shop": "akito",
+      "name": "Banchayehu Geremul バンチャイユ・ゲレム(Ethiopia)",
+      "url": "https://www.akitocoffee.com/products/中深煎り-birhanu-dido-ビルハヌ-ディド-ethiopia-コピー-1",
+      "country": "エチオピア",
+      "region": "グジ",
+      "maker": "Worka Sakaro",
+      "makerKind": "農園",
+      "producer": "Banchayehu Geremul",
+      "varieties": [
+        "74110",
+        "74165"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,800m",
+      "roast": "浅煎り",
+      "notes": [
+        "ベルガモット",
+        "アプリコット",
+        "Cardamon",
+        "紅茶"
+      ],
+      "price": 2420,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:中深煎り-aricha-heirloom-natural-アリーチャethiopia-コピー",
+      "shop": "akito",
+      "name": "Birhanu Dido ビルハヌ・ディド (Ethiopia)",
+      "url": "https://www.akitocoffee.com/products/中深煎り-aricha-heirloom-natural-アリーチャethiopia-コピー",
+      "country": "エチオピア",
+      "region": "Halo Hartume、Gedeb、ゲデオ",
+      "maker": "Halo",
+      "makerKind": "農園",
+      "producer": "Birhanu Dido",
+      "varieties": [
+        "74112"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "2,000–2,150m",
+      "roast": "中深煎り",
+      "notes": [
+        "ブルーベリー",
+        "キャラメル",
+        "ダークチョコレート"
+      ],
+      "price": 2180,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:la-brazilia-ラ-ブラジリア-コロンビア150g浅煎り-コピー-1",
+      "shop": "akito",
+      "name": "Didimo Guzman Colombia ディデイモ・グズマン (Colombia)",
+      "url": "https://www.akitocoffee.com/products/la-brazilia-ラ-ブラジリア-コロンビア150g浅煎り-コピー-1",
+      "country": "コロンビア",
+      "region": "Gaitania、トリマ",
+      "maker": "La Brasilia",
+      "makerKind": "農園",
+      "producer": "Didimo Guzman",
+      "varieties": [
+        "Colombia"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,760–1,950m",
+      "roast": "中深煎り",
+      "notes": [
+        "ココア",
+        "カシューナッツ",
+        "オレンジ"
+      ],
+      "price": 2430,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:中深煎り-carlos-andres-soto-castilloカルロス-アンドレス-ソトcolombia-コピー",
+      "shop": "akito",
+      "name": "Marysabel Caballero y Moises Herrera Catuai マリーサベル・カバジェロ＆モイセス・エレーラ(Honduras)",
+      "url": "https://www.akitocoffee.com/products/中深煎り-carlos-andres-soto-castilloカルロス-アンドレス-ソトcolombia-コピー",
+      "country": "ホンジュラス",
+      "region": "Chinacla、ラパス",
+      "maker": "Los Cipreses",
+      "makerKind": "農園",
+      "producer": "Marysabel Caballero y Moises Herrera",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,580m",
+      "roast": "中深煎り",
+      "notes": [
+        "ベイクドりんご",
+        "アプリコット",
+        "キャラメル",
+        "Sencha"
+      ],
+      "price": 2110,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:浅煎り-hermides-meneses-pink-bourbon-エルミデス-メネセスcolombia-コピー-2",
+      "shop": "akito",
+      "name": "Jesús Antonio Saavedra Castillo ヘスス・アントニオ・サアベドラ(Colombia)",
+      "url": "https://www.akitocoffee.com/products/浅煎り-hermides-meneses-pink-bourbon-エルミデス-メネセスcolombia-コピー-2",
+      "country": "コロンビア",
+      "region": "San Francisco、San Antonio、トリマ",
+      "maker": "El Placer",
+      "makerKind": "農園",
+      "producer": "Jesús Antonio Saavedra",
+      "varieties": [
+        "カスティージョ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "2,100–2,150m",
+      "roast": "浅煎り",
+      "notes": [
+        "プラム",
+        "ブラッドオレンジ",
+        "ブルーベリー",
+        "ブラウンシュガー",
+        "カカオ"
+      ],
+      "price": 2930,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:浅煎り-hermides-meneses-pink-bourbon-エルミデス-メネセスcolombia",
+      "shop": "akito",
+      "name": "Hermides Meneses Pink Bourbon エルミデス・メネセス(Colombia)",
+      "url": "https://www.akitocoffee.com/products/浅煎り-hermides-meneses-pink-bourbon-エルミデス-メネセスcolombia",
+      "country": "コロンビア",
+      "region": "Tarqui、ウイラ",
+      "maker": "La Esperanza",
+      "makerKind": "農園",
+      "producer": "Hermides Meneses",
+      "varieties": [
+        "ピンクブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,950m",
+      "roast": "浅煎り",
+      "notes": [
+        "パイナップル",
+        "ブラウンシュガー",
+        "Froral",
+        "White pepper"
+      ],
+      "price": 2980,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "akito:エンダルカチュウ-150g深煎り",
+      "shop": "akito",
+      "name": "ETHIOPIA Decaf デカフェ(Ethiopia)",
+      "url": "https://www.akitocoffee.com/products/エンダルカチュウ-150g深煎り",
+      "country": "エチオピア",
+      "region": "グジ、Shakisso",
+      "varieties": [
+        "エチオピア原"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "2,000m",
+      "roast": "深煎り",
+      "notes": [
+        "キャラメル",
+        "グレープ",
+        "紅茶"
+      ],
+      "price": 2290,
+      "grams": 150,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "rec:ffty-5-brumas-typica-natural-costarica",
+      "shop": "rec",
+      "name": "ブルマス ティピカ ナチュラル / コスタリカ",
+      "url": "https://rec-coffee.com/products/ffty-5-brumas-typica-natural-costarica",
+      "country": "コスタリカ",
+      "region": "コスタリカ、セントラルバレー",
+      "maker": "エル・セントロ",
+      "makerKind": "農園",
+      "producer": "ファン・ラモン・アルヴァラド・ロドリゲス",
+      "varieties": [
+        "ティピカ"
+      ],
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "altitude": "1,450m",
+      "roast": "中煎り",
+      "notes": [
+        "りんご",
+        "マンダリン",
+        "はちみつ",
+        "チョコレート",
+        "シナモン",
+        "スパイス"
+      ],
+      "price": 2180,
+      "grams": 100,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "rec:los-palomos-del-sur-w-colombia",
+      "shop": "rec",
+      "name": "ロス・パロモス・デルスール ウォッシュト / コロンビア",
+      "url": "https://rec-coffee.com/products/los-palomos-del-sur-w-colombia",
+      "country": "コロンビア",
+      "region": "カウカ県、インサ市、アグアブランカ",
+      "maker": "ロス・パロモス・デルスール",
+      "makerKind": "農園",
+      "producer": "ロビンソン・ピジームエ",
+      "varieties": [
+        "カトゥーラ"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "processNote": "フリィウォッシュト",
+      "altitude": "1,900m",
+      "roast": "深煎り",
+      "notes": [
+        "ダークチョコレート",
+        "ココア"
+      ],
+      "price": 1480,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "rec:ardent-dembi-1-redhoney-ethiopia",
+      "shop": "rec",
+      "name": "アーデント デンビ #1 レッドハニー/ エチオピア",
+      "url": "https://rec-coffee.com/products/ardent-dembi-1-redhoney-ethiopia",
+      "country": "エチオピア",
+      "region": "シダマ、 ベンサ、 デンビ",
+      "varieties": [
+        "在来"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "processNote": "レッドハニー",
+      "altitude": "2,100–2,300m",
+      "roast": "中煎り",
+      "notes": [
+        "紅茶",
+        "フローラル",
+        "はちみつ",
+        "ライム",
+        "シトラス"
+      ],
+      "price": 2890,
+      "grams": 100,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "rec:ardent-idido-w-ethiopia",
+      "shop": "rec",
+      "name": "アーデント イディド ウォッシュト / エチオピア",
+      "url": "https://rec-coffee.com/products/ardent-idido-w-ethiopia",
+      "country": "エチオピア",
+      "region": "イディド、 ゲデオ",
+      "maker": "ARDENT COFFEE / アシェナフィ・アーガウ",
+      "makerKind": "生産者",
+      "varieties": [
+        "在来"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,850–2,200m",
+      "roast": "中煎り",
+      "notes": [
+        "ピーチ",
+        "紅茶"
+      ],
+      "price": 1540,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "rec:decaf-ethiopia",
+      "shop": "rec",
+      "name": "ディカフェ / エチオピア",
+      "url": "https://rec-coffee.com/products/decaf-ethiopia",
+      "country": "エチオピア",
+      "varieties": [
+        "在来"
+      ],
+      "roast": "中深煎り",
+      "notes": [
+        "ベリー",
+        "チョコレート",
+        "キャラメル"
+      ],
+      "price": 1490,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "paddlers:kenya-kiangai-wet-mill-150g-5-3oz",
+      "shop": "paddlers",
+      "name": "KENYA KIANGAI WET MILL 150g (5.3oz)",
+      "url": "https://shop.paddlerscoffee.com/products/kenya-kiangai-wet-mill-150g-5-3oz",
+      "country": "ケニア",
+      "region": "キリニャガ、Nyeri county",
+      "varieties": [
+        "SL28",
+        "SL34"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,100–1,450m",
+      "notes": [
+        "ベリー",
+        "ブラッドオレンジ",
+        "黒糖"
+      ],
+      "price": 2400,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "paddlers:costa-rica-ivan-gutierrez-150g-5-3oz",
+      "shop": "paddlers",
+      "name": "COSTA RICA IVAN GUTIERREZ 150g (5.3oz)",
+      "url": "https://shop.paddlerscoffee.com/products/costa-rica-ivan-gutierrez-150g-5-3oz",
+      "country": "コスタリカ",
+      "region": "Copey de Dota、Los Santos",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ハニー"
+      ],
+      "altitude": "1,960m",
+      "notes": [
+        "ストロベリー",
+        "フローラル",
+        "はちみつ"
+      ],
+      "price": 2500,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "paddlers:ethiopia-worka-sakaro-ripe-cherry-150g-5-3oz",
+      "shop": "paddlers",
+      "name": "ETHIOPIA WORKA SAKARO RIPE CHERRY 150g (5.3oz)",
+      "url": "https://shop.paddlerscoffee.com/products/ethiopia-worka-sakaro-ripe-cherry-150g-5-3oz",
+      "country": "エチオピア",
+      "region": "Gedeb、イルガチェフェ",
+      "varieties": [
+        "エチオピア原"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,900–2,100m",
+      "notes": [
+        "グレープ",
+        "ピーチ"
+      ],
+      "price": 2700,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "paddlers:colombia-santuario-bourbon-150g-5-3oz",
+      "shop": "paddlers",
+      "name": "COLOMBIA SANTUARIO BOURBON 150g (5.3oz)",
+      "url": "https://shop.paddlerscoffee.com/products/colombia-santuario-bourbon-150g-5-3oz",
+      "country": "コロンビア",
+      "region": "Popayen、カウカ",
+      "varieties": [
+        "ブルボン"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,850–2,100m",
+      "notes": [
+        "オレンジ",
+        "プラム",
+        "チョコレート"
+      ],
+      "price": 2400,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "bluebottle:c231296",
+      "shop": "bluebottle",
+      "name": "ウィンター シングルオリジン エチオピア・ハンベラ・メタド・ナチュラル",
+      "url": "https://store.bluebottlecoffee.jp/products/c231296",
+      "country": "エチオピア",
+      "region": "ハンベラ",
+      "processGroups": [
+        "ナチュラル"
+      ],
+      "notes": [
+        "ブルーベリージャム",
+        "ハニー",
+        "ラベンダー"
+      ],
+      "price": 2800,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "bluebottle:c231051",
+      "shop": "bluebottle",
+      "name": "ブラジル・FAF・セラ ド シガーノ・ジョアン ハミルトン・ナチュラル",
+      "url": "https://store.bluebottlecoffee.jp/products/c231051",
+      "country": "ブラジル",
+      "varieties": [
+        "カトゥアイ"
+      ],
+      "processGroups": [
+        "ナチュラル",
+        "アナエロビック"
+      ],
+      "processNote": "アナエロビックナチュラル",
+      "notes": [
+        "バニラ",
+        "ドライいちじく",
+        "ストロベリー"
+      ],
+      "price": 1563,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "bluebottle:c230313",
+      "shop": "bluebottle",
+      "name": "コロンビア・ウィラ・ペドロ ネル トルヒーリョ・ウォッシュド",
+      "url": "https://store.bluebottlecoffee.jp/products/c230313",
+      "country": "コロンビア",
+      "varieties": [
+        "ティピカ",
+        "ティモール",
+        "ハイブリッド"
+      ],
+      "processGroups": [
+        "ウォッシュト"
+      ],
+      "altitude": "1,750m",
+      "notes": [
+        "ブラウンシュガー",
+        "プラム",
+        "グレープフルーツ"
+      ],
+      "price": 1484,
+      "grams": 100,
+      "from": true,
+      "firstSeen": "2026-11-28",
+      "checkedAt": "2026-11-28"
+    },
+    {
+      "id": "bluebottle:c076",
+      "shop": "bluebottle",
+      "name": "ナイトライト・ディカフェ",
+      "url": "https://store.bluebottlecoffee.jp/products/c076",
+      "country": "メキシコ",
+      "notes": [
+        "クリームブリュレ",
+        "バニラ",
+        "キーライム"
+      ],
+      "price": 2150,
+      "firstSeen": "2026-11-28",
       "checkedAt": "2026-11-28"
     }
   ],

@@ -84,6 +84,167 @@
           "at": "2026-11-22"
         }
       }
+    },
+    {
+      "id": "fuglen",
+      "name": "FUGLEN COFFEE ROASTERS TOKYO",
+      "url": "https://fuglencoffee.jp/",
+      "area": "東京",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "url": "https://fuglencoffee.jp/policies/terms-of-service",
+        "clauses": [
+          "第5条: サーバーや運営の妨害、他の利用者の個人情報の収集などの禁止（自動収集・転載・商業利用の禁止はなし）"
+        ],
+        "note": "自動収集・転載・情報の商業利用を禁止する条項はなし",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）",
+        "watch": {
+          "automated": "not_mentioned",
+          "commercial": "not_mentioned",
+          "reproduction": "not_mentioned",
+          "at": "2026-11-28"
+        }
+      }
+    },
+    {
+      "id": "woodberry",
+      "name": "WOODBERRY COFFEE",
+      "url": "https://woodberrycoffee.com/",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "url": "https://woodberrycoffee.com/policies/terms-of-service",
+        "clauses": [
+          "第14条: 過度な負荷、不正アクセス、システムの解析、他の利用者の情報の収集などの禁止（自動収集・転載・商業利用の禁止はなし）"
+        ],
+        "note": "自動収集・転載・情報の商業利用を禁止する条項はなし",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）",
+        "watch": {
+          "automated": "not_mentioned",
+          "commercial": "not_mentioned",
+          "reproduction": "not_mentioned",
+          "at": "2026-11-28"
+        }
+      }
+    },
+    {
+      "id": "leaves",
+      "name": "Leaves Coffee Roasters",
+      "url": "https://shop.leavescoffee.jp/",
+      "area": "東京",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "clauses": [
+          "利用規約のページなし（ストアにあるのは配送・特定商取引法・プライバシーのページ）"
+        ],
+        "note": "利用規約のページがなく、自動収集・転載・情報の商業利用を禁止する定めは見当たらない",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約のページが無いことをサイトで確認。公開前に目視で再確認してください）"
+      }
+    },
+    {
+      "id": "akito",
+      "name": "AKITO COFFEE",
+      "url": "https://www.akitocoffee.com/",
+      "area": "山梨（甲府）",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "clauses": [
+          "利用規約のページなし（ストアにあるのは特定商取引法・プライバシーのページ）"
+        ],
+        "note": "利用規約のページがなく、自動収集・転載・情報の商業利用を禁止する定めは見当たらない",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約のページが無いことをサイトで確認。公開前に目視で再確認してください）"
+      }
+    },
+    {
+      "id": "rec",
+      "name": "REC COFFEE",
+      "url": "https://rec-coffee.com/",
+      "area": "福岡",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "clauses": [
+          "利用規約のページなし（「ご利用ガイド」は注文の手順の説明で、禁止事項の定めはなし）"
+        ],
+        "note": "利用規約のページがなく、自動収集・転載・情報の商業利用を禁止する定めは見当たらない",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約のページが無いことをサイトで確認。公開前に目視で再確認してください）"
+      }
+    },
+    {
+      "id": "paddlers",
+      "name": "PADDLERS COFFEE",
+      "url": "https://shop.paddlerscoffee.com/",
+      "area": "東京",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "clauses": [
+          "利用規約のページなし（ショッピングガイドの中身は特定商取引法の表記とプライバシー）"
+        ],
+        "note": "利用規約のページがなく、自動収集・転載・情報の商業利用を禁止する定めは見当たらない",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約のページが無いことをサイトで確認。公開前に目視で再確認してください）"
+      }
+    },
+    {
+      "id": "bluebottle",
+      "name": "BLUE BOTTLE COFFEE",
+      "url": "https://store.bluebottlecoffee.jp/",
+      "enabled": true,
+      "addedBy": "manage",
+      "addedAt": "2026-11-28",
+      "terms": {
+        "status": "ok",
+        "commercial": "ok",
+        "reproduction": "not_mentioned",
+        "url": "https://store.bluebottlecoffee.jp/pages/user-guide",
+        "clauses": [
+          "ご利用ガイド: 注文・支払い・配送・返品などの案内で、禁止事項の定めはなし",
+          "コミュニティガイドライン: 公式アカウントへの投稿やカフェでの撮影のルール（ストアの情報の利用についての定めではない）"
+        ],
+        "note": "自動収集・転載・情報の商業利用を禁止する定めはなし",
+        "manual": true,
+        "checkedAt": "2026-11-28",
+        "checkedBy": "Claude（規約ページを読んで確認。公開前に目視で再確認してください）"
+      }
     }
   ]
 }
