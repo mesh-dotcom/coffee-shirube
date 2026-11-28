@@ -29,7 +29,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
   fetchCollectablePage, isShopify, listShopify, pickPrice, htmlToText, mainText, claude, toolInput,
-  readJSON, writeJSON, sha, today, daysBetween, isAllowed, isHardStop, termsGate, stepSummary, warn,
+  readJSON, writeJSON, sha, today, daysBetween, isAllowed, isHardStop, isTemporary, termsGate, stepSummary, warn,
 } from './lib.mjs';
 import { extractByRules, isWeak, pickLinksByRules, specBlock, RULES_VERSION } from './rules.mjs';
 
@@ -491,8 +491,9 @@ async function main() {
       // 途中で止まったら、この回に確かめられた分に、前回までの情報（7日以内）を足す
       // 価格の通貨が円でなかったときは、前回までの価格も正しいとは言えないので残さない
       const carry = e.currency ? [] : (prev.beans || []).filter((b) => b.shop === shop.id && fresh0(b) && !seen.has(b.id));
-      log(`  ! 取得できませんでした: ${e.message}（この回に確かめた ${mine.length}件に、${STALE_DAYS}日以内に確かめた ${carry.length}件を足して載せます）`);
-      errors.push({ shop: shop.id, message: e.message });
+      const message = isTemporary(e) ? `お店が混んでいるか、一時的に開けません（${e.message}）。次の収集で取りなおします` : e.message;
+      log(`  ! 取得できませんでした: ${message}（この回に確かめた ${mine.length}件に、${STALE_DAYS}日以内に確かめた ${carry.length}件を足して載せます）`);
+      errors.push({ shop: shop.id, message });
       beans.push(...mine, ...carry);
     }
   }

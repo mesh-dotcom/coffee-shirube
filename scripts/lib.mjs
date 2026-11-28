@@ -178,6 +178,8 @@ async function politeFetchOnce(url, { as = 'text', timeout = 20000, full = false
 
 // お店から「少し間をおいて」と言われたら、そのお店の取得はその回で打ち切る
 export const isHardStop = (e) => e && (e.status === 429 || e.status >= 500);
+// お店側が混んでいる・不調、または時間切れ・つながらないなど、日をおけば直りそうな失敗
+export const isTemporary = (e) => !!e && (isHardStop(e) || e.name === 'TimeoutError' || e.name === 'AbortError' || (e instanceof TypeError && /fetch failed/i.test(e.message)));
 
 // ページの meta robots や X-Robots-Tag で収集を断っている（noindex / none）か
 export function robotsMetaBlocks(html, headers) {
@@ -231,9 +233,10 @@ export function mainText(html) {
 }
 
 /* ---------- Shopify ---------- */
-const GOODS_JA = /(ドリッパー|電動ミル|手動ミル|コーヒーミル|グラインダー|ケトル|マグカップ|グラス|タンブラー|ボトル|Tシャツ|トートバッグ|ギフトカード|定期便|セミナー|ツアー|ペーパーフィルター|サーバー|シロップ|クッキー|スイーツ|ドリップバッグ|コーヒーバッグ|ステッカー|スプーン|キャニスター|スケール|ワークショップ)/;
-const GOODS_EN = /\b(dripper|grinder|kettle|mug|tumbler|bottle|t-?shirt|tee|tote|gift ?card|subscription|seminar|workshop|tour|filter paper|syrup|cookie|drip ?bags?|coffee ?bags?|sticker|spoon|canister|scale)\b/i;
-const GOODS_TYPE = /(グッズ|器具|雑貨|goods|equipment|merch|apparel|accessor)/i;
+// マグ・カップは、産地の「マグダレナ」や「カップ・オブ・エクセレンス（Cup of Excellence）」を外さない書き方にする
+const GOODS_JA = /(ドリッパー|電動ミル|手動ミル|コーヒーミル|グラインダー|ケトル|マグカップ|マグ(?![ァ-ヶー])|カップ(?![・\s]*オブ)|グラス|タンブラー|ボトル|トラベラー|ブリュワー|ブリューワー|Tシャツ|トートバッグ|ギフトカード|定期便|セミナー|ツアー|ペーパーフィルター|サーバー|シロップ|クッキー|スイーツ|ドリップバッグ|コーヒーバッグ|ステッカー|スプーン|キャニスター|スケール|ワークショップ|写真集|書籍)/;
+const GOODS_EN = /\b(dripper|grinder|kettle|mug|cups?(?!\s+of\b)|tumbler|bottle|travell?er|brewer|t-?shirt|tee|tote|gift ?card|subscription|seminar|workshop|tour|filter paper|syrup|cookie|drip ?bags?|coffee ?bags?|sticker|spoon|canister|scale)\b/i;
+const GOODS_TYPE = /(グッズ|器具|雑貨|ドリンクウェア|食器|お酒|酒類|書籍|goods|equipment|merch|apparel|accessor|drinkware|tableware|alcohol|\bbooks?\b)/i;
 
 // 明らかに豆ではない商品を、読み取りの前にふるい落とす
 export function looksLikeGoods(title, productType = '') {
@@ -244,7 +247,9 @@ export async function isShopify(origin) {
   try {
     const d = await politeFetch(`${origin}/products.json?limit=1`, { as: 'json', timeout: 15000 });
     return Array.isArray(d?.products);
-  } catch {
+  } catch (e) {
+    // 混んでいる（429）・不調（5xx）・時間切れ・つながらないときは、「Shopify ではない」と決めつけず、そのまま知らせる
+    if (isTemporary(e)) throw e;
     return false;
   }
 }

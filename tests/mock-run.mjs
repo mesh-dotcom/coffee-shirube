@@ -135,6 +135,12 @@ assert.ok(again.errors.some((e) => e.shop === 'a' && /429/.test(e.message)), '42
 const aIds = again.beans.filter((x) => x.shop === 'a').map((x) => x.id);
 assert.equal(new Set(aIds).size, aIds.length, '同じ豆を二重に載せない');
 assert.deepEqual(aIds.sort(), ['a:col-gesha', 'a:eth-gesha', 'a:long-notes', 'a:mystery', 'a:page-spec'], '打ち切った先の豆は前回の情報で残す');
+// 商品一覧（Shopify かどうかの確かめ）が 429 のときは、「Shopify ではない」と取り違えず、混んでいると知らせる
+run(dir, 'scripts/collect.mjs', [], { MOCK_BUSY_JSON: '1', ONLY_SHOP: 'a' });
+again = readJ(beansFile);
+const busyA = again.errors.find((e) => e.shop === 'a');
+assert.ok(busyA && /混んでいる/.test(busyA.message) && /429/.test(busyA.message) && !/Shopify のお店ではない/.test(busyA.message), `混んでいるときの知らせ: ${busyA?.message}`);
+assert.equal(again.beans.filter((x) => x.shop === 'a').length, 5, '混んでいた日は、前回までの情報を載せる');
 
 // 7日以内に確かめた情報だけ残す
 again.beans.forEach((x) => { if (x.shop === 'b') x.checkedAt = daysAgo(3); });
@@ -189,7 +195,7 @@ const manage = (env) => run(dir, 'scripts/manage.mjs', [], { GITHUB_OUTPUT: outF
 console.log(manage({ ACTION: 'お店を足す', TARGET: 'www.shop-d.test', NOTE: 'テスト' }));
 assert.match(read(outFile), /^shop=shop-d-test$/m, '足したお店の id を次の手順に渡す');
 let d = readJ(shopsFile).shops.find((s) => s.id === 'shop-d-test');
-assert.deepEqual([d.name, d.url, d.enabled, d.addedBy], ['D COFFEE ROASTERS', 'https://www.shop-d.test/', true, 'manage'], '店名はサイトの題名から付ける');
+assert.deepEqual([d.name, d.url, d.enabled, d.addedBy], ['D COFFEE ROASTERS', 'https://www.shop-d.test/', true, 'manage'], '店名は、題名より先にサイトの名前（og:site_name）から付ける');
 run(dir, 'scripts/terms.mjs');
 run(dir, 'scripts/collect.mjs', [], { ONLY_SHOP: 'shop-d-test' });
 again = readJ(beansFile);
@@ -216,7 +222,7 @@ assert.throws(() => manage({ ACTION: 'お店を足す', TARGET: 'https://shop-e.
 assert.throws(() => manage({ ACTION: 'お店を足す', TARGET: 'https://plain.test/' }), /Shopify のお店ではない/, 'Shopify 以外は、一覧ページのURLが要る');
 manage({ ACTION: 'お店を足す', TARGET: 'https://plain.test/', LIST_URLS: '/items, /items?page=2' });
 d = readJ(shopsFile).shops.find((s) => s.id === 'plain-test');
-assert.deepEqual([d.name, d.listUrls], ['Plain Coffee', ['/items', '/items?page=2']], 'Shopify 以外のお店は、一覧ページを添えて足せる');
+assert.deepEqual([d.name, d.listUrls], ['Plain Coffee', ['/items', '/items?page=2']], 'Shopify 以外のお店は、一覧ページを添えて足せる（店名は題名の &ndash; と改行の前まで）');
 
 // お店探し（Claude の Web 検索）で見つけたお店は、利用規約の確認が済むまで集めない
 conf = readJ(shopsFile);

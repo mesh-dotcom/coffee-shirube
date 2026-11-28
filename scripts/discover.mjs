@@ -76,7 +76,13 @@ async function main() {
     let origin;
     try { origin = new URL(f.url).origin; } catch { continue; }
     if (knownOrigins.has(origin.replace('://www.', '://'))) continue;
-    const shopify = await isShopify(origin);
+    let shopify;
+    try {
+      shopify = await isShopify(origin);
+    } catch (e) {
+      console.log(`  ？ ${f.name} ${origin}（混んでいるか開けないため、確かめられませんでした: ${e.message}）`);
+      continue;
+    }
     let beansLike = 0;
     if (shopify) {
       try {

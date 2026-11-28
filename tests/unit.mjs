@@ -1,6 +1,6 @@
 // robots.txt・noindex・ログイン・アクセス間隔・利用規約の判定を、部品ごとに確かめる
 import assert from 'node:assert/strict';
-import { parseRobots, isAllowed, robotsMetaBlocks, termsGate, politeFetch, toolInput, htmlToText, mainText, slug, storeCurrency } from '../scripts/lib.mjs';
+import { parseRobots, isAllowed, robotsMetaBlocks, termsGate, politeFetch, toolInput, htmlToText, mainText, slug, storeCurrency, looksLikeGoods } from '../scripts/lib.mjs';
 import { readFileSync } from 'node:fs';
 import { extractByRules, judgeTermsByRules, pickLinksByRules, specBlock, FLAVOR_GROUPS } from '../scripts/rules.mjs';
 import { cleanName } from '../scripts/collect.mjs';
@@ -71,6 +71,27 @@ assert.deepEqual([x.varieties, x.process_note], [['ゲイシャ'], 'ダブルア
 assert.equal(R('グアテマラ ハウスブレンド', '').single_origin, false, 'ブレンド');
 assert.equal(R('ドリップバッグ 10個', '').is_coffee_beans, false, 'ドリップバッグ');
 assert.equal(R('テイスティング 3種', '').is_coffee_beans, false, '飲み比べ');
+// 産地が読めても、豆1種類の商品ではないもの（実際のお店の商品名をまねた作りもの）
+for (const [name, html] of [
+  ['ディップスタイルコーヒー Dip Style Coffee / 10 bag', '<p>生産国：エチオピア</p>'],
+  ['水出しコーヒーパック 「エチオピア」 45g × 6パック', '<p>生産国：エチオピア</p>'],
+  ['新春みくじ袋（コーヒー豆）', '<p>品種：ゲイシャ</p>'],
+  ['The African Trio', '<p>Variety: SL28</p>'],
+  ['お試しシングルオリジンセレクション', '<p>生産国：エチオピア</p>'],
+  ['FUGLEN COFFEE CLUB - INTERNATIONAL SHIPPING', '<p>Kenya</p>'],
+]) assert.equal(R(name, html).is_coffee_beans, false, `豆1種類ではない: ${name}`);
+assert.equal(R('ベラ・ドノヴァン', '<p>原産地域：エチオピア</p>', { tags: 'eGift対応, label2:_ブレンド' }).single_origin, false, '商品名に書かなくても、タグがブレンドならブレンド');
+assert.equal(R('エチオピア・ハンベラ', '<p>原産地域：エチオピア</p>', { tags: 'label2:_シングルオリジン, ブレンドにも' }).single_origin, true, 'シングルオリジンのタグがあれば、そちらを信じる');
+assert.equal(R('ケニア サゲイニ', '<p>生産国：ケニア</p>', { tags: 'オレンジ, グレープ' }).is_coffee_beans, true, '風味のタグは豆のまま');
+// グッズは読み取りの前に外す。産地の「マグダレナ」や品評会の「カップ・オブ・エクセレンス」は外さない
+for (const [title, type] of [['ストーンマグ（グレー）', ''], ['トラベルマグ', ''], ['カータームーブマグ 12oz（ホワイト）', ''], ['清澄ミニマグ', 'ドリンクウェア'],
+  ['コミューターカップ', ''], ['STTOKE ホームカップ オリジナルロゴ入り', ''], ['Tasting Cups', ''], ['360トラベラー', ''], ['SIMPLIFY the Brewer', ''],
+  ['写真集 [Beber Mi Sudor]', ''], ['COFFEE WITH TIM WENDELBOE', 'Books'], ['コーヒーカクテル - ジン & トニック', 'お酒']]) {
+  assert.equal(looksLikeGoods(title, type), true, `グッズ: ${title}`);
+}
+for (const title of ['コロンビア マグダレナ ウォッシュト', 'カップ・オブ・エクセレンス ホンジュラス 1位', 'Cup of Excellence #3 Brazil', 'カップオブエクセレンス グアテマラ', 'エチオピア グジ']) {
+  assert.equal(looksLikeGoods(title, 'Coffee Beans'), false, `豆: ${title}`);
+}
 assert.equal(R('ケニア SL28種', '').is_coffee_beans, true, '品種名の「28種」は飲み比べではない');
 assert.equal(R('スタイルのある一杯', '<p>おいしい豆</p>').country, null, '「スタイル」をタイと読まない');
 assert.equal(R('インドネシア マンデリン', '<p>スマトラ式</p>').country, 'インドネシア', '「インドネシア」をインドと読まない');

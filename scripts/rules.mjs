@@ -1,7 +1,7 @@
 // API を使わずに、商品ページの文章から事実の項目を読み取る（決まった見出しと言葉の辞書で探す）
 // 読み取れなかった項目は空のまま。推測では埋めない。
 // 実際のお店の書き方（英語の見出し、「English（カタカナ）」の併記、表、商品ページだけにある仕様欄）に合わせてある。
-export const RULES_VERSION = 'r2'; // 読み取りのルールを変えたら上げる（キャッシュが作り直される）
+export const RULES_VERSION = 'r3'; // 読み取りのルールを変えたら上げる（キャッシュが作り直される）
 
 const nfkc = (s) => String(s ?? '').normalize('NFKC');
 const esc = (s) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -407,9 +407,10 @@ function makerOfTitle(title) {
 }
 
 /* ---------- 豆かどうか ---------- */
-const NOT_BEANS = /(ドリップバッグ|ドリップパック|コーヒーバッグ|ティーバッグ|ティーパック|カフェオレベース|リキッド|ボトル|缶コーヒー|インスタント|カプセル|capsule|drip ?bags?|coffee ?bags?|tea ?bags?|セット|\bset\b|飲み比べ|アソート|assort|詰め合わせ|ギフト|\bgift\b|定期便|定期購入|サブスク|subscription|生豆|green (coffee|beans?)|福袋|bundle|チケット|ticket|ワークショップ|workshop|セミナー|seminar|レッスン|(?<![a-z0-9])[2-9]\s*種)/i;
+const NOT_BEANS = /(ドリップバッグ|ドリップパック|コーヒーバッグ|コーヒーパック|ティーバッグ|ティーパック|ディップ|dip ?style|dip ?bags?|\d+\s*bags?\b|[×x]\s*\d+\s*パック|カフェオレベース|リキッド|ボトル|缶コーヒー|インスタント|カプセル|capsule|カクテル|cocktail|drip ?bags?|coffee ?bags?|tea ?bags?|セット|\bset\b|飲み比べ|アソート|assort|詰め合わせ|セレクション|サンプラー|sampler|\btrio\b|トリオ|ギフト|\bgift\b|定期便|定期購入|サブスク|subscription|coffee ?club|コーヒークラブ|生豆|green (coffee|beans?)|福袋|みくじ|bundle|チケット|ticket|ワークショップ|workshop|セミナー|seminar|レッスン|(?<![a-z0-9])[2-9]\s*種)/i;
 const COFFEE_CUE = /(コーヒー|珈琲|coffee|豆|bean|焙煎|roast|エスプレッソ|espresso|シングルオリジン|single origin)/i;
 const BLEND = /(ブレンド|blend)/i;
+const SINGLE = /(シングルオリジン|single ?origin)/i;
 const SOLD_OUT = /(sold\s*out|売り切れ|売切れ|在庫切れ|品切れ|在庫なし)/i;
 
 /* ---------- 本体 ---------- */
@@ -484,7 +485,9 @@ export function extractByRules(item) {
   // 説明文に「コーヒー」とあるだけの商品（グラスやお菓子）は豆として載せない
   const notBeans = NOT_BEANS.test(head);
   const typeTags = `${nfkc(item.productType)} ${nfkc(item.tags)}`;
-  const blend = BLEND.test(head) || new Set(titleCountries).size >= 2;
+  // 商品名に「ブレンド」と書かないお店もあるので、タグの「ブレンド」も見る（シングルオリジンのタグもあれば、そちらを信じる）
+  const tags = nfkc(item.tags);
+  const blend = BLEND.test(head) || (BLEND.test(tags) && !SINGLE.test(tags)) || new Set(titleCountries).size >= 2;
   const byGram = (item.variants || []).some((v) => /\d\s*(g|kg)(?![a-z])/i.test(nfkc(v.title))) || (!item.variants && /\d{2,4}\s?(g|グラム)(?![a-z])/i.test(text));
   const coffee = !!country || varieties.length > 0 || groups.length > 0 || !!alt || /豆|beans?/i.test(typeTags)
     || (byGram && (COFFEE_CUE.test(`${head} ${typeTags}`) || blend));

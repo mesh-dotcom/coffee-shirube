@@ -114,9 +114,10 @@ globalThis.fetch = async (input, init = {}) => {
       if (u.hostname === 'noindex.test') return html('<html><head><meta content="noindex, nofollow" name="robots"></head><body>準備中</body></html>');
       if (u.hostname === 'pw.test') return redirected(html('<form>パスワード</form>'), 'https://pw.test/password');
       if (u.hostname === 't-ok.test' || u.hostname === 't-watch.test') return html('<a href="/policies/terms-of-service">利用規約</a>');
-      return html(`<html><head><title>D COFFEE ROASTERS | 公式オンラインストア</title><script>Shopify.currency = {"active":"${jp ? 'JPY' : 'USD'}","rate":"${jp ? '1.0' : '0.0066'}"};</script></head><body>トップ</body></html>`);
+      return html(`<html><head><title>コーヒー通販\n &ndash; D COFFEE ROASTERS 公式オンラインストア</title><meta property="og:site_name" content="D COFFEE ROASTERS"><script>Shopify.currency = {"active":"${jp ? 'JPY' : 'USD'}","rate":"${jp ? '1.0' : '0.0066'}"};</script></head><body>トップ</body></html>`);
     }
     if (u.pathname === '/products.json') {
+      if (process.env.MOCK_BUSY_JSON) return html('too many requests', 429); // 商品一覧そのものが混んでいる
       if (u.searchParams.get('limit') === '1') return json({ products: [SHOP_A[0]] });
       let list = process.env.MOCK_PRICE_UP // 値上げ：最初の商品の価格だけが変わる
         ? SHOP_A.map((p, i) => (i ? p : { ...p, variants: p.variants.map((v) => ({ ...v, price: String(Number(v.price) + 300) })) }))
@@ -153,7 +154,7 @@ globalThis.fetch = async (input, init = {}) => {
     if (u.pathname === '/terms') return html(`<h1>利用規約</h1>${LONG_TERMS}<p>第3条 ロボットやスクレイピングなど自動的な手段による情報の収集を禁止します。本サービスで得た情報を商業的に利用することを禁止します。</p>`);
   }
   if (u.hostname === 't-none.test' && u.pathname === '/') return html('<p>トップ</p>');
-  if (u.hostname === 'plain.test' && u.pathname === '/') return html('<title>Plain Coffee - 自家焙煎</title><p>トップ</p>'); // Shopify ではないお店
+  if (u.hostname === 'plain.test' && u.pathname === '/') return html('<title>Plain Coffee\n &ndash; 自家焙煎</title><p>トップ</p>'); // Shopify ではないお店（og:site_name なし）
   if (u.hostname === 'delay.test' || u.hostname === 'nobots.test') return html('<p>ok</p>');
   if (u.hostname === 'shop-e.test') return html('nope', 404);
   return html('not found', 404);

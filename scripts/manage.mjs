@@ -68,14 +68,19 @@ async function addShop(conf) {
     throw new Error(`お店のサイトを開けませんでした（${e.message}）。URLを確かめてください`);
   }
   if (!top) throw new Error('このお店はトップページで検索エンジン向けの収集を断っている（noindex）ため、足せません');
-  const title = htmlToText((top.html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '').split(/\s*[|｜–—-]\s+|\s+[|｜–—-]\s*/)[0].trim();
-  const shop = { id: '', name: input.name || title || new URL(url).hostname, url, enabled: true, addedBy: 'manage', addedAt: today() };
+  // 店名は、サイトの名前（og:site_name。Shopify では店名）を先に使い、無ければ題名の最初の区切りまで
+  // （題名は「コーヒー通販 | 店名」のように店名が後ろに来ることや、&ndash; と改行で区切られることがある）
+  const plain = (s) => htmlToText(s).replace(/&[nm]dash;/g, '–').replace(/\s+/g, ' ').trim();
+  const ogTag = /<meta\b[^>]*\bproperty=(["'])og:site_name\1[^>]*>/i.exec(top.html)?.[0] || '';
+  const siteName = plain(/\bcontent=(["'])([\s\S]*?)\1/i.exec(ogTag)?.[2] || '').slice(0, 60);
+  const title = plain((top.html.match(/<title[^>]*>([\s\S]*?)<\/title>/i) || [])[1] || '').split(/\s*[|｜–—-]\s+|\s+[|｜–—-]\s*/)[0].trim();
+  const shop = { id: '', name: input.name || siteName || title || new URL(url).hostname, url, enabled: true, addedBy: 'manage', addedAt: today() };
   if (input.note) shop.note = input.note;
 
   if (input.listUrls.length) {
     shop.listUrls = input.listUrls;
     lines.push(`豆の一覧ページ: ${input.listUrls.join('、')}`);
-  } else if (await isShopify(new URL(url).origin)) {
+  } else if (await isShopify(new URL(url).origin).catch((e) => { throw new Error(`お店のサイトが混んでいるか、開けませんでした（${e.message}）。しばらくしてから、もう一度実行してください`); })) {
     const items = await listShopify({ id: 'new', url });
     const inStock = items.filter((i) => i.variants.some((v) => v.available)).length;
     lines.push(`Shopify のお店です。グッズを除いた商品 ${items.length}件（在庫あり ${inStock}件）`);
