@@ -1133,7 +1133,7 @@
     "used": "2026-11-22"
   },
   "onibus:peru-buena-vista-geisha": {
-    "sig": "7b12a5030992c632b0174174",
+    "sig": "82c4afec7e80f8025c875595",
     "spec": "76c7925f24268252c6d9e1a8",
     "data": {
       "is_coffee_beans": true,
@@ -1163,8 +1163,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-25",
-    "used": "2026-11-25"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:colombia-jorge-armando-salazar": {
     "sig": "c8b050eca6f793096f3ea2d5",
@@ -1264,7 +1264,7 @@
     "used": "2026-11-22"
   },
   "onibus:onibus-ギフトボックス-ブレンド-シングルオリジン": {
-    "sig": "ec6f4ffe7ee78cbd9dbe57b8",
+    "sig": "ded814edec585de3699483c9",
     "spec": "",
     "data": {
       "is_coffee_beans": false,
@@ -1291,8 +1291,8 @@
       "price_yen": null,
       "grams": null
     },
-    "page": "2026-11-25",
-    "used": "2026-11-25"
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   },
   "onibus:onibus-giftbox-blend-cupset": {
     "sig": "53d8692d9d5b503f14aaab84",
@@ -1890,5 +1890,74 @@
     },
     "page": "2026-11-27",
     "used": "2026-11-27"
+  },
+  "glitch:colombia-el-paraiso-lychee": {
+    "sig": "43a773472a4643fbab9d9d79",
+    "spec": "de465149128f7ce6a178cde0",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "コロンビア",
+      "region": null,
+      "maker": null,
+      "maker_kind": null,
+      "producer": null,
+      "station": null,
+      "varieties": [
+        "カスティージョ"
+      ],
+      "process_groups": [
+        "アナエロビック",
+        "特殊発酵"
+      ],
+      "process_note": null,
+      "altitude": "1,960m",
+      "roast": null,
+      "notes": [
+        "ライチ",
+        "アプリコット",
+        "フローラル"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
+  },
+  "onibus:ethiopia-guji-dimtu": {
+    "sig": "01d6635fa6ca667ca143c292",
+    "spec": "8b822371976f008132449b12",
+    "data": {
+      "is_coffee_beans": true,
+      "single_origin": true,
+      "sold_out": false,
+      "product_name": null,
+      "country": "エチオピア",
+      "region": "グジ東部、オロミア州",
+      "maker": "ディムトゥ",
+      "maker_kind": "精製所",
+      "producer": "約600軒の小規模農家",
+      "station": null,
+      "varieties": [
+        "エチオピア原種"
+      ],
+      "process_groups": [
+        "ウォッシュト"
+      ],
+      "process_note": null,
+      "altitude": "1,980m",
+      "roast": null,
+      "notes": [
+        "白桃",
+        "ぶどう",
+        "アールグレイティー"
+      ],
+      "price_yen": null,
+      "grams": null
+    },
+    "page": "2026-11-28",
+    "used": "2026-11-28"
   }
 }
